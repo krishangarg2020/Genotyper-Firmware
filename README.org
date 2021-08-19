@@ -1,0 +1,9 @@
+* Dependencies
+** Optional
+- [[https://jorisroovers.com/gitlint/][gitlint]]
+- [[https://github.com/uncrustify/uncrustify][uncrustify]]
+- [[https://github.com/commitizen/cz-cli/issues/801][Husky]]
+
+* References
+- [[https://github.com/satyamTiwary/example-application][Zephyr Application Example : Out of Tree Development]]
+- [[https://github.com/satyamTiwary/asset-tracker-cloud-firmware-aws][Zephyr Nrf Asset Tracker Example Application: Out of Tree Development]]
