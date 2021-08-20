@@ -4,7 +4,7 @@
 ❗This repository uses various development dependencies for managing code formatting (clang-format, uncrustify), commit messages(husky, commitlint). These should be set up properly. Refer to Getting Started page on the project wiki. 
 #+END_QUOTE
 
-To setup the zephyr environment with the west tool and for more details, refer to [[https://github.com/TechnocultureResearch/Genotyper-Firmware/wiki][Getting Started Guide]].
+To setup the zephyr environment with the west tool and for more details, refer to [[https://github.com/TechnocultureResearch/Genotyper-Firmware/wiki/Getting-started][Getting Started Guide]].
 
 ** Build an application
 
