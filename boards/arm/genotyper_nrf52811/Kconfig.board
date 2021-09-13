@@ -1,0 +1,5 @@
+# GENOTYPER NRF52811 board configuration
+
+config BOARD_GENOTYPER_NRF52811
+	bool "GENOTYPER NRF52811"
+	depends on SOC_NRF52811_QFAA
