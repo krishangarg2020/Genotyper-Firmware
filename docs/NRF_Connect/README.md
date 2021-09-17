@@ -20,8 +20,6 @@ These designs were created to get a clear understanding of the memory taken by e
 | [DFU_Batt_Tem_Det_setup](./DFU_Batt_Tem_Det_setup.ncs) | Includes battery, DFU, temperature and Detection service |
 | [DFU_Batt_Tem_Det_SP_setup](./DFU_Batt_Tem_Det_SP_setup.ncs) | Includes battery, DFU, temperature, Detection and one other service |
 | [DFU_Batt_Tem_Det_SP_R2](./DFU_Batt_Tem_Det_SP_R2.ncs) | Similar to DFU_Batt_Tem_Det_SP_setup with some changes in characteristics   |
-| [](./) | Includes battery and DFU service |
-| [](./) | Includes battery and DFU service |
 
 ## Complete Designs
 These designs were based on the previous GATT design. These designs simply group the characteristics in the services based on their simiarity of the data they convey.
@@ -46,6 +44,7 @@ Their objective was to understand the memory allocation better and to govern the
 | [Reduced_value_size](./Reduced_value_size.ncs) | It was  done in order tosee the changes if variable length is fixed at a lower value |
 | [reduced_setup_2_values](./reduced_setup_2_values.ncs) |It was similar to Reduced_value_size with a few changes   |
 | [reduced_test](./reduced_test.ncs) |It was another reduced design but it also showed memory error  |
-| [](./) | |
+| [Reduced_Services_1](./Reduced_Services_1.ncs) | Less number of services were used to remove the error  |
+| [Complete_Default_setup](./Complete_Default_setup.ncs) | This is a complete design that was based on the earlier grouping of characteristics |
 
 
