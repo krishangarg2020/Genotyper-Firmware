@@ -3,12 +3,12 @@
 ## Final designs
 These designs could be used as final GATT designs. 
 
-| File| 
-| --- |  
-| [Final_Setup_1](./Final_Setup_1.ncs) |  
-| [Final_Setup_2](./Final_Setup_2.ncs) |  
-| [Final_Setup_3](./Final_Setup_3.ncs) |  
-| [Final_Setup_4](./Final_Setup_4.ncs) |  
+| File| Description |
+| --- | --- |
+| [Final_Setup_1](./Final_Setup_1.ncs) |  |
+| [Final_Setup_2](./Final_Setup_2.ncs) |  |
+| [Final_Setup_3](./Final_Setup_3.ncs) |  |
+| [Final_Setup_4](./Final_Setup_4.ncs) |  |
 
 ## Services Designs
 These designs were created to get a clear understanding of the memory taken by each service. Each of them include GAP service
