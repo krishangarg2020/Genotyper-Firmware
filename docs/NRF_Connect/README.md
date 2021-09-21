@@ -1,5 +1,6 @@
 # Objective
 To implement a working GATT design for Genotyper
+
 ## Final designs
 These designs could be used as final GATT designs. 
 
@@ -9,6 +10,8 @@ These designs could be used as final GATT designs.
 | [Final_Setup_2](./Final_Setup_2.ncs) | It is similar to first design with some minor changes so that design becomes understandable  |
 | [Final_Setup_3](./Final_Setup_3.ncs) | Here, the characteristics and services are designed on the basis of advertising interval. For instance, those characteristic whose value needs to be updated frequently are combined in same service   |
 | [Final_Setup_4](./Final_Setup_4.ncs) | Simialar to previous design, just some reshuffling of characteristics is done |
+
+> ❗Detailed Design Document: [**PDF**](https://github.com/TechnocultureResearch/Genotyper-Firmware/blob/dev/docs/NRF_Connect/Genotyper_GATT_Design.pdf)
 
 ## Services Designs
 These designs were created to get a clear understanding of the memory taken by each service. Each of them include GAP service
