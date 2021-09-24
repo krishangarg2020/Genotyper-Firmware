@@ -5,7 +5,6 @@
 These should be set up properly. Refer to Getting Started page on the project wiki. 
 #+END_QUOTE
 
-<<<<<<< HEAD
 To setup the zephyr environment with the west tool and for more details, refer to [Getting started]{https://github.com/TechnocultureResearch/Genotyper-Firmware/wiki}.
 
 ** Build an application
@@ -71,4 +70,3 @@ minicom -D /dev/ttyACM* -b 115200
 
 - =-D= specifies the device connected to the port.
 - =-b= specifies the baudrate of transmission overriding the value mentioned in the minicom's configuration file.
->>>>>>> cbe50bf59ffbde002cd88ab3c118b35608a28fef
