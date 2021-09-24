@@ -1,5 +1,5 @@
-identifier: genotyper_nrf52811
-name: Genotyper-NRF52811
+identifier: som_nrf52811
+name: SOM-NRF52811
 type: mcu
 arch: arm
 toolchain:

@@ -1,12 +1,12 @@
-.. _genotyper_nrf52811:
+.. _nrf52840dk_nrf52811:
 
-nRF52811 emulation for Genotyper
-################################
+nRF52811 emulation on nRF52840 DK
+#################################
 
 Overview
 ********
 
-The genotyper_nrf52811 board is a modified version of the
+The nrf52840dk_nrf52811 board is a modified version of the
 :ref:`nrf52840dk_nrf52840` that enforces the limitations imposed by the nRF52811
 IC, which is a variant of the original nRF52840. Since Nordic does not offer a
 development kit for the nRF52811 you can use this board to develop for this IC
