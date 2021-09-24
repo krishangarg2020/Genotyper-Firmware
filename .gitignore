@@ -55,4 +55,8 @@ tags
 
 .idea
 
+# JS
 node_modules
+
+# Mac OS
+.DS_Store
