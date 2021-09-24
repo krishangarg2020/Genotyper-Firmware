@@ -5,34 +5,6 @@
 These should be set up properly. Refer to Getting Started page on the project wiki. 
 #+END_QUOTE
 
-To setup the zephyr environment with the west tool and for more details, refer to [Getting started]{https://github.com/TechnocultureResearch/Genotyper-Firmware/wiki}.
-
-** Build an application
-
-To build an application (For example, the TMP100 sensor) using the west tool, navigate to the workspace and run
-
-`west build -p auto -b nrf52840dk_nrf52811 samples/sensor/tmp100`
-
-`-p` ensures a pristine (clean) build.
-
-`-b` is used to specify the board name.
-
-After the build process is completed, run
-
-`west flash --erase`
-
-This will flash the executable file generated onto the flash memory of the target board.
-
-The `minicom` serial monitor is needed to view the sensor output on the console.
-
-Run 
-
-`minicom -D /dev/ttyACM* -b 115200` 
-
-`-D` specifies the device connected to the port.
-
-`-b` specifies the baudrate of transmission overriding the value mentioned in the minicom's configuration file.
-=======
 To setup the zephyr environment with the west tool and for more details, refer to [[https://github.com/TechnocultureResearch/Genotyper-Firmware/wiki/Getting-started][Getting Started Guide]].
 
 ** Build an application
