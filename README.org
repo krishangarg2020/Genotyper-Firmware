@@ -5,11 +5,11 @@
 These should be set up properly. Refer to Getting Started page on the project wiki. 
 #+END_QUOTE
 
+---
+
 To setup the zephyr environment with the west tool and for more details, refer to [[https://github.com/TechnocultureResearch/Genotyper-Firmware/wiki/Getting-started][Getting Started Guide]].
 
 ** Build an application
-
-=dev= branch is WIP. To build the application, switch to =work-sp= branch.
 
 To build an application (For example, the TMP100 sensor) using the west tool, navigate to the workspace and run
 
