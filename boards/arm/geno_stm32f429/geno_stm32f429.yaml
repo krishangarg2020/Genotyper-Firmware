@@ -1,5 +1,5 @@
-identifier: nucleo_f429zi
-name: ST Nucleo F429ZI
+identifier: geno_stm32f429
+name: GENO-STM32F429
 type: mcu
 arch: arm
 toolchain:

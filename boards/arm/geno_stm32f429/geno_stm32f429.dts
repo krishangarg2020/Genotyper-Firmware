@@ -10,8 +10,8 @@
 #include "arduino_r3_connector.dtsi"
 
 / {
-	model = "STMicroelectronics STM32F429ZI-NUCLEO board";
-	compatible = "st,stm32f429zi-nucleo";
+	model = "Geno board based on STM32F429ZI";
+	compatible = "st,geno_stm32f429";
 
 	chosen {
 		zephyr,console = &usart3;
