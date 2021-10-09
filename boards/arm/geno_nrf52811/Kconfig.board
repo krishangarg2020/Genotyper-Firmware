@@ -1,0 +1,3 @@
+config BOARD_GENO_NRF52811
+	bool "GENO NRF52811"
+	depends on SOC_NRF52811_QFAA

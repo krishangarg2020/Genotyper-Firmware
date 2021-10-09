@@ -1,0 +1,18 @@
+# GENOTYOPER board configuration based NUCLEO-144 F429ZI
+
+# Copyright (c) 2021 Technoculture Research
+# All rights reserved
+
+if BOARD_GENO_STM32F429
+
+config BOARD
+	default "geno_stm32f429"
+
+if NETWORKING
+
+config NET_L2_ETHERNET
+	default y
+
+endif # NETWORKING
+
+endif # BOARD_GENO_STM32F429

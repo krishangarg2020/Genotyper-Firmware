@@ -2,8 +2,8 @@
 #include <nordic/nrf52811_qfaa.dtsi>
 
 / {
-	model = "Nordic SOM NRF52811";
-	compatible = "nordic,som-nrf52811";
+	model = "Nordic GENO NRF52811";
+	compatible = "nordic,geno-nrf52811";
 
 	chosen {
 		zephyr,console = &uart0;
@@ -22,10 +22,10 @@
 			gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
 			label = "Green LED 0";
 		};
-        led1: led_1 {
-            gpios = <&gpio0 14 GPIO_ACTIVE_LOW>;
-            label = "Green LED 1";
-        };
+    led1: led_1 {
+        gpios = <&gpio0 14 GPIO_ACTIVE_LOW>;
+        label = "Green LED 1";
+    };
 		/*led2: led_2 {*/
 			/*gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;*/
 			/*label = "Green LED 2";*/
@@ -69,7 +69,7 @@
 	/* These aliases are provided for compatibility with samples */
 	aliases {
 		led0 = &led0;
-        led1 = &led1;
+    led1 = &led1;
 		/*led2 = &led2;*/
 		/*led3 = &led3;*/
 		/*pwm-led0 = &pwm_led0;*/
@@ -115,42 +115,42 @@
 	tmp100@48 {
 		compatible = "ti,tmp100";
 		reg = <0x48>;
-        status = "okay";
+    status = "okay";
 		label = "TMP100";
 	};
 
-    mpu6050@68 {
-        compatible = "invensense,mpu6050";
-        reg = <0x68>;
-        status = "okay";
-        label = "MPU6050";
-        int-gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
-    };
+  mpu6050@68 {
+    compatible = "invensense,mpu6050";
+    reg = <0x68>;
+    status = "okay";
+    label = "MPU6050";
+    int-gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>;
+  };
 
-    /*MC3419 sample is incomplete*/
-    mc3419@4c {
-        compatible = "mcube,mc3419";
-        reg = <0x4c>;
-        status = "okay";
-        label = "MC3419";
-        int-gpios = <&gpio0 12 GPIO_ACTIVE_HIGH>;
-    };
+  /*MC3419 sample is incomplete*/
+  mc3419@4c {
+    compatible = "mcube,mc3419";
+    reg = <0x4c>;
+    status = "okay";
+    label = "MC3419";
+    int-gpios = <&gpio0 12 GPIO_ACTIVE_HIGH>;
+  };
 
-    bq274xx@aa {
-        compatible = "ti,bq274xx";
-        reg = <0xaa>;
-        status = "okay";
-        design-voltage = <3300>;
-        design-capacity = <1000>;
-        taper-current = <1000>;
-        terminate-voltage = <1000>;
-        label = "BQ274xx";
-    };
+  bq274xx@aa {
+    compatible = "ti,bq274xx";
+    reg = <0xaa>;
+    status = "okay";
+    design-voltage = <3300>;
+    design-capacity = <1000>;
+    taper-current = <1000>;
+    terminate-voltage = <1000>;
+    label = "BQ274xx";
+  };
 
 	isl29035@44 {
 		compatible = "isil,isl29035";
 		reg = <0x44>;
-        status = "okay";
+    status = "okay";
 		label = "ISL29035";
 		int-gpios = <&gpio0 11 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
 	};
@@ -179,7 +179,6 @@
 /*};*/
 
 &flash0 {
-
 	partitions {
 		compatible = "fixed-partitions";
 		#address-cells = <1>;

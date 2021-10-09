@@ -1,0 +1,9 @@
+if BOARD_GENO_NRF52811
+
+config BOARD
+	default "geno_nrf52811"
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_GENO_NRF52811

@@ -16,7 +16,7 @@ To build an application (For example, the TMP100 sensor) using the west tool, na
 *** Build
 
 #+BEGIN_SRC bash
-west build -p auto -b nrf52840dk_nrf52811 samples/sensor/tmp100
+west build -p auto -b geno_nrf52811 samples/sensor/tmp100
 #+END_SRC
 
 - =-p= ensures a pristine (clean) build.
