@@ -1,4 +1,6 @@
-### Version 7.14.5
+### Version 7.15.1
+
+### Version 0.0.2
 - Update README.org
 - Create README.rst
 - assets folder added for doc images
@@ -51,13 +53,11 @@
 - feat!(boards): adding a stm32 dev board
 - style(README): minor
 
-### Version 7.14.5
+### Version 0.0.1
 - Update README.org
 - Update README.org
 
-### Version 7.0.1
-
-### Version 7.14.5
+### Version 0.0.1
 - Initialize minimal
 - Update README.org
 - Update README.org
