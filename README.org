@@ -42,3 +42,11 @@ minicom -D /dev/ttyACM* -b 115200
 
 - =-D= specifies the device connected to the port.
 - =-b= specifies the baudrate of transmission overriding the value mentioned in the minicom's configuration file.
+
+-----
+
+#+BEGIN_QUOTE
+⚠️ Note:
+Find the custom board files in the path `./boards/arm/` and copy it to `../zephyr/boards/arm/` along with the definitions of all other boards that zephyr provides.
+Failing to do so, we get an error saying that the board definition is not found in the path where it looks for the boards which is `../zephyr/boards/arm/`.
+#+END_QUOTE
