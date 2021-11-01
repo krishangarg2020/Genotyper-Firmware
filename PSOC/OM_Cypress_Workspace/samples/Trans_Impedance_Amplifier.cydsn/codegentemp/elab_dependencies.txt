@@ -1,4 +1,4 @@
-E:\zephyr_workspace\Genotyper-Firmware\OM_Cypress_Workspace\samples\Trans_Impedance_Amplifier.cydsn\TopDesign\TopDesign.cysch
+E:\zephyr_workspace\Genotyper-Firmware\PSOC\OM_Cypress_Workspace\samples\Trans_Impedance_Amplifier.cydsn\TopDesign\TopDesign.cysch
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\TIA_v2_0\TIA_v2_0.cysch
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\TIA_v2_0\TIA_v2_0.cysym
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\TIA_v2_0\TIA_v2_0.pdf
@@ -106,7 +106,7 @@ C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrim
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC5\API\aliases.h
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC5\API\pins.c
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\PSoC5\API\pins.h
-E:\zephyr_workspace\Genotyper-Firmware\OM_Cypress_Workspace\samples\Trans_Impedance_Amplifier.cydsn\Trans_Impedance_Amplifier.cydwr
+E:\zephyr_workspace\Genotyper-Firmware\PSOC\OM_Cypress_Workspace\samples\Trans_Impedance_Amplifier.cydsn\Trans_Impedance_Amplifier.cydwr
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v6_0\PSoC5\API\cm3gcc.ld
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v6_0\PSoC5\API\Cm3RealView.scat
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v6_0\PSoC5\API\Cm3Start.c

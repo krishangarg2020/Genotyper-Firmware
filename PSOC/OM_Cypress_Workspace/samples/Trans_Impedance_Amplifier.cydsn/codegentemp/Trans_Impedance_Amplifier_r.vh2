@@ -1,5 +1,5 @@
 -- Project:   Trans_Impedance_Amplifier
--- Generated: 11/01/2021 17:53:43
+-- Generated: 11/01/2021 18:04:59
 -- PSoC Creator  4.4
 
 ENTITY Trans_Impedance_Amplifier IS

@@ -1,5 +1,5 @@
--- Project:   E:\zephyr_workspace\Genotyper-Firmware\OM_Cypress_Workspace\samples\Trans_Impedance_Amplifier.cydsn\Trans_Impedance_Amplifier.cyprj
--- Generated: 11/01/2021 17:53:44
+-- Project:   E:\zephyr_workspace\Genotyper-Firmware\PSOC\OM_Cypress_Workspace\samples\Trans_Impedance_Amplifier.cydsn\Trans_Impedance_Amplifier.cyprj
+-- Generated: 11/01/2021 18:05:00
 -- PSoC Creator  4.4
 
 ENTITY Trans_Impedance_Amplifier IS
