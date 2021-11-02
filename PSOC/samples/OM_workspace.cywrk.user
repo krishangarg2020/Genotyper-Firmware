@@ -13,9 +13,25 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="OM_workspace\Fast_ADC\TopDesign">
 <ExpandedNodeIds>
 <v>OM_workspace</v>
+<v>OM_workspace\Fast_ADC</v>
+<v>OM_workspace\Fast_ADC\TopDesign</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Pins</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Analog</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Clocks</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Interrupts</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\DMA</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\System</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Directives</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Flash Security</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\EEPROM</v>
+<v>OM_workspace\Fast_ADC\Header Files</v>
+<v>OM_workspace\Fast_ADC\Header Files\cyapicallbacks.h</v>
+<v>OM_workspace\Fast_ADC\Source Files</v>
+<v>OM_workspace\Fast_ADC\Source Files\main.c</v>
 <v>OM_workspace\LED_Blink</v>
 <v>OM_workspace\LED_Brightness_ADC_PWM</v>
 <v>OM_workspace\OP_AMP</v>
@@ -23,6 +39,22 @@
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>OM_workspace</v>
+<v>OM_workspace\Fast_ADC</v>
+<v>OM_workspace\Fast_ADC\TopDesign</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Pins</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Analog</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Clocks</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Interrupts</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\DMA</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\System</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Directives</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\Flash Security</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.cydwr\EEPROM</v>
+<v>OM_workspace\Fast_ADC\Header Files</v>
+<v>OM_workspace\Fast_ADC\Header Files\cyapicallbacks.h</v>
+<v>OM_workspace\Fast_ADC\Source Files</v>
+<v>OM_workspace\Fast_ADC\Source Files\main.c</v>
 <v>OM_workspace\LED_Blink</v>
 <v>OM_workspace\LED_Brightness_ADC_PWM</v>
 <v>OM_workspace\OP_AMP</v>
@@ -32,6 +64,9 @@
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>OM_workspace</v>
+<v>OM_workspace\Fast_ADC</v>
+<v>OM_workspace\Fast_ADC\TopDesign</v>
+<v>OM_workspace\Fast_ADC\TopDesign\TopDesign.cysch</v>
 <v>OM_workspace\LED_Blink</v>
 <v>OM_workspace\LED_Brightness_ADC_PWM</v>
 <v>OM_workspace\OP_AMP</v>
@@ -39,6 +74,9 @@
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>OM_workspace</v>
+<v>OM_workspace\Fast_ADC</v>
+<v>OM_workspace\Fast_ADC\TopDesign</v>
+<v>OM_workspace\Fast_ADC\TopDesign\TopDesign.cysch</v>
 <v>OM_workspace\LED_Blink</v>
 <v>OM_workspace\LED_Brightness_ADC_PWM</v>
 <v>OM_workspace\OP_AMP</v>
@@ -48,6 +86,16 @@
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>OM_workspace</v>
+<v>OM_workspace\Fast_ADC</v>
+<v>OM_workspace\Fast_ADC\CortexM3</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541\Debug</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541\Debug\Fast_ADC.elf</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541\Debug\Fast_ADC.hex</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541\Debug\Fast_ADC.map</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.gpdsc</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.rpt</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC_timing.html</v>
 <v>OM_workspace\LED_Blink</v>
 <v>OM_workspace\LED_Brightness_ADC_PWM</v>
 <v>OM_workspace\OP_AMP</v>
@@ -55,6 +103,16 @@
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>OM_workspace</v>
+<v>OM_workspace\Fast_ADC</v>
+<v>OM_workspace\Fast_ADC\CortexM3</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541\Debug</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541\Debug\Fast_ADC.elf</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541\Debug\Fast_ADC.hex</v>
+<v>OM_workspace\Fast_ADC\CortexM3\ARM_GCC_541\Debug\Fast_ADC.map</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.gpdsc</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC.rpt</v>
+<v>OM_workspace\Fast_ADC\Fast_ADC_timing.html</v>
 <v>OM_workspace\LED_Blink</v>
 <v>OM_workspace\LED_Brightness_ADC_PWM</v>
 <v>OM_workspace\OP_AMP</v>
@@ -69,9 +127,27 @@
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>OM_workspace</v>
+<v>OM_workspace\Fast_ADC</v>
+<v>OM_workspace\Fast_ADC\PSoC 5LP Architecture TRM</v>
+<v>OM_workspace\Fast_ADC\CY8C58LP Family Datasheet</v>
+<v>OM_workspace\Fast_ADC\System Reference Guides</v>
+<v>OM_workspace\Fast_ADC\System Reference Guides\cy_boot_v6_0</v>
+<v>OM_workspace\Fast_ADC\ADC_DelSig_v3_30.pdf</v>
+<v>OM_workspace\Fast_ADC\cy_pins_v2_20.pdf</v>
+<v>OM_workspace\Fast_ADC\Gnd_v1_0.pdf</v>
+<v>OM_workspace\Fast_ADC\USBFS_v3_20.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>OM_workspace</v>
+<v>OM_workspace\Fast_ADC</v>
+<v>OM_workspace\Fast_ADC\PSoC 5LP Architecture TRM</v>
+<v>OM_workspace\Fast_ADC\CY8C58LP Family Datasheet</v>
+<v>OM_workspace\Fast_ADC\System Reference Guides</v>
+<v>OM_workspace\Fast_ADC\System Reference Guides\cy_boot_v6_0</v>
+<v>OM_workspace\Fast_ADC\ADC_DelSig_v3_30.pdf</v>
+<v>OM_workspace\Fast_ADC\cy_pins_v2_20.pdf</v>
+<v>OM_workspace\Fast_ADC\Gnd_v1_0.pdf</v>
+<v>OM_workspace\Fast_ADC\USBFS_v3_20.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -90,14 +166,18 @@
 <project v=".\LED_Brightness_ADC_PWM.cydsn\LED_Brightness_ADC_PWM.cyprj" />
 <project v=".\Trans_Impedance_Amplifier.cydsn\Trans_Impedance_Amplifier.cyprj" />
 </Unloaded>
-<OpenDocs />
+<OpenDocs>
+<name v=".\Fast_ADC.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Fast_ADC.cydsn\main.c" />
+<name v=".\Fast_ADC.cydsn\Fast_ADC.cydwr" />
+</OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1060, 548" SelectedTabbedMdiWindow="377d68c9-c590-482c-bf89-8af9eaf97180"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="377d68c9-c590-482c-bf89-8af9eaf97180" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="806, 436" SelectedTabbedMdiWindow="3f3c0389-809e-4008-a968-94c3f977d399"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="377d68c9-c590-482c-bf89-8af9eaf97180" /><DocumentWindow Key="E:\zephyr_workspace\Genotyper-Firmware\PSOC\samples\Fast_ADC.cydsn\TopDesign\TopDesign.cysch" Guid="3f3c0389-809e-4008-a968-94c3f977d399" /><DocumentWindow Key="E:\zephyr_workspace\Genotyper-Firmware\PSOC\samples\Fast_ADC.cydsn\main.c" Guid="a2418b55-9d10-4ff3-ad43-a64f55b12a17" /><DocumentWindow Key="E:\zephyr_workspace\Genotyper-Firmware\PSOC\samples\Fast_ADC.cydsn\Fast_ADC.cydwr" Guid="7bf7db54-31d7-4bc5-9f58-7f3420e8b9dd" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
