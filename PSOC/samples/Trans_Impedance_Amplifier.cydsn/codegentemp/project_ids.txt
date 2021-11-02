@@ -1,8 +1,0 @@
-E:\zephyr_workspace\Genotyper-Firmware\PSOC\OM_Cypress_Workspace\samples\OP_AMP.cydsn\OP_AMP.cyprj|ad64c2b5-b74d-4d15-b9e2-a28737831c75
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|ac55ddc3-13b5-4868-bc69-1f8d43750a7a
-C:\Users\user\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|f5b489df-7567-47d4-a29b-75d70501099d
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|1379ef5f-5c00-485b-ad77-7fe59bba2145
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|16c134f3-a06b-4013-8f1c-4f6c0263d2ee
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|dbf7f618-ea12-411d-9ffe-fdccab918f3a
-E:\zephyr_workspace\Genotyper-Firmware\PSOC\OM_Cypress_Workspace\samples\LED_Brightness_ADC_PWM.cydsn\LED_Brightness_ADC_PWM.cyprj|f2f266f2-2da6-4393-aa69-333bd56127cf
-E:\zephyr_workspace\Genotyper-Firmware\PSOC\OM_Cypress_Workspace\samples\Trans_Impedance_Amplifier.cydsn\Trans_Impedance_Amplifier.cyprj|671911a7-d96c-448c-9e65-bbc5f69e5dbc

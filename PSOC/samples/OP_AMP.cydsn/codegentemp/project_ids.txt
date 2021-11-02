@@ -1,7 +1,0 @@
-E:\Genotyper-Models\GenotyperToolbox\OM_Cypress_Workspace\OM_workspace\OP_AMP.cydsn\OP_AMP.cyprj|4d6de793-1b11-4098-8ac6-ccce13f69ff2
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|90e76611-d82e-4199-b073-4ab1a130d09e
-C:\Users\user\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|cc08ffb2-bec9-45af-9eaf-37e838bbee3a
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|ef784733-2337-4536-b45d-3c708e7692cf
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|0f511343-3f81-4250-b883-19fb83ae481d
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1fed36b1-08d2-4460-b9b9-ce80d0170e4e
-E:\Genotyper-Models\GenotyperToolbox\OM_Cypress_Workspace\OM_workspace\LED_Blink.cydsn\LED_Blink.cyprj|1ec462f1-8317-4df0-a925-408916de5116
