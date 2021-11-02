@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="OM_workspace\Trans_Impedance_Amplifier\Trans_Impedance_Amplifier.cydwr\Pins">
 <ExpandedNodeIds>
 <v>OM_workspace</v>
 <v>OM_workspace\LED_Blink</v>
@@ -69,24 +69,6 @@
 <v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\VDAC8_1</v>
 <v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cycodeshareexport.ld</v>
 <v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cycodeshareimport.ld</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cycodeshareimport.scat</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydevice.h</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydevice_trm.h</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydevicegnu.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydeviceiar.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydevicerv.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cydisabledsheets.h</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cyfitter.h</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cyfitter_cfg.c</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cyfitter_cfg.h</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cyfittergnu.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cyfitteriar.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cyfitterrv.inc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\cymetadata.c</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Generated_Source\PSoC5\project.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -177,10 +159,6 @@
 <v>OM_workspace\Trans_Impedance_Amplifier\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_1_PM.lst</v>
 <v>OM_workspace\Trans_Impedance_Amplifier\CortexM3\ARM_GCC_541\Debug\Trans_Impedance_Amplifier.elf</v>
 <v>OM_workspace\Trans_Impedance_Amplifier\CortexM3\ARM_GCC_541\Debug\Trans_Impedance_Amplifier.hex</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\CortexM3\ARM_GCC_541\Debug\Trans_Impedance_Amplifier.map</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Trans_Impedance_Amplifier.gpdsc</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Trans_Impedance_Amplifier.rpt</v>
-<v>OM_workspace\Trans_Impedance_Amplifier\Trans_Impedance_Amplifier_timing.html</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -225,18 +203,20 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded>
+<project v=".\LED_Blink.cydsn\LED_Blink.cyprj" />
 <project v=".\OP_AMP.cydsn\OP_AMP.cyprj" />
 <project v=".\LED_Brightness_ADC_PWM.cydsn\LED_Brightness_ADC_PWM.cyprj" />
-<project v=".\LED_Blink.cydsn\LED_Blink.cyprj" />
 </Unloaded>
-<OpenDocs />
+<OpenDocs>
+<name v=".\Trans_Impedance_Amplifier.cydsn\main.c" />
+</OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1614, 711" SelectedTabbedMdiWindow="377d68c9-c590-482c-bf89-8af9eaf97180"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="377d68c9-c590-482c-bf89-8af9eaf97180" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1360, 711" SelectedTabbedMdiWindow="d7cfbf49-c0ed-4171-97e2-3468cdb2547e"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="377d68c9-c590-482c-bf89-8af9eaf97180" /><DocumentWindow Key="E:\zephyr_workspace\Genotyper-Firmware\PSOC\OM_Cypress_Workspace\samples\Trans_Impedance_Amplifier.cydsn\main.c" Guid="d7cfbf49-c0ed-4171-97e2-3468cdb2547e" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
