@@ -15,27 +15,22 @@
 int main(void) 
 {
     CyGlobalIntEnable; 
-  
+    // float temperature;
     COM_port_Start(0,COM_port_5V_OPERATION);
+    char send[100];
     while(COM_port_GetConfiguration()==0){}
-      ADC_DelSig_1_Start();
-      ADC_DelSig_1_StartConvert();
+     ADC_DelSig_1_Start(); 
     for(;;)
     {
-        uint16_t adc_val=ADC_DelSig_1_GetResult16();
-         char send[100];
+       
+        ADC_DelSig_1_StartConvert();
+        ADC_DelSig_1_IsEndConversion( ADC_DelSig_1_WAIT_FOR_RESULT);
+        int adc_val=ADC_DelSig_1_GetResult32();
+        ADC_DelSig_1_StopConvert();
+       // temperature = ( ((adc_val * 4.88) - 0.0027 ) / 10.0 );
+        
         sprintf(send,"%d\r\n",adc_val);
         COM_port_PutString(send);
-        if(adc_val>3000)
-        {
-            Led_Write(1);
-             COM_port_PutString("LED ON\r\n");
-        }
-        else
-        {
-            Led_Write(0);
-            COM_port_PutString("LED OFF\r\n");
-        }
         CyDelay(100);
     }
 }
