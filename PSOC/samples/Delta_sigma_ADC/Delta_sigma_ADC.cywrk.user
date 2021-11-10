@@ -36,6 +36,9 @@
 <v>Delta_sigma_ADC\Delta_sigma_ADC\Generated_Source\PSoC5</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>Delta_sigma_ADC</v>
+<v>Delta_sigma_ADC\Delta_sigma_ADC</v>
+<v>Delta_sigma_ADC\Delta_sigma_ADC\TopDesign</v>
 <v>Delta_sigma_ADC\Delta_sigma_ADC\Delta_sigma_ADC.cydwr</v>
 <v>Delta_sigma_ADC\Delta_sigma_ADC\Delta_sigma_ADC.cydwr\Pins</v>
 <v>Delta_sigma_ADC\Delta_sigma_ADC\Delta_sigma_ADC.cydwr\Analog</v>
@@ -81,9 +84,6 @@
 <v>Delta_sigma_ADC\Delta_sigma_ADC\Generated_Source\PSoC5\cyfitter_cfg.h</v>
 <v>Delta_sigma_ADC\Delta_sigma_ADC\Generated_Source\PSoC5\cyfittergnu.inc</v>
 <v>Delta_sigma_ADC\Delta_sigma_ADC\Generated_Source\PSoC5\cyfitteriar.inc</v>
-<v>Delta_sigma_ADC\Delta_sigma_ADC\Generated_Source\PSoC5\cyfitterrv.inc</v>
-<v>Delta_sigma_ADC\Delta_sigma_ADC\Generated_Source\PSoC5\cymetadata.c</v>
-<v>Delta_sigma_ADC\Delta_sigma_ADC\Generated_Source\PSoC5\project.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
