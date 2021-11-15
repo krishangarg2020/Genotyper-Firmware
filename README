@@ -1,0 +1,27 @@
+.
+├── actors
+│   ├── detector
+│   ├── extractor
+│   ├── mpcr
+│   ├── orchestrator
+│   └── README.md
+├── choreographer
+│   └── README.md
+├── commitlint.config.js
+├── docs
+│   ├── Assets
+│   ├── NRF_Connect
+│   └── pdfs
+├── hmi
+│   └── README.md
+├── LICENSE
+├── package.json
+├── package-lock.json
+├── README
+├── README.md
+└── samples
+    ├── FlutterKiosk-POC
+    ├── psoc
+    └── zephyr
+
+15 directories, 9 files
