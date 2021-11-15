@@ -1,0 +1,3 @@
+[submodule "samples/FlutterKiosk-POC"]
+	path = samples/FlutterKiosk-POC
+	url = https://github.com/TechnocultureResearch/FlutterKiosk-POC
