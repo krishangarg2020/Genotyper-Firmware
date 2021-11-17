@@ -1,0 +1,7 @@
+**/CMakeFiles/
+**/.pio/
+**/Testing/
+**/build/
+**/CMakeCache.txt
+**/DartConfiguration.tcl
+

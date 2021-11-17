@@ -17,4 +17,4 @@ USER 1001
 
 WORKDIR /workspace
 
-ENTRYPOINT ["platformio"] 
+ENTRYPOINT ["platformio test -e native"]
