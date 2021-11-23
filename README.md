@@ -6,15 +6,20 @@
 | actors        | Set of microcontroller programs intended for robots and subsystems that are part of the device |
 
 ```
-├── actors
-│   ├── detector
-│   ├── extractor
-│   ├── mpcr
-│   ├── orchestrator
+.
 ├── choreographer
-├── hmi
-└── samples
-    ├── FlutterKiosk-POC
-    ├── psoc
-    └── zephyr
+│   ├── main.py
+│   ├── README.md
+│   └── services
+├── messages
+├── services
+│   ├── detector
+│   ├── extractor
+│   ├── hmi
+│   ├── orchestrator
+│   └── pcr
+└── docs
+    ├── assets
+    ├── ble_gatt_designs
+    └── sample_projects
 ```
