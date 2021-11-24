@@ -22,7 +22,10 @@ public:
   std::size_t arg;
 };
 
-void com_receive_callback();
+class COM {
+public:
+  static void receive_callback();
+};
 
 } // namespace Model
 

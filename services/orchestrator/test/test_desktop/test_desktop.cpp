@@ -17,7 +17,5 @@ int main(int argc, char **argv) {
   RUN_TEST(test_struct_gcode_constructs);
   UNITY_END();
 
-  com_receive_callback();
-
   return 0;
 }
