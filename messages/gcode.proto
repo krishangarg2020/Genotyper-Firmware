@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package gcode;
+
+message Command {
+  required Opcode opcode = 1;
+  optional int32 arg = 2;
+  
+  enum OpCode {
+    HOME = 0;
+    MOVE = 1;
+    ABSOLUTE_POSITION = 2;
+    LOAD_TIP = 3;
+    CHECK_TIP_PRESSENCE = 4;
+    }
+}
