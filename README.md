@@ -1,20 +1,25 @@
 # Genotype Firmware
 | Subproject    | Objective                                                                                      |
 |---------------|------------------------------------------------------------------------------------------------|
-| hmi           | Embedded Linux system running the GUI program as well as the master co-ordination server       |
+| services | Embedded system submodules that act independently to provide a given set of services to the overall system |
 | choreographer | Set of python daemons involved in providing a central management system for the device         |
-| actors        | Set of microcontroller programs intended for robots and subsystems that are part of the device |
+| messages | Shared files declaring the messaging protocols for CAN bus and UART |
 
 ```
-├── actors
-│   ├── detector
-│   ├── extractor
-│   ├── mpcr
-│   ├── orchestrator
+.
 ├── choreographer
-├── hmi
-└── samples
-    ├── FlutterKiosk-POC
-    ├── psoc
-    └── zephyr
+│   ├── main.py
+│   ├── README.md
+│   └── services
+├── messages
+├── services
+│   ├── detector
+│   ├── extractor
+│   ├── hmi
+│   ├── orchestrator
+│   └── pcr
+└── docs
+    ├── assets
+    ├── ble_gatt_designs
+    └── sample_projects
 ```
