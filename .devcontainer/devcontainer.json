@@ -46,7 +46,6 @@
 		"node": "lts",
 		"python": "latest",
 		"golang": "latest"
-	},
+	}
 
-  "postCreateCommand": ["npm", "install"]
 }
