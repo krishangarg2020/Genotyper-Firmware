@@ -1,3 +1,19 @@
+# Usage
+- Use the makefile to generate the files in this project. 
+``` sh
+make help
+```
+
+- Build all (protobuf, nanopbm and CAN bus dbc) files in one go using the following command.
+``` sh
+make all
+```
+
+- Delete all generated files in one go uisng `make clean`.
+
+For more details, read the makefile.
+
+
 # Objective 
 1. **Unified declaration of messages formats** used in the over system
 2. **Code generation** in order to generate code to integrate the message formats with embedded C/C++ code with other embedded Linux code written in Python/Go/Dart/Js/etc.
