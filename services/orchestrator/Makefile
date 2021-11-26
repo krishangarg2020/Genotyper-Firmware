@@ -1,6 +1,8 @@
 help:
 	@echo "This is a convinience Makefile, is likely to only work on Linux, Mac Os and WSL.\nConsult satyam@technoculture.io or write your own makefile if facing issues." 
 
+all: db test run
+
 db:
 	pio run -t compiledb
 

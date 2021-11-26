@@ -9,3 +9,5 @@ FROM mcr.microsoft.com/vscode/devcontainers/cpp:0-${VARIANT}
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
 ENV SHELL /bin/zsh
+
+RUN apt install -y protobuf-compiler

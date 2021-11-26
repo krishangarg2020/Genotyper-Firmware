@@ -1,0 +1,2 @@
+nanopb
+grpcio-tools

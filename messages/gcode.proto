@@ -1,9 +1,9 @@
-syntax = "proto3";
+syntax = "proto2";
 
 package gcode;
 
 message Command {
-  required Opcode opcode = 1;
+  required OpCode opcode = 1;
   optional int32 arg = 2;
   
   enum OpCode {
