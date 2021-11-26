@@ -2,11 +2,11 @@ syntax = "proto2";
 
 package gcode;
 
-message Command {
-  required OpCode opcode = 1;
+message command {
+  required opcode op = 1;
   optional int32 arg = 2;
   
-  enum OpCode {
+  enum opcode {
     HOME = 0;
     MOVE = 1;
     ABSOLUTE_POSITION = 2;

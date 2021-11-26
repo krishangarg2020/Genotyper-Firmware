@@ -12,6 +12,11 @@ This protocol file describes all the messages communicated over the CAN bus in t
 ### G-code over UART 
 This protocol is for efficient transmission of g-code over a UART serial communication. Efficient communication is achieved using Serialization using `Protobuf/Nanopb`.
 
+
+# Tech stack
+## Protobuf/nanopb
+- [Nanopb: Getting Started](https://jpa.kapsi.fi/nanopb/docs/#getting-started)
+
 > Sample program: [/examples/simple](https://github.com/nanopb/nanopb/tree/master/examples/simple)
 
 ![](https://jpa.kapsi.fi/nanopb/docs/generator_flow.svg)

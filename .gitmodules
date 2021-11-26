@@ -1,3 +1,6 @@
 [submodule "samples/FlutterKiosk-POC"]
 	path = samples/FlutterKiosk-POC
 	url = https://github.com/TechnocultureResearch/FlutterKiosk-POC
+[submodule "messages/lib"]
+	path = messages/lib
+	url = https://github.com/nanopb/nanopb.git
