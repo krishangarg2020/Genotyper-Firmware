@@ -3,12 +3,10 @@
 ``` sh
 make help
 ```
-
 - Build all (protobuf, nanopbm and CAN bus dbc) files in one go using the following command.
 ``` sh
 make all
 ```
-
 - Delete all generated files in one go uisng `make clean`.
 
 For more details, read the makefile.
@@ -25,6 +23,11 @@ For more details, read the makefile.
 ### Main system communication bus over CAN
 This protocol file describes all the messages communicated over the CAN bus in the Genotyper system comprising of various, heterogenous compute systems.
 
+#### references
+- [Tesla CAN](https://github.com/commaai/opendbc/blob/master/tesla_can.dbc)
+- [Tesla Powertrain](https://github.com/commaai/opendbc/blob/master/tesla_powertrain.dbc)
+- [Tesla Radar](https://github.com/commaai/opendbc/blob/master/tesla_radar.dbc)
+
 ### G-code over UART 
 This protocol is for efficient transmission of g-code over a UART serial communication. Efficient communication is achieved using Serialization using `Protobuf/Nanopb`.
 
@@ -32,6 +35,7 @@ This protocol is for efficient transmission of g-code over a UART serial communi
 # Tech stack
 ## Protobuf/nanopb
 - [Nanopb: Getting Started](https://jpa.kapsi.fi/nanopb/docs/#getting-started)
+- [Nanopb: Basic Concepts](https://jpa.kapsi.fi/nanopb/docs/concepts.html)
 
 > Sample program: [/examples/simple](https://github.com/nanopb/nanopb/tree/master/examples/simple)
 
