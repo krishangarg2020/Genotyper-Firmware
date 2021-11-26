@@ -9,7 +9,7 @@
 		"args": { "VARIANT": "debian-11" }
 	},
 	"runArgs": [
-		"--privileged",
+		//"--privileged",
 		"--init",
 		"--cap-add=SYS_PTRACE",
 		"--security-opt",
