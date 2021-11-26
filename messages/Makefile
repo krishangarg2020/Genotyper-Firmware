@@ -1,7 +1,8 @@
 PB_COMPILER=protoc
 NANOPB_COMPILER=lib/generator/nanopb_generator.py
 PROTO_FILE=gcode.proto
-OUT_DIR=./build
+DBC_FILE=genotyper_vending_v1
+OUT_DIR=./generated
 
 help:
 	@echo "usage"
@@ -24,10 +25,12 @@ pb:
 	$(PB_COMPILER) -I=./ --python_out=$(OUT_DIR)/pbpy $(PROTO_FILE)
 
 dbc:
-	@echo "dbc(Makefile Target): Not Implemented"
+	cantools generate_c_source $(DBC_FILE).dbc
+	mv $(DBC_FILE).c $(DBC_FILE).h $(OUT_DIR)/can
 
 all: deps pb dbc
 
 clean:
 	find ./build -type f -name '*.pb*' -delete
 	find ./build -type f -name '*_pb2*' -delete
+	find ./build -type f -name "$(DBC_FILE).*" -delete
