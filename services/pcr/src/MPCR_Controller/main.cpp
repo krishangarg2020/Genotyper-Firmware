@@ -6,7 +6,7 @@ uint32_t current_time = 0;
 uint32_t prev_time = 0;
 uint32_t interval =5000;
 uint8_t pcr_status = 0;
-unsigned char pcr_st[1] = {00};
+unsigned char pcr_st[1] = {IDLE};
 
 MCP_CAN CAN(SPI_CS_PIN);                                    // Set CS pin
 
@@ -46,7 +46,10 @@ void setup()
 void loop()
 {
     //TODO: Check the status of mpcr in every 10 seconds
-
+    
+ current_time = millis();
+ if(current_time - prev_time >= interval)
+  {
    unsigned char len = 0;
     unsigned char buf[1];
 
@@ -61,11 +64,14 @@ void loop()
                                 pcr_status= buf[0];
                                 DEBUG(pcr_status); 
                                 break;
-         default : DEBUG("default case reached");
-                    break;
+         default : break;
         }
+      Serial.print("msg from can id  ");
+        DEBUG(canId);
     }
-  Serial.print("\t");  
-  DEBUG(pcr_status);  
+  
+    prev_time = current_time;
+   } 
+//DEBUG(pcr_status);  
 }
   
