@@ -59,7 +59,7 @@ void check_can_msg()
       default : DEBUG("invalid can id ");
                 break;
     }
-        DEBUG("msg from can id ");
+        Serial.print("msg from can id  ");
         DEBUG(canId);
 }
 
@@ -83,6 +83,7 @@ void setup(){
     }
     DEBUG("CAN BUS OK ON MPCR!");
 
+         
   // Initialize Global Variables
   pcr_status = IDLE;
   swab_position = SWAB_POS_CONTAINER1;
@@ -96,13 +97,13 @@ void loop()
 current_time = millis();
 if(current_time - prev_time >= interval)
 {
-   CAN.sendMsgBuf(PCR_STATUS_ID, 0, sizeof(pcr_st), pcr_st);
-    DEBUG("pcr                  status             sent");
+  CAN.sendMsgBuf(PCR_STATUS_ID, 0, sizeof(pcr_st), pcr_st);
+  DEBUG("pcr                  status             sent");
    prev_time = current_time;
 }
 // TODO: check for can messages then perform accordingly
   
-   if(CAN_MSGAVAIL == CAN.checkReceive())            // check if data coming
+if(CAN_MSGAVAIL == CAN.checkReceive())            // check if data coming
     {
       check_can_msg(); 
     }
