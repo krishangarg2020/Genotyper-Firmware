@@ -39,17 +39,26 @@ float adc_to_degC(const uint32_t& adc_val) { return ( (((float)adc_val * 3.33) -
 void check_can_msg()
 {
   DEBUG("CAN receive callback triggered.");
-   unsigned char len = 0;
-    unsigned char buf[1];
-        unsigned long canId = CAN.getCanId();
-        switch(canId)
-          {
-            case PCR_CONTROL_ID: CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf 
-                    if (buf[0] == START) { pcr_status = TASK_RUNNING; }
-                    else if (buf[0] == STOP) { pcr_status = IDLE; }
-                    break;
-            default : break;
-          }
+  unsigned char len = 0;
+  unsigned char buf[1];
+  unsigned long canId = CAN.getCanId();
+  switch(canId)
+    {
+      case PCR_CONTROL_ID: CAN.readMsgBuf(&len, buf);    // read data,  len: data length, buf: data buf 
+                          if (buf[0] == START) 
+                            {
+                              pcr_status = TASK_RUNNING;
+                              pcr_st[0] = TASK_RUNNING; 
+                            }
+                          else if (buf[0] == STOP) 
+                            { 
+                              pcr_status = IDLE;
+                              pcr_st[0] = IDLE;
+                            }
+                          break;
+      default : DEBUG("invalid can id ");
+                break;
+    }
         DEBUG("msg from can id ");
         DEBUG(canId);
 }
@@ -69,15 +78,17 @@ void setup(){
 
   while (CAN_OK != CAN.begin(CAN_500KBPS))    // init can bus : baudrate = 500k
     {
-        Serial.println("CAN BUS FAIL ON MPCR!");
+        DEBUG("CAN BUS FAIL ON MPCR!");
         delay(100);
     }
-    Serial.println("CAN BUS OK ON MPCR!");
+    DEBUG("CAN BUS OK ON MPCR!");
 
   // Initialize Global Variables
   pcr_status = IDLE;
   swab_position = SWAB_POS_CONTAINER1;
   pcr_st[0] = IDLE;
+  CAN.sendMsgBuf(PCR_STATUS_ID, 0, sizeof(pcr_st), pcr_st);
+  delay(DELAY_MS);
 }
 
 void loop()
@@ -110,7 +121,6 @@ if(pcr_status == IDLE)
 else if(pcr_status == TASK_RUNNING)
     {
      temperature =  adc_to_degC(analogRead(THERMOCOUPLE_PIN));
-      pcr_st[0] = TASK_RUNNING;
       if(cycle_count <= PCR_CYCLES)
         {
       // TODO: wait to reach a predefined temperature

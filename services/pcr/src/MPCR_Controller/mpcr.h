@@ -26,8 +26,8 @@
 #define PCR_CYCLES              10
 #define DELAY_MS                1000
 
-#define PCR_CONTROL_ID          0x00
-#define PCR_STATUS_ID           0x01
+#define PCR_CONTROL_ID          00
+#define PCR_STATUS_ID           01
 
 
 enum status {
