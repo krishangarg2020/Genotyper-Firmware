@@ -58,6 +58,14 @@ BO_TX_BU_ 2 : Extractor_1,Extractor_2,Extractor_3;
 BO_TX_BU_ 0 : Centrifuge_1,Centrifuge_2,mPCR_2,mPCR_1;
 
 
+CM_ BU_ Orchestrator "Gantry liquid handling robot";
+CM_ BU_ Centrifuge_2 "Centrifugal DNA amplification and detection system";
+CM_ BU_ Centrifuge_1 "Centrifugal DNA amplification and detection system";
+CM_ BU_ Extractor_3 "DNA extraction device";
+CM_ BU_ Extractor_2 "DNA extraction device";
+CM_ BU_ Extractor_1 "DNA extraction device";
+CM_ BU_ mPCR_2 "Mechanical PCR device";
+CM_ BU_ mPCR_1 "Mechanical PCR device";
 BA_DEF_  "BusType" STRING ;
 BA_DEF_DEF_  "BusType" "CAN";
 VAL_ 3 extractor_cmd 3 "FreeUpChip" 2 "TakeChip" 1 "ForceStop" 0 "DoNothing" ;
