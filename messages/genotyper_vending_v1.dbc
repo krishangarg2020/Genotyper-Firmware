@@ -41,18 +41,18 @@ VAL_TABLE_ pcr_cmd 3 "ProvideSwab" 2 "TakeSwab" 1 "ForceStop" 0 "DoNothing" ;
 
 
 BO_ 3 extractor_cmd: 8 Choreographer
- SG_ extractor_cmd : 0|3@1+ (1,0) [0|7] ""  Extractor_1,Extractor_2,Extractor_3
+ SG_ cmd : 0|3@1+ (1,0) [0|7] ""  Extractor_1,Extractor_2,Extractor_3
 
-BO_ 2 extractor_status: 8 Extractor_3
- SG_ extractor_status : 5|3@1+ (1,0) [0|7] ""  Choreographer
- SG_ extractor_progress : 0|5@1+ (5,0) [0|100] "%"  Choreographer
+BO_ 2 extractor_info : 8 Extractor_3
+ SG_ status : 5|3@1+ (1,0) [0|7] ""  Choreographer
+ SG_ progress : 0|5@1+ (5,0) [0|100] "%"  Choreographer
 
 BO_ 1 pcr_cmd: 8 Choreographer
- SG_ pcr_cmd : 0|2@1+ (1,0) [0|7] ""  Centrifuge_2,Centrifuge_1,mPCR_2,mPCR_1
+ SG_ cmd : 0|2@1+ (1,0) [0|7] ""  Centrifuge_2,Centrifuge_1,mPCR_2,mPCR_1
 
-BO_ 0 pcr_status: 8 mPCR_1
- SG_ pcr_status : 5|3@1+ (1,0) [0|7] ""  Choreographer
- SG_ pcr_progress : 0|5@1+ (5,0) [0|100] "%"  Choreographer
+BO_ 0 pcr_info: 8 mPCR_1
+ SG_ status : 5|3@1+ (1,0) [0|7] ""  Choreographer
+ SG_ progress : 0|5@1+ (5,0) [0|100] "%"  Choreographer
 
 BO_TX_BU_ 2 : Extractor_1,Extractor_2,Extractor_3;
 BO_TX_BU_ 0 : Centrifuge_1,Centrifuge_2,mPCR_2,mPCR_1;

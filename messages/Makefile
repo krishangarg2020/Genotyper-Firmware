@@ -1,8 +1,12 @@
 PB_COMPILER=protoc
 NANOPB_COMPILER=lib/generator/nanopb_generator.py
+
 PROTO_FILE=gcode.proto
 DBC_FILE=genotyper_vending_v1
 OUT_DIR=./generated
+
+pbuc_FROM=./generated/pbuc/*
+pbuc_TO=../services/orchestrator/lib/orchestrator_model/src
 
 help:
 	@echo "usage"
@@ -13,12 +17,12 @@ help:
 	@echo "available targets"
 	@echo "  pb     compile protocol buffer"
 	@echo "  dbc    compile CAN database file"
+	@echo "  push   Push generated files to directories where they are required"
 	@echo "  deps   install dependencies"
 	@echo "  all    build all targets"
 	@echo "  clean  delete all generated files"
-
-deps:
-	pip3 install -r requirements.txt
+	@echo ""
+	@echo "Requires rsync, pip3"
 
 pb:
 	$(NANOPB_COMPILER) --output-dir=$(OUT_DIR)/pbuc $(PROTO_FILE)
@@ -28,7 +32,13 @@ dbc:
 	cantools generate_c_source $(DBC_FILE).dbc
 	mv $(DBC_FILE).c $(DBC_FILE).h $(OUT_DIR)/can
 
-all: deps pb dbc
+push:
+	rsync $(pbuc_FROM) $(pbuc_TO)
+
+deps:
+	pip3 install -r requirements.txt
+
+all: deps pb dbc push
 
 clean:
 	find ./build -type f -name '*.pb*' -delete

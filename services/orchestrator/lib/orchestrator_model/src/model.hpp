@@ -1,26 +1,10 @@
 #ifndef MODEL_H____
 #define MODEL_H____
 
+#include "gcode.pb.h"
 #include <stdlib.h>
 
 namespace Model {
-
-enum class Opcode {
-  MOVE,
-  HOME,
-  ABSOLUTE_POSITION,
-  LOAD_TIP,
-  CHECK_TIP_PRESSENCE
-};
-
-class Gcode {
-public:
-  Gcode() = default;
-  ~Gcode() = default;
-
-  Opcode op;
-  std::size_t arg;
-};
 
 class COM {
 public:
