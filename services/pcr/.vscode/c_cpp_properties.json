@@ -10,7 +10,9 @@
             "includePath": [
                 "E:/Genotyper-Firmware/services/pcr/include",
                 "E:/Genotyper-Firmware/services/pcr/src",
+                "E:/Genotyper-Firmware/services/pcr/.pio/libdeps/due/CAN_BUS_Shield",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
+                "E:/Genotyper-Firmware/services/pcr/.pio/libdeps/due/Servo/src",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/cores/arduino",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/system/libsam",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
@@ -26,7 +28,9 @@
                 "path": [
                     "E:/Genotyper-Firmware/services/pcr/include",
                     "E:/Genotyper-Firmware/services/pcr/src",
+                    "E:/Genotyper-Firmware/services/pcr/.pio/libdeps/due/CAN_BUS_Shield",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
+                    "E:/Genotyper-Firmware/services/pcr/.pio/libdeps/due/Servo/src",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/cores/arduino",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/system/libsam",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
