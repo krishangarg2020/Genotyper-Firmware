@@ -25,8 +25,8 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="Trans_Impedance_Amplifier" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" Version="6.0" Type="Normal">
-    <CMSIS_SVD_File>Trans_Impedance_Amplifier.svd</CMSIS_SVD_File>
+  <Project Name="PhotoDiode" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" Version="6.10" Type="Normal">
+    <CMSIS_SVD_File>PhotoDiode.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
       <LinkerFile Toolchain="ARM GCC Generic">.\Generated_Source\PSoC5\cm3gcc.ld</LinkerFile>
@@ -34,14 +34,14 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC5\Cm3Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn">
+      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn">
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn\Generated_Source\PSoC5">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn">
+      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn\Generated_Source\PSoC5">
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn">
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cymetadata.c</File>
@@ -58,18 +58,17 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitteriar.inc</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cydisabledsheets.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\TIA_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\TIA_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\TIA_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IDAC8_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IDAC8_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\IDAC8_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\VDAC8_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\VDAC8_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\VDAC8_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\OutPut_pin_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\OutPut_pin.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\OutPut_pin.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PhotoDiode_cathode_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PhotoDiode_cathode.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PhotoDiode_cathode.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PhotoDiode_Anode_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PhotoDiode_Anode.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PhotoDiode_Anode.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_1.h</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC5\cm3gcc.ld</File>
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">Generated_Source\PSoC5\Cm3RealView.scat</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cm3Start.c</File>
@@ -103,52 +102,65 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cycodeshareimport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cycodeshareexport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cycodeshareimport.scat</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PWM_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Ext_CP_Clk.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Ext_CP_Clk.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_IRQ.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_theACLK.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_theACLK.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn\Export\ARM_GCC_Generic">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn">
+      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn\Export\ARM_GCC_Generic">
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn">
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">.\Export\ARM_GCC_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn\Export\ARM_MDK_Generic">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn">
+      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn\Export\ARM_MDK_Generic">
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn">
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">.\Export\ARM_MDK_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn\Export\ARM_IAR_Generic">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn">
+      <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn\Export\ARM_IAR_Generic">
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn">
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">.\Export\ARM_IAR_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM4">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM7">
-        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\Trans_Impedance_Amplifier.cydsn" />
+        <Files Root="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\PhotoDiode.cydsn" />
       </Folder>
     </Folders>
   </Project>
