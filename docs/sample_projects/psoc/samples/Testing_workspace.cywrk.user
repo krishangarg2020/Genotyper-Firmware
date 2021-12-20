@@ -13,89 +13,109 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Testing_workspace\DNA_quantification\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Testing_workspace\PhotoDiode\TopDesign">
 <ExpandedNodeIds>
 <v>Testing_workspace</v>
 <v>Testing_workspace\DNA_quantification</v>
-<v>Testing_workspace\DNA_quantification\TopDesign</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Pins</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Analog</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Clocks</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Interrupts</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\DMA</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\System</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Directives</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Flash Security</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\EEPROM</v>
-<v>Testing_workspace\DNA_quantification\Header Files</v>
-<v>Testing_workspace\DNA_quantification\Header Files\cyapicallbacks.h</v>
-<v>Testing_workspace\DNA_quantification\Source Files</v>
-<v>Testing_workspace\DNA_quantification\Source Files\main.c</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5</v>
+<v>Testing_workspace\DNA_quantification2</v>
+<v>Testing_workspace\DNA_quantification2\TopDesign</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Pins</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Analog</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Clocks</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Interrupts</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\DMA</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\System</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Directives</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Flash Security</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\EEPROM</v>
+<v>Testing_workspace\DNA_quantification2\Header Files</v>
+<v>Testing_workspace\DNA_quantification2\Header Files\cyapicallbacks.h</v>
+<v>Testing_workspace\DNA_quantification2\Source Files</v>
+<v>Testing_workspace\DNA_quantification2\Source Files\main.c</v>
 <v>Testing_workspace\LED_Blink</v>
 <v>Testing_workspace\LED_Brightness_ADC_PWM</v>
 <v>Testing_workspace\OP_AMP</v>
 <v>Testing_workspace\PhotoDiode</v>
+<v>Testing_workspace\PhotoDiode\TopDesign</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Pins</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Analog</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Clocks</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Interrupts</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\DMA</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\System</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Directives</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Flash Security</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\EEPROM</v>
+<v>Testing_workspace\PhotoDiode\Header Files</v>
+<v>Testing_workspace\PhotoDiode\Header Files\cyapicallbacks.h</v>
+<v>Testing_workspace\PhotoDiode\Source Files</v>
+<v>Testing_workspace\PhotoDiode\Source Files\main.c</v>
+<v>Testing_workspace\PhotoDiode\Generated_Source</v>
+<v>Testing_workspace\PhotoDiode\Generated_Source\PSoC5</v>
 <v>Testing_workspace\Trans_Impedance_Amplifier</v>
 <v>Testing_workspace\USB_Serial</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Testing_workspace</v>
 <v>Testing_workspace\DNA_quantification</v>
-<v>Testing_workspace\DNA_quantification\TopDesign</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Pins</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Analog</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Clocks</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Interrupts</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\DMA</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\System</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Directives</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\Flash Security</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.cydwr\EEPROM</v>
-<v>Testing_workspace\DNA_quantification\Header Files</v>
-<v>Testing_workspace\DNA_quantification\Header Files\cyapicallbacks.h</v>
-<v>Testing_workspace\DNA_quantification\Source Files</v>
-<v>Testing_workspace\DNA_quantification\Source Files\main.c</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\Anode</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\cy_boot</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\GND</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\PGA_Inv_1</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\TIA_1</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\Vout</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\Vref</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\cycodeshareexport.ld</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\cycodeshareimport.ld</v>
-<v>Testing_workspace\DNA_quantification\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>Testing_workspace\DNA_quantification2</v>
+<v>Testing_workspace\DNA_quantification2\TopDesign</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Pins</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Analog</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Clocks</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Interrupts</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\DMA</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\System</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Directives</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\Flash Security</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.cydwr\EEPROM</v>
+<v>Testing_workspace\DNA_quantification2\Header Files</v>
+<v>Testing_workspace\DNA_quantification2\Header Files\cyapicallbacks.h</v>
+<v>Testing_workspace\DNA_quantification2\Source Files</v>
+<v>Testing_workspace\DNA_quantification2\Source Files\main.c</v>
+<v>Testing_workspace\LED_Blink</v>
+<v>Testing_workspace\LED_Brightness_ADC_PWM</v>
+<v>Testing_workspace\OP_AMP</v>
+<v>Testing_workspace\PhotoDiode</v>
+<v>Testing_workspace\PhotoDiode\TopDesign</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Pins</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Analog</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Clocks</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.cydwr\Interrupts</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>Testing_workspace</v>
 <v>Testing_workspace\DNA_quantification</v>
-<v>Testing_workspace\DNA_quantification\TopDesign</v>
-<v>Testing_workspace\DNA_quantification\TopDesign\TopDesign.cysch</v>
+<v>Testing_workspace\DNA_quantification2</v>
+<v>Testing_workspace\DNA_quantification2\TopDesign</v>
+<v>Testing_workspace\DNA_quantification2\TopDesign\TopDesign.cysch</v>
 <v>Testing_workspace\LED_Blink</v>
 <v>Testing_workspace\LED_Brightness_ADC_PWM</v>
 <v>Testing_workspace\OP_AMP</v>
 <v>Testing_workspace\PhotoDiode</v>
+<v>Testing_workspace\PhotoDiode\TopDesign</v>
+<v>Testing_workspace\PhotoDiode\TopDesign\TopDesign.cysch</v>
 <v>Testing_workspace\Trans_Impedance_Amplifier</v>
 <v>Testing_workspace\USB_Serial</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Testing_workspace</v>
 <v>Testing_workspace\DNA_quantification</v>
-<v>Testing_workspace\DNA_quantification\TopDesign</v>
-<v>Testing_workspace\DNA_quantification\TopDesign\TopDesign.cysch</v>
+<v>Testing_workspace\DNA_quantification2</v>
+<v>Testing_workspace\DNA_quantification2\TopDesign</v>
+<v>Testing_workspace\DNA_quantification2\TopDesign\TopDesign.cysch</v>
 <v>Testing_workspace\LED_Blink</v>
 <v>Testing_workspace\LED_Brightness_ADC_PWM</v>
 <v>Testing_workspace\OP_AMP</v>
 <v>Testing_workspace\PhotoDiode</v>
+<v>Testing_workspace\PhotoDiode\TopDesign</v>
+<v>Testing_workspace\PhotoDiode\TopDesign\TopDesign.cysch</v>
 <v>Testing_workspace\Trans_Impedance_Amplifier</v>
 <v>Testing_workspace\USB_Serial</v>
 </VisibleNodeIds>
@@ -104,74 +124,80 @@
 <ExpandedNodeIds>
 <v>Testing_workspace</v>
 <v>Testing_workspace\DNA_quantification</v>
-<v>Testing_workspace\DNA_quantification\CortexM3</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\Anode.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\GND.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_Inv_1.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_Inv_1_PM.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\TIA_1.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\TIA_1_PM.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\Vout.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\Vref.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\DNA_quantification.elf</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\DNA_quantification.hex</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\DNA_quantification.map</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.gpdsc</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.rpt</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification_timing.html</v>
+<v>Testing_workspace\DNA_quantification2</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.gpdsc</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.rpt</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2_timing.html</v>
 <v>Testing_workspace\LED_Blink</v>
 <v>Testing_workspace\LED_Brightness_ADC_PWM</v>
 <v>Testing_workspace\OP_AMP</v>
 <v>Testing_workspace\PhotoDiode</v>
+<v>Testing_workspace\PhotoDiode\CortexM3</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Ext_CP_Clk.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_theACLK.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\OutPut_pin.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\PhotoDiode_Anode.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\PhotoDiode_cathode.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_PM.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\PhotoDiode.elf</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\PhotoDiode.hex</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\PhotoDiode.map</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.gpdsc</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode.rpt</v>
+<v>Testing_workspace\PhotoDiode\PhotoDiode_timing.html</v>
 <v>Testing_workspace\Trans_Impedance_Amplifier</v>
 <v>Testing_workspace\USB_Serial</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Testing_workspace</v>
 <v>Testing_workspace\DNA_quantification</v>
-<v>Testing_workspace\DNA_quantification\CortexM3</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\Anode.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\GND.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_Inv_1.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_Inv_1_PM.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\TIA_1.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\TIA_1_PM.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\Vout.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\Listing Files\Vref.lst</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\DNA_quantification.elf</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\DNA_quantification.hex</v>
-<v>Testing_workspace\DNA_quantification\CortexM3\ARM_GCC_541\Debug\DNA_quantification.map</v>
-<v>Testing_workspace\DNA_quantification\DNA_quantification.gpdsc</v>
+<v>Testing_workspace\DNA_quantification2</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.gpdsc</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2.rpt</v>
+<v>Testing_workspace\DNA_quantification2\DNA_quantification2_timing.html</v>
+<v>Testing_workspace\LED_Blink</v>
+<v>Testing_workspace\LED_Brightness_ADC_PWM</v>
+<v>Testing_workspace\OP_AMP</v>
+<v>Testing_workspace\PhotoDiode</v>
+<v>Testing_workspace\PhotoDiode\CortexM3</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Ext_CP_Clk.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_theACLK.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Testing_workspace\PhotoDiode\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -182,27 +208,41 @@
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>Testing_workspace</v>
-<v>Testing_workspace\DNA_quantification</v>
-<v>Testing_workspace\DNA_quantification\PSoC 5LP Architecture TRM</v>
-<v>Testing_workspace\DNA_quantification\CY8C58LP Family Datasheet</v>
-<v>Testing_workspace\DNA_quantification\System Reference Guides</v>
-<v>Testing_workspace\DNA_quantification\System Reference Guides\cy_boot_v6_10</v>
-<v>Testing_workspace\DNA_quantification\cy_pins_v2_20</v>
-<v>Testing_workspace\DNA_quantification\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>Testing_workspace\DNA_quantification\PGA_Inv_v2_0.pdf</v>
-<v>Testing_workspace\DNA_quantification\TIA_v2_0.pdf</v>
+<v>Testing_workspace\DNA_quantification2</v>
+<v>Testing_workspace\DNA_quantification2\PSoC 5LP Architecture TRM</v>
+<v>Testing_workspace\DNA_quantification2\CY8C58LP Family Datasheet</v>
+<v>Testing_workspace\DNA_quantification2\System Reference Guides</v>
+<v>Testing_workspace\DNA_quantification2\System Reference Guides\cy_boot_v6_10</v>
+<v>Testing_workspace\DNA_quantification2\TIA_v2_0.pdf</v>
+<v>Testing_workspace\PhotoDiode</v>
+<v>Testing_workspace\PhotoDiode\PSoC 5LP Architecture TRM</v>
+<v>Testing_workspace\PhotoDiode\CY8C58LP Family Datasheet</v>
+<v>Testing_workspace\PhotoDiode\System Reference Guides</v>
+<v>Testing_workspace\PhotoDiode\System Reference Guides\cy_boot_v6_10</v>
+<v>Testing_workspace\PhotoDiode\ADC_DelSig_v3_30.pdf</v>
+<v>Testing_workspace\PhotoDiode\cy_clock_v2_20.pdf</v>
+<v>Testing_workspace\PhotoDiode\cy_pins_v2_20</v>
+<v>Testing_workspace\PhotoDiode\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Testing_workspace\PhotoDiode\PWM_v3_30.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Testing_workspace</v>
-<v>Testing_workspace\DNA_quantification</v>
-<v>Testing_workspace\DNA_quantification\PSoC 5LP Architecture TRM</v>
-<v>Testing_workspace\DNA_quantification\CY8C58LP Family Datasheet</v>
-<v>Testing_workspace\DNA_quantification\System Reference Guides</v>
-<v>Testing_workspace\DNA_quantification\System Reference Guides\cy_boot_v6_10</v>
-<v>Testing_workspace\DNA_quantification\cy_pins_v2_20</v>
-<v>Testing_workspace\DNA_quantification\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>Testing_workspace\DNA_quantification\PGA_Inv_v2_0.pdf</v>
-<v>Testing_workspace\DNA_quantification\TIA_v2_0.pdf</v>
+<v>Testing_workspace\DNA_quantification2</v>
+<v>Testing_workspace\DNA_quantification2\PSoC 5LP Architecture TRM</v>
+<v>Testing_workspace\DNA_quantification2\CY8C58LP Family Datasheet</v>
+<v>Testing_workspace\DNA_quantification2\System Reference Guides</v>
+<v>Testing_workspace\DNA_quantification2\System Reference Guides\cy_boot_v6_10</v>
+<v>Testing_workspace\DNA_quantification2\TIA_v2_0.pdf</v>
+<v>Testing_workspace\PhotoDiode</v>
+<v>Testing_workspace\PhotoDiode\PSoC 5LP Architecture TRM</v>
+<v>Testing_workspace\PhotoDiode\CY8C58LP Family Datasheet</v>
+<v>Testing_workspace\PhotoDiode\System Reference Guides</v>
+<v>Testing_workspace\PhotoDiode\System Reference Guides\cy_boot_v6_10</v>
+<v>Testing_workspace\PhotoDiode\ADC_DelSig_v3_30.pdf</v>
+<v>Testing_workspace\PhotoDiode\cy_clock_v2_20.pdf</v>
+<v>Testing_workspace\PhotoDiode\cy_pins_v2_20</v>
+<v>Testing_workspace\PhotoDiode\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Testing_workspace\PhotoDiode\PWM_v3_30.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -216,15 +256,17 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded>
-<project v=".\USB_Serial.cydsn\USB_Serial.cyprj" />
 <project v=".\LED_Blink.cydsn\LED_Blink.cyprj" />
 <project v=".\LED_Brightness_ADC_PWM.cydsn\LED_Brightness_ADC_PWM.cyprj" />
 <project v=".\OP_AMP.cydsn\OP_AMP.cyprj" />
 <project v=".\Trans_Impedance_Amplifier.cydsn\Trans_Impedance_Amplifier.cyprj" />
-<project v=".\PhotoDiode.cydsn\PhotoDiode.cyprj" />
+<project v=".\USB_Serial.cydsn\USB_Serial.cyprj" />
+<project v=".\DNA_quantification.cydsn\DNA_quantification.cyprj" />
 </Unloaded>
 <OpenDocs>
 <name v=".\DNA_quantification.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\DNA_quantification.cydsn\DNA_quantification.cydwr" />
+<name v=".\DNA_quantification.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -232,7 +274,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="846, 393" SelectedTabbedMdiWindow="9ea779b4-216b-4b8e-82a0-6373fc53b602"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="377d68c9-c590-482c-bf89-8af9eaf97180" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification.cydsn\TopDesign\TopDesign.cysch" Guid="9ea779b4-216b-4b8e-82a0-6373fc53b602" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1100, 393" SelectedTabbedMdiWindow="610bdf8a-615f-4499-95e2-d2c7c45af226"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="377d68c9-c590-482c-bf89-8af9eaf97180" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification.cydsn\TopDesign\TopDesign.cysch" Guid="fb159e86-0e1c-43a9-b71c-5537febc4692" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification.cydsn\DNA_quantification.cydwr" Guid="610bdf8a-615f-4499-95e2-d2c7c45af226" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification.cydsn\main.c" Guid="2cf328c7-04f3-42ef-a06b-a283bddae68a" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

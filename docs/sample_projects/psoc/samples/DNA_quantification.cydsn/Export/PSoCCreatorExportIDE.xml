@@ -94,21 +94,47 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Anode_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Anode.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Anode.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\TIA_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\TIA_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\TIA_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vref_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vref.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vref.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\GND_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\GND.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\GND.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Inv_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Inv_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Inv_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cathode_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cathode.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cathode.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_audio.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_audio.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_boot.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_cdc.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_cdc.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_cls.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_descr.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_drv.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_episr.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_hid.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_hid.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_pm.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_std.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_vnd.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_midi.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_midi.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_pvt.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_cydmac.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_msc.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_msc.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dm_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dm.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dm.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dp_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dp.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dp.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Ext_CP_Clk.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Ext_CP_Clk.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_IRQ.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_theACLK.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_theACLK.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification.cydsn\Export\ARM_GCC_Generic">
