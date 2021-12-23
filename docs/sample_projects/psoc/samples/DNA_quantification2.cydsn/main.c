@@ -14,8 +14,15 @@
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
+//    opamp_Start();
+     TIA_1_Start();
+     TIA_1_SetResFB(TIA_1_RES_FEEDBACK_250K);
 
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+    /* Set the capacitive feedback to 3.3pF */
+     TIA_1_SetCapFB(TIA_1_CAP_FEEDBACK_1_3PF);
+
+    
+
 
     for(;;)
     {
