@@ -34,7 +34,7 @@
  * ![setup](https://user-images.githubusercontent.com/86110190/147203549-c154c46d-8c18-405e-a902-14642da40ad0.jpeg)
 
 ## Test Results
-| Reading  | Blank Sample  | Sample 1  | Sample 2  | Sample 3  | Sample 4  | Sample 5  |
+| Reading  | Buffer Sample  | Sample 1  | Sample 2  | Sample 3  | Sample 4  | Sample 5  |
 |  ---- | ----  | ----  | ----  | ----  | ----  | ----  |
 | 1st Reading   | 1.86  | 1.38  |  1.68 | 2.02  | 2  | 2.02  |
 | 2nd Reading  |  2.14 |  1.4 |  1.82 |  2.06 | 1.96  | 2  |
@@ -58,5 +58,34 @@
 ![graphical_representation_of_different_conc_dna_detected_in_volt](https://user-images.githubusercontent.com/86110190/147212015-43fe24a7-ae74-4823-bd96-b77746d81e43.png)
 
 
+# 2nd Setup
 
+| Reading  | Buffer Sample  | Sample 1  | Sample 2  | Sample 3  | Sample 4  | Sample 5  |
+|  ---- | ----  | ----  | ----  | ----  | ----  | ----  |
+| 1st Reading   | 0.400  | 0.230  | 0.400  | 0.540  | 0.420  | 0.380  |
+| 2nd Reading  | 0.400  | 0.230  |  0.400 | 0.420  | 0.420  | 0.390  |
+| 3rd Reading  |  0.400 | 0.230  | 0.400 |  0.400 | 0.410  | 0.360  |
+| 4th Reading  |  0.400 | 0.230  |  0.380 | 0.440  |  0.440 | 0.400 |
+| 5th Reading  |  0.400 |  0.220 | 0.380  | 0.400  | 0.400  | 0.360  |
+
+
+# 3rd Setup
+
+| Reading  | Buffer Sample  | Sample 1  | Sample 2  | Sample 3  | Sample 4  | Sample 5  |
+|  ---- | ----  | ----  | ----  | ----  | ----  | ----  |
+| 1st Reading   | 0.680  | 0.540  |  0.620 | 0.760  | 0.740  | 0.690  |
+| 2nd Reading  |  0.700 |  0.550 | 0.660  |  0.740 | 0.730  | 0.730  |
+| 3rd Reading  | 0.720  | 0.500  | 0.640 | 0.680  | 0.700  |  0.660 |
+| 4th Reading  | 0.720  |  0.500 | 0.680  | 0.740  | 0.740  | 0.640 |
+| 5th Reading  |  0.730 |  0.520 | 0.680  |  0.700 | 0.700  |  0.640 |
+
+# 4th Setup
+
+| Reading  | Buffer Sample  | Sample 1  | Sample 2  | Sample 3  | Sample 4  | Sample 5  |
+|  ---- | ----  | ----  | ----  | ----  | ----  | ----  |
+| 1st Reading   | 1.420  | 0.920  | 1.260  |  1.440 | 1.400  | 1.420  |
+| 2nd Reading  | 1.440  | 0.900  |  1.260 | 1.480  | 1.480  | 1.420  |
+| 3rd Reading  | 1.440  | 0.880  | 1.280 | 1.420  | 1.380  | 1.320  |
+| 4th Reading  | 1.440  | 0.940  | 1.340  | 1.440  | 1.400  | 1.400 |
+| 5th Reading  | 1.420  | 0.900  |  1.280 |  1.440 | 1.480  |  1.420 |
 
