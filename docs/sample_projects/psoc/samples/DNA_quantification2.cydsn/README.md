@@ -56,8 +56,8 @@
 | 5th Reading  |  2.13 |  1.36 |  1.72 | 2.02  | 2  | 1.9  |
 
 # Graphical Representation of results
-![graphical_representation_of_different_conc_dna_detected_in_volt](https://user-images.githubusercontent.com/86110190/147212015-43fe24a7-ae74-4823-bd96-b77746d81e43.png)
 
+![Response_with_high_power_275nm_uv](https://user-images.githubusercontent.com/86110190/147440095-c6292c80-fb65-4e03-8a5e-12383adf9518.png)
 
 ## PSOC Configuration to sense photodiode current using internal Transimpedance Amplifier for 2nd, 3rd, 4th setup
 
