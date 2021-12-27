@@ -1,4 +1,4 @@
---------------- Build Started: 12/22/2021 15:43:36 Project: DNA_quantification2, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Build Started: 12/24/2021 19:43:06 Project: DNA_quantification2, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 cydsfit.exe -.appdatapath "C:\Users\user\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\DNA_quantification2.cyprj -d CY8C5888LTI-LP097 -s E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
 HDL Generation...
@@ -31,4 +31,4 @@ Checksum calculated and stored in ELF section .cymeta
 cyelftool.exe -S E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\CortexM3\ARM_GCC_541\Debug\DNA_quantification2.elf
 Flash used: 1358 of 262144 bytes (0.5%).
 SRAM used: 2505 of 65536 bytes (3.8%). Stack: 2048 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 12/22/2021 15:43:45 ---------------
+--------------- Build Succeeded: 12/24/2021 19:43:33 ---------------

@@ -146,31 +146,6 @@
 <v>Testing_workspace</v>
 <v>Testing_workspace\DNA_quantification</v>
 <v>Testing_workspace\DNA_quantification2</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_3.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\TIA_1.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\Listing Files\TIA_1_PM.lst</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\DNA_quantification2.elf</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\DNA_quantification2.hex</v>
-<v>Testing_workspace\DNA_quantification2\CortexM3\ARM_GCC_541\Debug\DNA_quantification2.map</v>
-<v>Testing_workspace\DNA_quantification2\DNA_quantification2.gpdsc</v>
 <v>Testing_workspace\DNA_quantification2\DNA_quantification2.rpt</v>
 <v>Testing_workspace\DNA_quantification2\DNA_quantification2_timing.html</v>
 </VisibleNodeIds>
@@ -240,7 +215,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="802, 401" SelectedTabbedMdiWindow="85212a88-1c03-421f-9c35-b5bece2d7f32"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="377d68c9-c590-482c-bf89-8af9eaf97180" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\TopDesign\TopDesign.cysch" Guid="85212a88-1c03-421f-9c35-b5bece2d7f32" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\main.c" Guid="9058fb97-a66f-49e8-ac34-6f8ee5a2c662" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\DNA_quantification2.cydwr" Guid="9d0b77ad-f72a-4a6a-91df-381533f58298" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1017, 387" SelectedTabbedMdiWindow="9058fb97-a66f-49e8-ac34-6f8ee5a2c662"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="377d68c9-c590-482c-bf89-8af9eaf97180" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\TopDesign\TopDesign.cysch" Guid="85212a88-1c03-421f-9c35-b5bece2d7f32" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\main.c" Guid="9058fb97-a66f-49e8-ac34-6f8ee5a2c662" /><DocumentWindow Key="E:\Genotyper-Firmware\docs\sample_projects\psoc\samples\DNA_quantification2.cydsn\DNA_quantification2.cydwr" Guid="9d0b77ad-f72a-4a6a-91df-381533f58298" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
