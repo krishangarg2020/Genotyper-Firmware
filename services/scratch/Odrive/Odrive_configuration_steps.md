@@ -82,3 +82,15 @@ odrv0.axis0.controller.config.vel_integrator_gain =( 0.5 * 10 *  0.14 )
 
 
 
+In [91]:  odrv0.axis0.requested_state = AXIS_STATE_ENCODER_INDEX_SEARCH
+
+In [92]: odrv0.axis0.requested_state = 3
+
+In [93]: odrv0.axis0.requested_state = 8
+
+In [94]: odrv0.axis0.controller.input_pos = 1000
+
+In [95]: odrv0.axis0.controller.input_pos = 0
+
+
+
