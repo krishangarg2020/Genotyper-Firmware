@@ -3,11 +3,11 @@ odrv0.erase_configuration()
 
 odrv0.config.enable_brake_resistor = True
 odrv0.config.brake_resistance = 0.7
-odrv0.config..dc_bus_under_voltage_trip_level = 8
-odrv0.config..dc_bus_over_voltage_trip_level = 25.5
-odrv0.config..dc_max_positive_current = 20
-odrv0.config..dc_max_negative_current // check first
-odrv0.config..dc_max_regen_current = 0
+odrv0.config.dc_bus_under_voltage_trip_level = 8
+odrv0.config.dc_bus_over_voltage_trip_level = 25.5
+odrv0.config.dc_max_positive_current = 20
+odrv0.config.dc_max_negative_current // check first
+odrv0.config.dc_max_regen_current = 0
 
 
 
@@ -34,10 +34,10 @@ odrv0.save_configuration()
 odrv0.axis0.encoder.config.cpr = 8192
 odrv0.axis0.encoder.config.bandwidth = 3000 //check first
 odrv0.axis0.config.calibration_lockin.current = 5 // check first
-odrv0.axis0.config.calibration_lockin.ramp_time = 0.4 // check first
-odrv0.axis0.config.calibration_lockin.ramp_distance = 3.1415927410125732 // check first
-odrv0.axis0.config.calibration_lockin.accel = 20 // check first
-odrv0.axis0.config.calibration_lockin.vel = 40 // check first
+odrv0.axis0.config.calibration_lockin.ramp_time = 0.4 
+odrv0.axis0.config.calibration_lockin.ramp_distance = 3.1415927410125732 
+odrv0.axis0.config.calibration_lockin.accel = 20 
+odrv0.axis0.config.calibration_lockin.vel = 40
 
 
 
@@ -77,7 +77,9 @@ odrv0.axis0.requested_state = 8 // closed loop control
 
 odrv0.axis0.config.startup_encoder_offset_calibration
 
-odrv0.axis0.config.startup_closed_loop_control
+odrv0.axis0.config.startup_encoder_index_search = True
+
+odrv0.axis0.config.startup_closed_loop_control = True
 
 
 
