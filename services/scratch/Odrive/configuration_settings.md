@@ -77,6 +77,8 @@ odrv0.axis0.requested_state = 8 // closed loop control
 
 odrv0.axis0.config.startup_encoder_offset_calibration
 
+odrv0.axis0.encoder.config.use_index = True
+
 odrv0.axis0.config.startup_encoder_index_search = True
 
 odrv0.axis0.config.startup_closed_loop_control = True
