@@ -54,4 +54,4 @@ Chosen option: "[option 1]", because [justification. e.g., only option, which me
 
 ## Links 
 
-* Architecturally Significant Concerns discussed in [[ASC-1]](TechnocultureResearch/Genotyper-Firmware/docs/ADR/ASC-1-Characteristics.md).
+* Architecturally Significant Concerns discussed in [[ASC-1]](./ASC-1-Characteristics.md).
