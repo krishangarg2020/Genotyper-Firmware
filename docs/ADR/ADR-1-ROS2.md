@@ -47,7 +47,7 @@ Chosen option: "[option 1]", because [justification. e.g., only option, which me
 * Good, because of large body of literature avaible on using UART and Protobuf
 * Good, because easy and quick to set up
 * bad, because requires building up a layer of software to support Reliability, Recoverability, Heartbeat, etc.
-* bad, because zeromq does not support persistance of pubsub data
+* bad, because zeromq does not support persistance of pubsub data ([Stackoverflow QA](https://stackoverflow.com/questions/4059706/zeromq-persistence-patterns))
 
 ### ROS, DDS, Micro-ROS
 * Risky, because sparse availability of samples for micro-ros ([Example using ZephyrRTOS](https://micro.ros.org/docs/tutorials/core/first_application_rtos/zephyr/))
