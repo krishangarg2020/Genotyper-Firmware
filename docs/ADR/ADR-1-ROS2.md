@@ -10,54 +10,48 @@ Technical Story: Genotyper is complex and hence requires various modules, and pr
 
 [Describe the context and problem statement, e.g., in free form using two to three sentences. You may want to articulate the problem in form of a question.]
 
-## Decision Drivers <!-- optional -->
+## Decision Drivers 
 
 * [driver 1, e.g., a force, facing concern, …]
 * [driver 2, e.g., a force, facing concern, …]
-* … <!-- numbers of drivers can vary -->
 
 ## Considered Options
 
 * [option 1]
 * [option 2]
 * [option 3]
-* … <!-- numbers of options can vary -->
 
 ## Decision Outcome
 
 Chosen option: "[option 1]", because [justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force force | … | comes out best (see below)].
 
-### Positive Consequences <!-- optional -->
+### Positive Consequences 
 
 * [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
 * …
 
-### Negative Consequences <!-- optional -->
+### Negative Consequences 
 
 * [e.g., compromising quality attribute, follow-up decisions required, …]
 * …
 
-## Pros and Cons of the Options <!-- optional -->
+## Pros and Cons of the Options
 
 ### CAN Bus, Zeromq, UART, protobuf
-
-[example | description | pointer to more information | …] <!-- optional -->
-
-* Good, because [argument a]
-* Good, because [argument b]
-* Bad, because [argument c]
-* … <!-- numbers of pros and cons can vary -->
+* Good, because is used widely within automotive applications
+* Bad, because it is difficult to use in server-client mode (Reference?)
+* Bad, beacuse its key use case is not event driven systems (Reference?)
+* Bad, because may cause message loss problems as CAN networks value latest messages (Reference?)
 
 ### UART, protobuf, Zeromq
+* Good, because of large body of literature avaible on using UART and Protobuf
+* Good, because easy and quick to set up
+* bad, because requires building up a layer of software to support Reliability, Recoverability, Heartbeat, etc.
+* bad, because zeromq does not support persistance of pubsub data
 
-[example | description | pointer to more information | …] <!-- optional -->
+### ROS, DDS, Micro-ROS
+* Risky, because sparse availability of samples for micro-ros ([Example using ZephyrRTOS](https://micro.ros.org/docs/tutorials/core/first_application_rtos/zephyr/))
 
-* Good, because [argument a]
-* Good, because [argument b]
-* Bad, because [argument c]
-* … <!-- numbers of pros and cons can vary -->
+## Links 
 
-## Links <!-- optional -->
-
-* [Link type] [Link to ADR] <!-- example: Refined by [ADR-0005](0005-example.md) -->
-* … <!-- numbers of links can vary -->
+* Architecturally Significant Concerns discussed in [[ASC-1]](TechnocultureResearch/Genotyper-Firmware/docs/ADR/ASC-1-Characteristics.md).
