@@ -51,7 +51,7 @@ odrv0.axis0.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
 **` we may need to change pos_gain and vel_gain to control the vibration of the motor`**
 
  odrv0.axis0.controller.config.pos_gain = 200
-odrv0.axis0.controller.config.vel_integrator_gain = (0.5*10*0.32)*10
+odrv0.axis0.controller.config.vel_integrator_gain = (0.5 * 10 *0.32)*10
 
 
  odrv0.axis0.controller.start_anticogging_calibration()
