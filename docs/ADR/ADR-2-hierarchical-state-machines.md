@@ -10,6 +10,7 @@
 - [Mathworks Stateflow](https://www.mathworks.com/products/stateflow.html)
 - [[Boost::Ext].SML](https://boost-ext.github.io/sml/index.html)
 - [HSMCPP](https://github.com/igor-krechetov/hsmcpp)
+- [SMF](https://docs.zephyrproject.org/latest/guides/smf/index.html)
 
 ## Pros and Cons of the Options 
 
@@ -22,5 +23,8 @@
 - Bad, because it does not generate a (good) human readable textual file
 
 ### [Boost::Ext].SML
-- Supports Hierarchical State machines ([Example](https://boost-ext.github.io/sml/examples.html#composite))
-- Maps nicely to PlantUML Syntax ([Talk by Kris Jusiak](https://www.youtube.com/watch?v=MskKTIdW45c&t=1273s))
+- Good, because it supports Hierarchical State machines ([Example](https://boost-ext.github.io/sml/examples.html#composite))
+- Good, because it maps nicely to PlantUML Syntax ([Talk by Kris Jusiak](https://www.youtube.com/watch?v=MskKTIdW45c&t=1273s))
+
+### SFM
+- Good, because it is built into the ZephyrRTOS
