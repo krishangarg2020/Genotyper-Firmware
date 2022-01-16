@@ -28,3 +28,10 @@
 
 ### SFM
 - Good, because it is built into the ZephyrRTOS
+
+| Candidate | Heirachical | Maintained | Simulation | Testable |
+| --- | --- | --- | --- | --- |
+| Stateflow | ✔️ | ✔️ | ✔️ | 〰️ |
+| [Boost.Ext].SML | ✔️ | ✔️ | ✖️ | ✔️ |
+| HSMCPP | ✔️ | 〰️ | ✔️ | ✔️ |
+| SMF | ✔️ | ✔️ | ✖️ | ✔️ |
