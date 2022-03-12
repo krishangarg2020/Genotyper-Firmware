@@ -29,4 +29,22 @@
 * Pronterface [download](https://github.com/kliment/Printrun/releases/download/printrun-2.0.0rc8/pronterface-windows-x64_3.8-2.0.0rc8.zip)
 * 
 
- 
+
+## Board Pinouts
+
+ ![smoothieboard_pinout](https://user-images.githubusercontent.com/86110190/158008764-7accd6e5-6192-4624-8ebb-2cff66955d03.png)
+ ![pin_capabilities](https://user-images.githubusercontent.com/86110190/158008773-bb2deb76-e5c1-4c3e-be9c-d15b97a0d687.png)
+
+
+## Calibration
+steps_per_mm = (full steps per rotation * microstep per step)/mm per rotation
+
+
+in general full steps per rotation =200, microsteps per rotation for smoothieboard= 32
+
+
+which becomes (200 * 32) / mm per rotation.
+
+
+mm per rotation is the distance traveled in any particular axis when stepper rotates one revolution and can be calculated by rotating the stepper one rotation manually or using the pronterface.
+
