@@ -23,17 +23,69 @@
 * If there is a problem then format the sd card then try again the above process.
 * For better understanding the configuration parameters check thid [link](https://smoothieware.org/configuration-options)
 
+## Putting configuration parameters correctly
+* Before giving the power supply it is mandatory to configure properly the parameters.
+
+
+| Parameters | Value |
+| ---- | ---- |
+| default_feed_rate | 5000 |
+| alpha_current     | 0.5  |
+|  beta_current     |  0.5 |
+|  gamma_current    |  0.5 |
+|  alpha_steps_per_mm     | 200.250  |
+|  beta_steps_per_mm      |  507.937 |
+|  extruder.hotend.enable |  false |
+|  laser_module_enable    | false  |
+|  temperature_control.hotend.enable |  false |
+| temperature_control.bed.enable     |  false |
+| switch.fan.enable  | false  |
+|  endstops_enable   | true |
+| corexy_homing      | true  |
+|  alpha_homing_direction | home_to_min  |
+|  alpha_max |  531  |
+|  beta_max  |  132 |
+| alpha_max_travel   | 575 |
+| beta_max_travel    | 135 |
+| alpha_limit_enable | true |
+| beta_limit_enable  | true |
+| alpha_homing_retract_mm | 5 |
+
+* Just save the configuration and then reset the board to make the changes work.
+* Test the motors without installing the, on any axes, if everything works then install motors on axes.
+
+
+
+
+
 ## Wiring Up the Motors with board
-* check the coils of stepper motor.
-* There are 2 coils of which 4 wires we will get
+* check the coils of stepper motor by doing the continuity test of wires.
+* There are 2 coils of which 4 wires we will get.
+* ![steppers](https://user-images.githubusercontent.com/86110190/158013114-ec2de02a-608c-4662-99d1-ff5d87f916a9.png)
+* ![motor_wiring](https://user-images.githubusercontent.com/86110190/158013123-ae2517c7-8257-420f-8162-8395218194a8.png)
 
-
-# Software
-
-* Pronterface [download](https://github.com/kliment/Printrun/releases/download/printrun-2.0.0rc8/pronterface-windows-x64_3.8-2.0.0rc8.zip)
 ## Troubleshooting steps
 * Troubleshooting steps can be found [here](https://smoothieware.org/troubleshooting)
 * LED blinking patterns are well described here to get better understanding of the ststus of the board.
+
+# Software
+* If flashing done successfully then it comes to the software through which we will pass the commands.
+* Pronterface [download](https://github.com/kliment/Printrun/releases/download/printrun-2.0.0rc8/pronterface-windows-x64_3.8-2.0.0rc8.zip)
+* ![pronterface](https://user-images.githubusercontent.com/86110190/158013761-131b2d72-7603-4896-92b2-9434489eaf96.png)
+* Just select the COM port and select any baudrate then click connect, board will be connected over the serial port.
+
+## [Endstops](https://smoothieware.org/endstops)
+* When motor testing is done without attaching the motor to the axes.
+* Now its time to add mototrs to axes and add limit switches to extreme limits of the axes.
+* ![endstops](https://user-images.githubusercontent.com/86110190/158014671-a67502fa-5777-4e2b-9cab-3fc07cd44212.png)
+* connect the common pin to signal pin(green), and NC pin to GND pin(blue). Repeat for each endstops.
+* C : Common
+* NO : Normally Open, meaning it is not connected to C when the interrupter is not pressed, and connected to C when the interrupter is pressed.
+* NC : Normally Closed, meaning it is connected to C when the interrupter is not pressed, and connected not to C when the interrupter is pressed.
+* ![limit](https://user-images.githubusercontent.com/86110190/158015088-41de165f-31b5-4d2d-8990-de7a447d8f63.png)
+* Pinouts may vary for different limit switch, verify before connecting.
+
+
 
 
 ## Board Pinouts
@@ -41,12 +93,11 @@
  ![smoothieboard_pinout](https://user-images.githubusercontent.com/86110190/158008764-7accd6e5-6192-4624-8ebb-2cff66955d03.png)
  ![pin_capabilities](https://user-images.githubusercontent.com/86110190/158008773-bb2deb76-e5c1-4c3e-be9c-d15b97a0d687.png)
 
-
 ## Calibration
 steps_per_mm = (full steps per rotation * microstep per step)/mm per rotation
 
 
-in general full steps per rotation =200, microsteps per rotation for smoothieboard= 32
+in general full steps per rotation =200, microsteps per step for smoothieboard= 32
 
 
 which becomes (200 * 32) / mm per rotation.
@@ -54,3 +105,4 @@ which becomes (200 * 32) / mm per rotation.
 
 mm per rotation is the distance traveled in any particular axis when stepper rotates one revolution and can be calculated by rotating the stepper one rotation manually or using the pronterface.
 
+## System testing [video](https://youtu.be/HWVqq3cTOIQ)
