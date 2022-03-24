@@ -104,5 +104,26 @@ which becomes (200 * 32) / mm per rotation.
 
 
 mm per rotation is the distance traveled in any particular axis when stepper rotates one revolution and can be calculated by rotating the stepper one rotation manually or using the pronterface.
+# Servo Parameters
+| Parameters | Value |
+| ---- | ---- |
+| switch.servo.enable   | true |
+| switch.servo.input_on_command  |   M280  |
+| switch.servo.input_off_command  |   M281    |
+| switch.servo.output_pin |  3.25    |
+| switch.servo.output_type | swpwm    |
+| switch.servo.pwm_period_ms    |  20   |
+| #switch.servo.startup_state |  false  |
+| #switch.servo.startup_value  |    7.43  |
+| #switch.servo.default_on_value  | 3.3  |
 
+* Paste the above parameters in the config. file 
+* Eject the sd card from the system(not physically)
+* Reset the board manually
+* Connect using pronterface.
+* Pass commands using pronterface serial terminal
+* `M280 S5`, `M280 S10`, `M280 S7.5` Tested
+* Config file with servo parameters [config.txt](https://github.com/TechnocultureResearch/Genotyper-Firmware/blob/dev/services/orchestrator/smothhie_board%20config/config.txt)
+
+# How to Setup smoothieboard [Video](https://youtu.be/WFVUPwUXx9Q)
 ## System testing [video](https://youtu.be/HWVqq3cTOIQ)
