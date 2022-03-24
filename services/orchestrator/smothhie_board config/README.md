@@ -3,7 +3,7 @@
 * To configure and test the smoothie board as per the orchestrator.
 * To test two axes movement with smoothie board
 * To calibrate the smoothie board configurations properly.
-
+* To test SG90 servo motor with smoothieboard.
 ## Steps to prepare the smoothie board for test run
 
 * Connect the board using USB cable.
