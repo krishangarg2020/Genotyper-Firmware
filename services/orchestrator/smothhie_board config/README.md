@@ -117,6 +117,8 @@ mm per rotation is the distance traveled in any particular axis when stepper rot
 | #switch.servo.startup_value  |    7.43  |
 | #switch.servo.default_on_value  | 3.3  |
 
+* Connect the servo signal pin to a PWM enabled pin, here it is connected to pin 3.25
+* Coonect 5V,GND to servo 5V, GND pins
 * Paste the above parameters in the config. file 
 * Eject the sd card from the system(not physically)
 * Reset the board manually
