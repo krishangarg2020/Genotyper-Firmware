@@ -127,5 +127,11 @@ mm per rotation is the distance traveled in any particular axis when stepper rot
 * `M280 S5`, `M280 S10`, `M280 S7.5` Tested
 * Config file with servo parameters [config.txt](https://github.com/TechnocultureResearch/Genotyper-Firmware/blob/dev/services/orchestrator/smothhie_board%20config/config.txt)
 
+# Playing Gcode Files
+1. From sd card
+ * Enter `@play /sd/gcodefile.gcode` in terminal then press `enter`
+
+2. Click on `Load File` --> Click `print`, then it will start executing commands from that specific gcode file.
+
 # How to Setup smoothieboard [Video](https://youtu.be/WFVUPwUXx9Q)
 ## System testing [video](https://youtu.be/HWVqq3cTOIQ)
