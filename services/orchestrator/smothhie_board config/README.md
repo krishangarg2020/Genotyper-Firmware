@@ -14,7 +14,7 @@
 * Download the configuration file from [here](https://smoothieware.org/configuring-smoothie) .
 * Download the firmware from [here](https://github.com/Smoothieware/Smoothieware/blob/edge/FirmwareBin/firmware.bin) .
 * **File name must not be altered.**
-* Alternately config.text as well firmware file is added in the folder here.
+* Alternately config.txt as well firmware file is added in the folder here.
 * Paste the config.txt and firmware.bin file into the sd card then eject(not physically from the board, only from the menu in the system).
 * RESET the board , then flashing process begins.
 * Four onboard leds will start counting up as the firmware gets flashed.
