@@ -140,10 +140,12 @@ mm per rotation is the distance traveled in any particular axis when stepper rot
 * Config file with servo parameters [config.txt](https://github.com/TechnocultureResearch/Genotyper-Firmware/blob/dev/services/orchestrator/smothhie_board%20config/config.txt)
 
 # Playing Gcode Files
-1. From sd card
+1. From Serial Terminal
  * Enter `@play /sd/gcodefile.gcode` in terminal then press `enter`
+ * File must be stored in the sd card for above command to work.
 
-2. Click on `Load File` --> Click `print`, then it will start executing commands from that specific gcode file.
-
+2. By Loading any file from system
+ *  Click on `Load File` --> Click `print`, then it will start executing commands from that specific gcode file.
+ * File may be stored anywhere in the system or sd card.
 # How to Setup smoothieboard [Video](https://youtu.be/WFVUPwUXx9Q)
 ## System testing [video](https://youtu.be/HWVqq3cTOIQ)
