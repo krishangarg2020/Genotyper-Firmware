@@ -28,31 +28,43 @@
 
 
 | Parameters | Value |
-| ---- | ---- |
-| default_feed_rate | 5000 |
-| alpha_current     | 0.5  |
-|  beta_current     |  0.5 |
-|  gamma_current    |  0.5 |
+| ----                    | ----     |
+| default_feed_rate       | 5000     |
+| alpha_current           | 0.5      |
+|  beta_current           |  0.5     |
+|  gamma_current          |  0.5     |
 |  alpha_steps_per_mm     | 200.250  |
 |  beta_steps_per_mm      |  507.937 |
-|  extruder.hotend.enable |  false |
-|  laser_module_enable    | false  |
+| gamma_steps_per_mmm     | 2000     |
+| z_acceleration          | 500      |
+|  extruder.hotend.enable |  false   |
+|  laser_module_enable    | false    |
 |  temperature_control.hotend.enable |  false |
 | temperature_control.bed.enable     |  false |
-| switch.fan.enable  | false  |
-|  endstops_enable   | true |
-| corexy_homing      | true  |
-|  alpha_homing_direction | home_to_min  |
-|  alpha_max |  531  |
-|  beta_max  |  132 |
+| switch.fan.enable                  | false  |
+|  endstops_enable                   | true   |
+| corexy_homing                      | true   |
+|  alpha_homing_direction  | home_to_min  |
+|  beta_homing_direction   | home_to_max  |
+|  gamma_homing_direction  | home_to_min  |
+|  alpha_max               |  531   |
+|  beta_max                |  125   |
+|  gamma_max               |  100   |
 | alpha_max_travel   | 575 |
 | beta_max_travel    | 135 |
 | alpha_limit_enable | true |
 | beta_limit_enable  | true |
-| alpha_homing_retract_mm | 5 |
+| gamma_limt_enable  | true |
+| alpha_homing_retract_mm | 3 |
+| beta_homing_retract_mm | 3 |
+| gamma_homing_retract_mm | 10 |
 
 * Just save the configuration and then reset the board to make the changes work.
 * Test the motors without installing the, on any axes, if everything works then install motors on axes.
+
+
+**Z axis motor pins, Step pin, dir pin & EN pin changed as it was not working**
+**all pins of Z axis swapped with extruder 1 motor pins**
 
 
 
