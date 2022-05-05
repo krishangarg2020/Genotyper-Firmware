@@ -2,6 +2,7 @@
 * To calibrate the electronic pipette for orchestrator.
 * To standardize the motor movements calculations for pipetting action for certain amount of liquid.
 * To perform reverse pipetting with the orchestrator.
+* To perform reverse pipetting we need to figureout the amount of liquid gets dispensed every time for specific amount of motor movements.
 
 
 
@@ -22,8 +23,13 @@
 
 
 # Process
-## 1st Attempt
+## 1st Attempt setup
 * Vertical axis will go upward and stays there for a certain time duration as well it takes liquid into the pipette.
-* Vertical axis comes down and a weighing machine is placed under the electronic pipette where the liquid is dispensed into an aluminum foil container.
-* We will try out the reverese pipetting with orchestrator to increase the accuracy and precision of Orchestrator.
-* To perform reverse pipetting we need to figureout the amount of liquid gets dispensed every time for specific amount of motor movements
+* Vertical axis comes down and a weighing machine is placed under the electronic pipette where the liquid is dispensed into a container.
+* Weight of the dispensed liquid is measured.
+* In this setup the height of the liquid chamber is not fixed as we have to hold it by hand though the motor position is same for everytime but our liquid chamber is held by hand which causes difference in everytime tip goes inside the chamber which introduces error.
+
+## 2nd Attempt Setup
+* In this setup we have fixed the liquid chamber from where electronic pipette will take out the liquid.
+* By doing this we can fix the amount of depth which our electronic pipette will go inside the liquid chamber which will reduce pipetting error.
+
