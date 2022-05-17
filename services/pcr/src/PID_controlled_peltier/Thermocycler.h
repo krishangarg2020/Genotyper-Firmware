@@ -14,8 +14,8 @@
 
 #define PIN_LED_INDICATOR 2
 
-#define PELTIER_TERMINAL1 3
-#define PELTIER_TERMINAL2 4
+#define PELTIER_TERMINAL1 4
+#define PELTIER_TERMINAL2 5
 int V0=0;
 const float R1 = 10000;
 float logR2, R2, T, TC, Tf;
