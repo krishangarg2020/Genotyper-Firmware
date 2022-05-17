@@ -8,11 +8,11 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "E:/Genotyper-Firmware/services/pcr/include",
-                "E:/Genotyper-Firmware/services/pcr/src",
-                "E:/Genotyper-Firmware/services/pcr/.pio/libdeps/due/CAN_BUS_Shield",
+                "c:/Users/user/Documents/Genotyper-Firmware/services/pcr/include",
+                "c:/Users/user/Documents/Genotyper-Firmware/services/pcr/src",
+                "c:/Users/user/Documents/Genotyper-Firmware/services/pcr/.pio/libdeps/due/CAN_BUS_Shield",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
-                "E:/Genotyper-Firmware/services/pcr/.pio/libdeps/due/Servo/src",
+                "c:/Users/user/Documents/Genotyper-Firmware/services/pcr/.pio/libdeps/due/Servo/src",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/cores/arduino",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/system/libsam",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
@@ -26,11 +26,11 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "E:/Genotyper-Firmware/services/pcr/include",
-                    "E:/Genotyper-Firmware/services/pcr/src",
-                    "E:/Genotyper-Firmware/services/pcr/.pio/libdeps/due/CAN_BUS_Shield",
+                    "c:/Users/user/Documents/Genotyper-Firmware/services/pcr/include",
+                    "c:/Users/user/Documents/Genotyper-Firmware/services/pcr/src",
+                    "c:/Users/user/Documents/Genotyper-Firmware/services/pcr/.pio/libdeps/due/CAN_BUS_Shield",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
-                    "E:/Genotyper-Firmware/services/pcr/.pio/libdeps/due/Servo/src",
+                    "c:/Users/user/Documents/Genotyper-Firmware/services/pcr/.pio/libdeps/due/Servo/src",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/cores/arduino",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/system/libsam",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
@@ -43,7 +43,7 @@
                 ]
             },
             "defines": [
-                "PLATFORMIO=50203",
+                "PLATFORMIO=50205",
                 "__SAM3X8E__",
                 "ARDUINO_SAM_DUE",
                 "ARDUINO=10805",
