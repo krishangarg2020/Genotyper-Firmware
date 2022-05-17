@@ -10,7 +10,7 @@
 
 |                         | FROM OPENTRON CODE FOR 96 WELL PLATE | BIORAD PCR 96 WELL PLATE | STANDARD 96 WELL PLATE |  RESULT   | CODE LINK / CAD LINK |
 | :---------------------: | :----------------------------------: | :----------------------: | :--------------------: | :-------: | :------------------: |
-|        **Depth**        |               20.2 MM                |         15.0 MM          |        11.1 MM         | Not Match |                      |
+|        **Depth**        |               20.2 mm                |         15.0 MM          |        11.1 MM         | Not Match |                      |
 |      **Diameter**       |               5.46 MM                |         5.50 MM          |         6.6 MM         | Not Match |                      |
 | **Total Liquid Volume** |                300 UL                |          230 UL          |         379 UL         | Not Match |                      |
 | **Geometric position**  |                  -                   |            -             |           -            |   Match   |                      |
