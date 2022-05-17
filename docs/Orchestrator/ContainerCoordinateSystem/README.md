@@ -2,7 +2,121 @@
 
 # Containers Co-Ordinate [Opentron Code VS. Standard]
 
-#### 
+## Objective:-
+
+- To determine and understand the position and geometric co-ordinate of the modules (containers) used in Opentron OT-2 robotic fluid handling system.
+- 
+
+
+
+
+
+
+
+
+
+## How the Co-ordinate system works for Opentron OT-2 robotic fluid handling system :
+
+For example, lets take a simple geometric co-ordinate code of 6 well plate.
+
+###### Dimension of the plate -
+
+- Depth of well : 17.4mm
+- Diameter: 22.5mm
+- Total working liquid volume: 16800ul
+- Centre distance between one well to another well in X direction is **39.12mm** as well as in Y direction also is **39.12mm**.
+
+Now the code For reaching the pipette each and every well -  
+
+```json
+"6-well-plate": {
+               "origin-offset": {                          
+                    "x": 23.16,
+                    "y": 24.76
+               },
+               "locations": {
+                    "A1": {
+                         "x": 0,
+                         "y": 0,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                    },
+                    "B1": {
+                         "x": 39.12,
+                         "y": 0,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                    },
+                    "A2": {
+                         "x": 0,
+                         "y": 39.12,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                    },
+                    "B2": {
+                         "x": 39.12,
+                         "y": 39.12,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                    },
+                    "A3": {
+                         "x": 0,
+                         "y": 78.24,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                    },
+                    "B3": {
+                         "x": 39.12,
+                         "y": 78.24,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                    }
+               }
+          }
+```
+
+The Opentron OT-2 robotic fluid handling system has 3 Axis (XYZ) where the Electronic pipette can travel.
+
+- **X-axis** for linier traveling the pipette in X direction.
+- **Y-axis** for linier traveling the pipette in Y direction.
+- **Z-axis** for linier traveling the pipette in Z direction.
+
+Each well named for simplify and defining the code. The 6 well plate have 6 wells. 2 column and 3 rows. The column named as **A** and **B** and the rows named as **1**, **2** & **3**.
+
+
+
+
+
+
+
+```json origin offset for 6 well plate
+"origin-offset": {                         
+                    "x": 23.16,
+                    "y": 24.76
+                 }
+```
+
+That line of code define the safe origin-offset position of the pipette.
+
+
+
+
+
+
+
+
 
 
 
@@ -10,9 +124,9 @@
 
 |                         | FROM OPENTRON CODE FOR 96 WELL PLATE | BIORAD PCR 96 WELL PLATE | STANDARD 96 WELL PLATE |  RESULT   | CODE LINK / CAD LINK |
 | :---------------------: | :----------------------------------: | :----------------------: | :--------------------: | :-------: | :------------------: |
-|        **Depth**        |               20.2 mm                |         15.0 MM          |        11.1 MM         | Not Match |                      |
-|      **Diameter**       |               5.46 MM                |         5.50 MM          |         6.6 MM         | Not Match |                      |
-| **Total Liquid Volume** |                300 UL                |          230 UL          |         379 UL         | Not Match |                      |
+|        **Depth**        |               20.2 mm                |         15.0 mm          |        11.1 mm         | Not Match |                      |
+|      **Diameter**       |               5.46 mm                |         5.50 mm          |         6.6 mm         | Not Match |                      |
+| **Total Liquid Volume** |                300 ul                |          230 ul          |         379 ul         | Not Match |                      |
 | **Geometric position**  |                  -                   |            -             |           -            |   Match   |                      |
 
 
@@ -23,33 +137,33 @@
 
 |                         | FROM OPENTRON CODE 6 WELL PLATE | STANDARD 6 WELL PLATE | RESULT    | CODE LINK / CAD LINK |
 | ----------------------- | ------------------------------- | --------------------- | --------- | -------------------- |
-| **Depth**               | 17.4 MM                         | 17.0 MM               | Not Match |                      |
-| **Diameter**            | 22.5 MM                         | 35.0 MM               | Not Match |                      |
-| **Total Liquid Volume** | 16800 UL                        | 16355 UL              | Not Match |                      |
+| **Depth**               | 17.4 mm                         | 17.0 mm               | Not Match |                      |
+| **Diameter**            | 22.5 mm                         | 35.0 mm               | Not Match |                      |
+| **Total Liquid Volume** | 16800 ul                        | 16355 ul              | Not Match |                      |
 | **Geometric position**  | -                               | -                     | Match     |                      |
 
 
 
 
 
-###### Table-3 : TIP RACK 10UL
+###### Table-3 : TIP RACK 10ul
 
-|                        | FROM OPENTRON CODE TIP RACK 10UL | STANDARD TIP RACK 10UL | RESULT | CODE LINK / CAD LINK |
+|                        | FROM OPENTRON CODE TIP RACK 10ul | STANDARD TIP RACK 10ul | RESULT | CODE LINK / CAD LINK |
 | ---------------------- | -------------------------------- | ---------------------- | ------ | -------------------- |
-| **Depth**              | 56 MM                            | -                      | -      |                      |
-| **Diameter**           | 3.5 MM                           | 3.5 MM                 | Match  |                      |
+| **Depth**              | 56 mm                            | -                      | -      |                      |
+| **Diameter**           | 3.5 mm                           | 3.5 mm                 | Match  |                      |
 | **Geometric position** | -                                | -                      | Match  |                      |
 
 
 
 
 
-###### Table-4 : TIP RACK 1000UL
+###### Table-4 : TIP RACK 1000ul
 
-|                        | FROM OPENTRON CODE TIP RACK 1000UL | STANDARD TIP RACK 1000UL | RESULT    | CODE LINK / CAD LINK |
+|                        | FROM OPENTRON CODE TIP RACK 1000ul | STANDARD TIP RACK 1000ul | RESULT    | CODE LINK / CAD LINK |
 | ---------------------- | ---------------------------------- | ------------------------ | --------- | -------------------- |
-| **Depth**              | 98.07 MM                           | -                        | -         |                      |
-| **Diameter**           | 7.62 MM                            | 7.5 MM                   | Not Match |                      |
+| **Depth**              | 98.07 mm                           | -                        | -         |                      |
+| **Diameter**           | 7.62 mm                            | 7.5 mm                   | Not Match |                      |
 | **Geometric position** | -                                  | -                        | Match     |                      |
 
 
@@ -60,9 +174,9 @@
 
 |                         | FROM OPENTRON CODE T75 FLASK | STANDARD T75 FLASK | RESULT | CODE LINK / CAD LINK |
 | ----------------------- | ---------------------------- | ------------------ | ------ | -------------------- |
-| **Depth**               | 163 MM                       | -                  | -      |                      |
-| **Diameter**            | 25 MM                        | 25 MM              | Match  |                      |
-| **Total Liquid Volume** | 75000 UL                     | 75000 UL           | Match  |                      |
+| **Depth**               | 163 mm                       | -                  | -      |                      |
+| **Diameter**            | 25 mm                        | 25 mm              | Match  |                      |
+| **Total Liquid Volume** | 75000 ul                     | 75000 ul           | Match  |                      |
 | **Geometric position**  | -                            | -                  | Match  |                      |
 
 
@@ -73,9 +187,9 @@
 
 |                         | FROM OPENTRON CODE T25 FLASK | STANDARD T25 FLASK | RESULT    | CODE LINK / CAD LINK |
 | ----------------------- | ---------------------------- | ------------------ | --------- | -------------------- |
-| **Depth**               | 99 MM                        | -                  | -         |                      |
-| **Diameter**            | 18 MM                        | 16 MM              | Not Match |                      |
-| **Total Liquid Volume** | 25000 UL                     | 25000 UL           | Match     |                      |
+| **Depth**               | 99 mm                        | -                  | -         |                      |
+| **Diameter**            | 18 mm                        | 16 mm              | Not Match |                      |
+| **Total Liquid Volume** | 25000 ul                     | 25000 ul           | Match     |                      |
 | **Geometric position**  | -                            | -                  | Match     |                      |
 
 
