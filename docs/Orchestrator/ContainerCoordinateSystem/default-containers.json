@@ -1,16 +1,5 @@
-### OPENTRONS CONFIG FILES FOR CONTAINER 
-
-##### LINK : 
-
-[OPENTRONS CONFIG FILES FOR CONTAINER]: https://github.com/Opentrons/opentrons/blob/edge/api/src/opentrons/config/containers/default-containers.json	"default-containers.json"
-
-
-
-
-
-###### CODE :
-
 {
+<!-- [OPENTRONS CONFIG FILES FOR CONTAINER]: https://github.com/Opentrons/opentrons/blob/edge/api/src/opentrons/config/containers/default-containers.json	"default-containers.json" -->
      "containers": {
           "temperature-plate": {
                "origin-offset": {

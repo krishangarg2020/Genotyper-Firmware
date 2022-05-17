@@ -1,16 +1,15 @@
 # FROM OPENTRON CODE :
-# "6-well-plate"
-# "depth": 17.4,
-# "diameter": 22.5,
-# "total-liquid-volume": 16800
-
+6-well-plate
+- depth: 17.4,
+- diameter: 22.5,
+- total-liquid-volume: 16800
 
 # FOR NORMAL 6 WELL PLATE :
-# ""depth": 17.0,
-# "diameter": 35.0,
-# "total-liquid-volume": 16355 [FULL]
+- depth: 17.0,
+- diameter: 35.0,
+- total-liquid-volume: 16355 [FULL]
 
-
+```json
 "6-well-plate": {
                "origin-offset": {                          ## UNKNOWN PARAMETER
                     "x": 23.16,
@@ -66,4 +65,5 @@
                          "total-liquid-volume": 16800
                     }
                }
-          },
+          }
+```

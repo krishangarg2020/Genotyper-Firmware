@@ -14,6 +14,7 @@ PID myPID(&Input, &Output, &Setpoint, consKp, consKi, consKd, DIRECT);
 
 void setup()
 {
+  Serial.begin(BAUDRATE);
   //initialize the variables we're linked to
   V0 = analogRead(PIN_THERMISTOR_INPUT);
   Input = (double)temp_reading(V0);
@@ -25,7 +26,7 @@ void setup()
   pinMode(PELTIER_TERMINAL2,INPUT);
   pinMode(PIN_LED_INDICATOR,OUTPUT);
   pinMode(PIN_PELTIER_CONTROL_OUTPUT,OUTPUT);
-  
+
   digitalWrite(PELTIER_TERMINAL1,HIGH);
   digitalWrite(PELTIER_TERMINAL2,LOW);
 }
@@ -62,8 +63,8 @@ float temp_reading(int v)
   logR2 = log(R2);
   T = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2));
   TC = T - 273.15;
- //  Serial.print("Temperature: "); 
- //  Serial.print(TC);
- //  Serial.print(" C  "); 
+  Serial.println("Temperature: "); 
+  Serial.print(TC);
+  Serial.print(" C  "); 
 return TC;
 }

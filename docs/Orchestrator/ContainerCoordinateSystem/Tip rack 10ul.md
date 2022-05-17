@@ -8,11 +8,9 @@
 # "diameter": 3.5, 
 
 
-
-
-
 CODE AS PER OPENTRON :
 
+```json
 "tiprack-10ul": {
                "origin-offset": {                
                     "x": 14.24,
@@ -692,4 +690,5 @@ CODE AS PER OPENTRON :
                          "diameter": 3.5
                     }
                }
-          },
+          }
+```
