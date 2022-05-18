@@ -89,7 +89,10 @@ The Opentron OT-2 robotic fluid handling system has 3 Axis (XYZ) where the Elect
 
 Each well named for simplify and defining the code. The 6 well plate have 6 wells. 2 column and 3 rows. The column named as **A** and **B** and the rows named as **1**, **2** & **3**.
 
-
+#### Location Image
+![explaining_working_of_coordinate_6_well_opentron](https://user-images.githubusercontent.com/51780510/169030417-593de07e-a352-4ebc-a4e2-fb7187a533f6.JPG)
+#### Cad file image
+![explaining_working_of_coordinate_6_well_opentron_CAD](https://user-images.githubusercontent.com/51780510/169030469-83acd471-e986-4984-b802-ef0fcf5ccc75.JPG)
 
 
 
