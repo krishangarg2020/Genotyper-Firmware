@@ -97,6 +97,7 @@ Each well named for simplify and defining the code. The 6 well plate have 6 well
 
 
 
+![explaining_working_of_coordinate_6_well_opentron](https://user-images.githubusercontent.com/51780510/168960846-c3170401-5193-4f29-8912-f68006aac28c.JPG)
 
 
 
@@ -111,8 +112,17 @@ Each well named for simplify and defining the code. The 6 well plate have 6 well
 That line of code define the safe origin-offset position of the pipette.
 
 
-
-
+```json move location to A1 well
+"A1": {
+                         "x": 0,
+                         "y": 0,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                    }
+```
+- From the safe origin-offset position the Pipette move 
 
 
 
