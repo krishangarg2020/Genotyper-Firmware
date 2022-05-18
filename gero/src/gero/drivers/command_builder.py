@@ -1,6 +1,8 @@
-#  Copyright (c) Technoculture Research, 2022. All rights reserved.
+from collections.abc import Iterator
+from typing import Optional
 
-from typing import List, Optional, Iterator
+
+#  Copyright (c) Technoculture Research, 2022. All rights reserved.
 
 
 class CommandBuilder:
@@ -14,7 +16,7 @@ class CommandBuilder:
             terminator: The command terminator.
         """
         self._terminator = terminator
-        self._elements: List[str] = []
+        self._elements: list[str] = []
 
     def add_float(
         self, prefix: str, value: float, precision: Optional[int]

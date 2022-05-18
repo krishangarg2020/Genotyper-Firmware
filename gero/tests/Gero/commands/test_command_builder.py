@@ -66,8 +66,7 @@ def test_builder_chain() -> None:
     terminator = "terminator"
     builder = CommandBuilder(terminator=terminator)
     assert (
-        builder
-        .add_gcode(gcode="G321")
+        builder.add_gcode(gcode="G321")
         .add_float(prefix="X", value=321, precision=3)
         .add_gcode(gcode="M321")
         .add_int(prefix="Z", value=3)

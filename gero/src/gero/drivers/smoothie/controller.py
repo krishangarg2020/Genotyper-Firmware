@@ -1,5 +1,7 @@
-#  Copyright (c) Technoculture Research, 2022. All rights reserved.
+# Copyright (c) Technoculture Research, 2022. All rights reserved.
 import logging
+
+
 log = logging.getLogger(__name__)
 
 

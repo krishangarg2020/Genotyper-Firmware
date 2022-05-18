@@ -25,17 +25,14 @@ This module's interface to the rest of the system are the IS_* attributes and
 the CONFIG attribute.
 """
 
-import enum
-import os
 import json
 import logging
-from pathlib import Path
-import re
-import shutil
+import os
 import subprocess
 import sys
-from enum import Enum, auto
-from typing import Dict, NamedTuple, Optional, cast
+from enum import Enum
+from pathlib import Path
+from typing import Optional
 
 
 _CONFIG_FILENAME = "config.json"
@@ -47,20 +44,23 @@ IS_OSX = sys.platform == "darwin"
 IS_LINUX = sys.platform.startswith("linux")
 
 # IS_ROBOT = IS_LINUX and has_env("RUNNING_ON_PI")
-_ROBOT_TARGETS = ["RUNNING_ON_PI", "RUNNING_ON_VERDIN"] #TODO: prefix with GERO?
-_IS_ON_ANY_ROBOT_TARGETS = any([os.environ.get(target) for target in _ROBOT_TARGETS])
+# TODO: prefix with GERO?
+_ROBOT_TARGETS = ["RUNNING_ON_PI", "RUNNING_ON_VERDIN"]
+_IS_ON_ANY_ROBOT_TARGETS = any([os.environ.get(target)
+                               for target in _ROBOT_TARGETS])
 
 IS_ROBOT = bool(IS_LINUX and _IS_ON_ANY_ROBOT_TARGETS)
 
-#: This is the correct thing to check to see if we’re running on a robot
-IS_VIRTUAL = bool(os.environ.get("ENABLE_VIRTUAL_SMOOTHIE")) #TODO: prefix with GERO?
+#: This is the correct thing to check to see if we're running on a robot
+IS_VIRTUAL = bool(os.environ.get("ENABLE_VIRTUAL_SMOOTHIE")
+                  )  # TODO: prefix with GERO?
 log.debug(f"Smoothie is {'VIRTUAL' if IS_VIRTUAL else 'HARDWARE'}")
 
 
 class SystemArchitecture(Enum):
     HOST = "host"
     BUILDROOT = "buildroot"
-    YOCTO = auto()
+    YOCTO = "yocto"
 
 
 ROBOT_FIRMWARE_DIR: Optional[Path] = None

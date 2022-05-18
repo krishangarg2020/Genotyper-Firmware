@@ -1,13 +1,17 @@
 {
-	"folders": [
-		{
-			"path": "gero"
-		}
+    "folders": [
+        {
+            "path": ".."
+        }
     ],
     "settings": {
         "editor.tokenColorCustomizations": {
             "comments": "",
             "textMateRules": []
-        }
+        },
+        "hide-files.files": [],
+        "copyrightInserter.holder": "Technoculture Research",
+        "copyrightInserter.year": "",
+        "copyrightInserter.license": "agpl3"
     }
 }
