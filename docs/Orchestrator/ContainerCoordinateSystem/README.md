@@ -122,10 +122,50 @@ That line of code define the safe origin-offset position of the pipette.
                          "total-liquid-volume": 16800
                     }
 ```
-- From the safe origin-offset position the Pipette move 
+
+- From the safe origin-offset position the Pipette move **23.16mm** in **X** direction and **24.76mm** in **Y** direction to reach **A1** position.
+- The coordinate of the **A1** position is X=0mm, Y=0mm & Z=0mm.
+- **"depth": 17.4** means the pipette can travel **17.4mm** in **Z** direction to reach the bottom of the plate in short the height of the well.
+- **"diameter": 22.5** means the maximum diameter of the wells is **22.5mm**.
+- **"total-liquid-volume": 16800** means the maximum volume of liquid store in one well is **16800ul**.
 
 
+Similarly for reaching the position at **B1** the following code will be follows.
 
+```json move location to B1 well
+"B1": {
+                         "x": 39.12,
+                         "y": 0,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                   }
+```
+
+- From the **A1** position the Pipette move **39.12mm** in **X** direction and **0.0mm** in **Y** direction and **0.0mm** in **Z** direction to reach **B1** position.
+- The coordinate of the **B1** position is X=39.12mm, Y=0mm & Z=0mm.
+- Similarly **"depth": 17.4** means the pipette can travel **17.4mm** in **Z** direction to reach the bottom of the plate in short the height of the well.
+- Similarly **"diameter": 22.5** means the maximum diameter of the wells is **22.5mm**.
+- Similarly **"total-liquid-volume": 16800** means the maximum volume of liquid store in one well is **16800ul**.
+
+Folloded by reaching the **B3** position the following code will be follows.
+
+```json move location to B3 well
+"B3": {
+                         "x": 39.12,
+                         "y": 78.24,
+                         "z": 0,
+                         "depth": 17.4,
+                         "diameter": 22.5,
+                         "total-liquid-volume": 16800
+                    }
+```
+- From the **A1** position the Pipette move **39.12mm** in **X** direction and **78.24mm** in **Y** direction and **0.0mm** in **Z** direction to reach **B3** position.
+- The coordinate of the **B3** position is X=39.12mm, Y=78.24mm & Z=0mm.
+- **"depth": 17.4** means the pipette can travel **17.4mm** in **Z** direction to reach the bottom of the plate in short the height of the well.
+- **"diameter": 22.5** means the maximum diameter of the wells is **22.5mm**.
+- **"total-liquid-volume": 16800** means the maximum volume of liquid store in one well is **16800ul**.
 
 
 
