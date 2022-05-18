@@ -795,17 +795,16 @@
 
 ###### Image-1 : Bio-rad 96 well plate 
 
-<img src="D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\96_well_plate_biorad\BIO RAD 96 PCR WELL PLATE.jpeg" alt="BIO RAD 96 PCR WELL PLATE" style="zoom:150%;" />
 
-
-
-
+![BIO RAD 96 PCR WELL PLATE](https://user-images.githubusercontent.com/51780510/169047805-d9a8e2f1-8140-42d0-b960-02ad6559ce6f.jpeg)
 
 
 
 ###### Image-2 : Bio-rad 96 well plate CAD
 
-![96_well_plate_bio-rad_image](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\96_well_plate_biorad\96_well_plate_bio-rad_image.JPG)
+
+![96_well_plate_bio-rad_image](https://user-images.githubusercontent.com/51780510/169047828-c3a55a36-aba0-4b08-bb68-b28e06b10a93.JPG)
+
 
 ###### CAD Bio-rad 96 well plate 
 
@@ -815,8 +814,8 @@
 
 |          | Description | URL  |
 | -------- | ----------- | ---- |
-| Material |             |      |
-| Supplier |             |      |
+| Material |  Polypropylene           |  -    |
+| Supplier |   Bio-rad          | ([Links Url](https://www.bio-rad.com/en-in/sku/HSP9601-hard-shell-96-well-pcr-plates-low-profile-thin-wall-skirted-white-clear?ID=HSP9601))     |
 
 
 
