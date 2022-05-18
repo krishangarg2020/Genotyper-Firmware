@@ -2,9 +2,6 @@ from collections.abc import Iterator
 from typing import Optional
 
 
-#  Copyright (c) Technoculture Research, 2022. All rights reserved.
-
-
 class CommandBuilder:
     """Class used to build GCODE commands."""
 

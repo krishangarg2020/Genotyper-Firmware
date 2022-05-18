@@ -1,4 +1,4 @@
-# #  Copyright (c) Technoculture Research, 2022. All rights reserved.
+#
 #
 # # from dataclasses import dataclass
 # from typing import Protocol

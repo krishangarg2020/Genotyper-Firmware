@@ -1,4 +1,4 @@
-#  Copyright (c) Technoculture Research, 2022. All rights reserved.
+
 
 import logging
 from logging.config import dictConfig
@@ -9,8 +9,8 @@ from typing import Any, Dict
 
 
 def host_config(level_value: int) -> Dict[str, Any]:
-    serial_log_filename = "serial_log" #CONFIG["serial_log_file"]
-    api_log_filename = "api_log" #CONFIG["api_log_file"]
+    serial_log_filename = "serial_log"  # CONFIG["serial_log_file"]
+    api_log_filename = "api_log"  # CONFIG["api_log_file"]
     return {
         "version": 1,
         "disable_existing_loggers": False,
