@@ -31,8 +31,11 @@ if __name__ == '__main__':
         dpg.add_text(
             "Emulate a serial device for integration testing purposes.")
         dpg.add_button(label="Save", callback=save_callback)
-        dpg.add_input_text(label="string")
-        dpg.add_slider_float(label="float")
+        dpg.add_input_text(default_value="/dev/ttyUSB0010",
+                           label="device path")
+        dpg.add_combo(["9600", "115200"],
+                      default_value="9600", label="Baud Rate")
+        dpg.add_slider_int(label="parameter to transmit")
 
     dpg.show_viewport()
     dpg.start_dearpygui()
