@@ -5,13 +5,7 @@
 ## Objective:-
 
 - To determine and understand the position and geometric co-ordinate of the modules (containers) used in Opentron OT-2 robotic fluid handling system.
-- 
-
-
-
-
-
-
+- To verify and compare the modules (containers) used in Opentron OT-2 robotic fluid handling system with the standard modules (containers) along with the Geometric coordinate codes. 
 
 
 
@@ -169,7 +163,7 @@ Folloded by reaching the **B3** position the following code will be follows.
 
 
 
-
+## All Comparison table with match and missmatch data of the container modules.
 ###### Table-1 : 96 WELL PLATE
 
 |                         | FROM OPENTRON CODE FOR 96 WELL PLATE | BIORAD PCR 96 WELL PLATE | STANDARD 96 WELL PLATE |  RESULT   | CODE LINK / CAD LINK |
