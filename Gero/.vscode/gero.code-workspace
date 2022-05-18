@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "gero"
+		}
+    ],
+    "settings": {
+        "editor.tokenColorCustomizations": {
+            "comments": "",
+            "textMateRules": []
+        }
+    }
+}
