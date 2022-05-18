@@ -27,8 +27,9 @@ if __name__ == '__main__':
     dpg.create_viewport()
     dpg.setup_dearpygui()
 
-    with dpg.window(label="Example Window"):
-        dpg.add_text("Hello world")
+    with dpg.window(label="Serial Device Emulator"):
+        dpg.add_text(
+            "Emulate a serial device for integration testing purposes.")
         dpg.add_button(label="Save", callback=save_callback)
         dpg.add_input_text(label="string")
         dpg.add_slider_float(label="float")

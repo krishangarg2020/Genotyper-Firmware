@@ -18,3 +18,8 @@
 | `<leader> e` | toggle the sidebar |
 | `<leader> h` | split the window horizontally |
 | `<leader> d` | same as `d d` |
+| `<leader> b` | same as `c-o`, go back to previous cursor position |
+| `<leader> n` | same as `c-i`, go to next cursor position in the jumplist |
+
+> 🤯 **Note**:
+> Jumplists are awesome, `c-o` and `c-i` and your true best friends.
