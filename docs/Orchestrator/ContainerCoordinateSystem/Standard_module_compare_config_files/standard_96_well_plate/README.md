@@ -795,13 +795,15 @@
 
 ###### Image-1 : Standard 96 well plate 
 
-![STANDARD 96 WELL PLATE](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\standard_96_well_plate\STANDARD 96 WELL PLATE.jpeg)
+
+![STANDARD 96 WELL PLATE](https://user-images.githubusercontent.com/51780510/169046544-f04e932d-6e7a-44e0-b7ce-50c1cfbb684a.jpeg)
 
 
 
 ###### Image-2 : Standard 96 well plate cad image
 
-![std_96_well_plate](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\standard_96_well_plate\std_96_well_plate.JPG)
+![std_96_well_plate](https://user-images.githubusercontent.com/51780510/169046562-2cb693ac-baf5-4c42-81f8-ebe805eaa471.JPG)
+
 
 ###### Standard 96 well plate cad file
 
@@ -811,8 +813,8 @@
 
 |          | Description | URL  |
 | -------- | ----------- | ---- |
-| Material |             |      |
-| Supplier | NEST        |      |
+| Material | polystyrene            |  -    |
+| Supplier | NEST        |  ([Links Url](https://shop.opentrons.com/nest-96-well-plate-flat/))    |
 
 
 
