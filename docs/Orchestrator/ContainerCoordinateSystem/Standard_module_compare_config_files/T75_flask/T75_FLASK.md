@@ -33,13 +33,14 @@
 
 ###### Image - 1 standard T-75 flask
 
-![T75 FLASK](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\T75_flask\T75 FLASK.jpeg)
+![T75 FLASK](https://user-images.githubusercontent.com/51780510/169042643-a5610073-9748-43d5-a68d-1dd3de17dc91.jpeg)
 
 
 
 ###### Image - 2 standard T-75 flask cad image
 
-![T75_cad_image](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\T75_flask\T75_cad_image.JPG)
+![T75_cad_image](https://user-images.githubusercontent.com/51780510/169042693-27bc7d3e-0ce9-41a9-adba-8ac7322ac046.JPG)
+
 
 ###### CAD of standard T-75 flask
 
