@@ -10,7 +10,7 @@
 
 ```json
 "6-well-plate": {
-               "origin-offset": {                          ## UNKNOWN PARAMETER
+               "origin-offset": {                          
                     "x": 23.16,
                     "y": 24.76
                },
@@ -71,15 +71,17 @@
 
 ###### Image 1 -   Standard 6 well plate
 
-![STANDARD_6_WELL_PLATE](https://user-images.githubusercontent.com/51780510/169031396-db9fbdc5-4a0e-4a76-a497-870ab29ae346.jpeg)
 
+
+![STANDARD_6_WELL_PLATE](https://user-images.githubusercontent.com/51780510/169047069-72e03f99-9114-481e-893c-b6f2989e9737.jpeg)
 
 
 
 ###### Image 2 -   Standard 6 well plate CAD
 
 
-![6_well_plate_cad_image](https://user-images.githubusercontent.com/51780510/169031422-7328dc3f-3bd0-4815-8a48-66d2bbf1ad2b.JPG)
+![6_well_plate_cad_image](https://user-images.githubusercontent.com/51780510/169047094-994642d2-c109-43e5-8cbc-330afb520a47.JPG)
+
 
 
 
@@ -89,8 +91,8 @@
 
 |          | Description | URL  |
 | -------- | ----------- | ---- |
-| Material |             |      |
-| Supplier |             |      |
+| Material |   virgin polystyrene          |  -    |
+| Supplier |   NEST          |   ([Links Url](https://www.vitascientific.com/nest-6-well-cell-culture-plate-flat-tc-treated-sterile-50-cs-703001.html))   |
 
 
 
