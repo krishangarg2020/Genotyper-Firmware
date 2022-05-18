@@ -91,9 +91,6 @@ Each well named for simplify and defining the code. The 6 well plate have 6 well
 
 
 
-![explaining_working_of_coordinate_6_well_opentron](https://user-images.githubusercontent.com/51780510/168960846-c3170401-5193-4f29-8912-f68006aac28c.JPG)
-
-
 
 
 ```json origin offset for 6 well plate
