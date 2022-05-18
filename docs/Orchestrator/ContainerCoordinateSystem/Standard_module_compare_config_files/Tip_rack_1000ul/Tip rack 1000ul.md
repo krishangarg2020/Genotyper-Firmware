@@ -1,11 +1,12 @@
-# FROM OPENTRON CODE :
-# "opentrons-tiprack-1000ul"
-# "diameter": 7.62,
-# "depth": 98.07                                 
+# From Opentron code :
 
-# FOR STANDERD 1000ul TIPRACK :
-# ""depth": UNKNOWN,                             ## UNKNOWN PARAMETER
-# "diameter": 7.5,
+- depth: 98.07 mm
+- diameter: 7.62 mm
+
+# For standard 1000ul tip-rack :
+
+- depth: 86.0 mm
+- diameter: 7.65 mm
 
 ```json
 "opentrons-tiprack-1000ul": {
@@ -689,3 +690,43 @@
                }
           }
 ```
+
+###### Image-1 : standard 1000ul tip-rack
+
+![1000UL STANDARD TIP BOX](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\Tip_rack_1000ul\1000UL STANDARD TIP BOX.jpeg)
+
+###### Image-2 : standard 1000ul tip-rack cad image
+
+![1000ul_tip_rack_cad_image](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\Tip_rack_1000ul\1000ul_tip_rack_cad_image.JPG)
+
+###### CAD of standard 1000ul tip-rack
+
+ [1000ul_tip_rack_cad.dwg](1000ul_tip_rack_cad.dwg) 
+
+###### Table-1 : Standard 1000ul tip-rack product description
+
+|          | Description | URL  |
+| -------- | ----------- | ---- |
+| Material |             |      |
+| Supplier |             |      |
+
+
+
+
+
+###### Table-2 : Measurement techniques and specification of standard 1000ul tip-rack
+
+| Standard 1000ul tip-rack | Measurement technique                                        | Value   |
+| ------------------------ | ------------------------------------------------------------ | ------- |
+| depth                    | Use height gauge/Vernier caliper, taking reading from top surface of the tip from the base plate | 86.0 mm |
+| diameter                 | Use Vernier caliper to measure the diameter of one pipette tip 10ul | 7.65 mm |
+
+
+
+###### Table-3 :1000ul tip-rack comparison table
+
+|                        | FROM OPENTRON CODE 1000ul TIP-RACK | STANDARD 1000ul TIP-RACK | RESULT    |
+| ---------------------- | ---------------------------------- | ------------------------ | --------- |
+| **Depth**              | 98.07 mm                           | 86.0 mm                  | Not Match |
+| **Diameter**           | 7.62 mm                            | 7.62 mm                  | Match     |
+| **Geometric position** | -                                  | -                        | Match     |
