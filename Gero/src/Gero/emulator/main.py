@@ -1,10 +1,10 @@
-
+# type: ignore
 
 # from gero.util import logging_config
 import logging
 import sys
 
-import dearpygui.dearpygui as dpg
+import dearpygui.dearpygui as dpg  # type: ignore
 
 
 logging.basicConfig(
