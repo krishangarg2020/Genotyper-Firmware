@@ -164,7 +164,7 @@ Folloded by reaching the **B3** position the following code will be follows.
 
 ## Comparison of modules used in Opentron OT-2 fluid handeling system with standard module :
 
-| Module                      | Description & Details                                        |
+| Module                      | Description & Match and Mis-match Details                                       |
 | --------------------------- | ------------------------------------------------------------ |
 | 6 well plate                | [URL LINK](https://github.com/TechnocultureResearch/Genotyper-Firmware/blob/dev/docs/Orchestrator/ContainerCoordinateSystem/Standard_module_compare_config_files/6_well_plate/README.md) |
 | 96 well plate Biorad        | [URL LINK](https://github.com/TechnocultureResearch/Genotyper-Firmware/blob/dev/docs/Orchestrator/ContainerCoordinateSystem/Standard_module_compare_config_files/96_well_plate_biorad/README.md) |
