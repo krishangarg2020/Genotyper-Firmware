@@ -695,15 +695,13 @@
 
 ###### Image-1 : standard 10ul tip-rack
 
-
-
-![10UL STANDARD TIP BOX](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\Tip_rack_10ul\10UL STANDARD TIP BOX.jpeg)
+![10UL STANDARD TIP BOX](https://user-images.githubusercontent.com/51780510/169050152-534fe0c7-bb7f-46b4-bc1b-ca42631676f4.jpeg)
 
 
 
 ###### Image-2 : standard 10ul tip-rack cad image
+![10ul_tip_rack_cad_image](https://user-images.githubusercontent.com/51780510/169050198-291befe5-bb3f-46da-81f7-e42925f8b119.JPG)
 
-![10ul_tip_rack_cad_image](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\Tip_rack_10ul\10ul_tip_rack_cad_image.JPG)
 
 ###### CAD standard 10ul tip-rack
 
@@ -713,8 +711,8 @@
 
 |          | Description | URL  |
 | -------- | ----------- | ---- |
-| Material |             |      |
-| Supplier |             |      |
+| Material |   virgin Polypropylene          |  -    |
+| Supplier |    Genaxy         |  ([Links Url](https://www.genaxy.com/products/details/129))    |
 
 
 
