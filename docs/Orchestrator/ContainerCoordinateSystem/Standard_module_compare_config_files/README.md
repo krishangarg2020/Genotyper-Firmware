@@ -12,10 +12,10 @@
 
 #### Drawing file of Container co-ordinate system used in Opentron OT-2 platform : 
 
-####  [OPENTRON CONTAINER FILES CONFIG DIMENTIONS.dwg](OPENTRON CONTAINER FILES CONFIG DIMENTIONS.dwg) 
-
+##### CAD file
+[OPENTRON CONTAINER FILES CONFIG DIMENTIONS.dwg](OPENTRON CONTAINER FILES CONFIG DIMENTIONS.dwg) 
 
 
 ##### Image - 1 Cad image
 
-![cad for opentron config coordinate container](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\Images\cad for opentron config coordinate container.JPG)
+![cad for opentron config coordinate container](https://user-images.githubusercontent.com/51780510/169050478-38aa94a8-50b0-4c30-a2df-cdd18a7765d7.JPG)
