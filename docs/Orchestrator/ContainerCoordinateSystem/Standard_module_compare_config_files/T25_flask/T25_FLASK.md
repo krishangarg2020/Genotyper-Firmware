@@ -34,12 +34,14 @@
 ###### Image - 1 standard T-25 flask
 
 
+![T25 FLASK](https://user-images.githubusercontent.com/51780510/169045204-5245d6f8-616e-4f1f-8a2c-e2833ed2aa14.jpeg)
 
-![T25 FLASK](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\T25_flask\T25 FLASK.jpeg)
+
 
 ###### Image - 2 standard T-25 flask cad image
 
-![T25_cad_image](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\T25_flask\T25_cad_image.JPG)
+![T25_cad_image](https://user-images.githubusercontent.com/51780510/169045227-c5ec672a-e503-418e-8cee-484acce2ced1.JPG)
+
 
 ###### Standard T-25 flask cad file
 
@@ -51,8 +53,8 @@
 
 |          | Description | URL  |
 | -------- | ----------- | ---- |
-| Material |             |      |
-| Supplier |             |      |
+| Material |  USP class VI virgin polystyrene           |   -   |
+| Supplier |  NEST           |  ([Links Url](https://www.stellarscientific.com/t-25-25cm-polystyrene-cell-culture-flasks-tissue-culture-treated-50ml-plugged-cap-rnase-and-dnase-free-sterile-5-sleeve-200-cs/))    |
 
 
 
