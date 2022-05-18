@@ -71,13 +71,15 @@
 
 ###### Image 1 -   Standard 6 well plate
 
-![STANDARD_6_WELL_PLATE](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\6_well_plate\STANDARD_6_WELL_PLATE.jpeg)
+![STANDARD_6_WELL_PLATE](https://user-images.githubusercontent.com/51780510/169031396-db9fbdc5-4a0e-4a76-a497-870ab29ae346.jpeg)
+
 
 
 
 ###### Image 2 -   Standard 6 well plate CAD
 
-![6_well_plate_cad_image](D:\pritam\Genotyper-Firmware\docs\Orchestrator\ContainerCoordinateSystem\Standard_module_compare_config_files\6_well_plate\6_well_plate_cad_image.JPG)
+
+![6_well_plate_cad_image](https://user-images.githubusercontent.com/51780510/169031422-7328dc3f-3bd0-4815-8a48-66d2bbf1ad2b.JPG)
 
 
 
