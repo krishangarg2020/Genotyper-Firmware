@@ -10,6 +10,13 @@
             "request": "launch",
             "module": "gero.emulator.gui",
             "justMyCode": true
+        },
+        {
+            "name": "Init Gero Package",
+            "type": "python",
+            "request": "launch",
+            "module": "gero",
+            "justMyCode": true
         }
     ]
 }

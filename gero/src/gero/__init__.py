@@ -1,14 +1,10 @@
+from gero.config import settings
+from gero.util import logging_config
 
+log = logging_config.getConsoleLogger()
 
-import logging
+log.info("Initializing the Library")
+# print(f"Libray running in {settings.name} mode.")  # from settings.toml
+ok: float = settings.ok  # type: ignore
 
-
-# from util.logger import setup_logging
-
-
-if __name__ == "__main__":
-    print("Initializing the Library")
-    # setup_logging()
-
-    log = logging.getLogger(__name__)
-    log.debug("hello")
+log.info(ok)
