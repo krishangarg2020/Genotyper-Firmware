@@ -42,7 +42,7 @@ void setup()
   
   serialTime = 0;
   Serial.begin(BAUDRATE);
-   pinMode(PIN_THERMISTOR_INPUT,INPUT);
+  pinMode(PIN_THERMISTOR_INPUT,INPUT);
   pinMode(PELTIER_TERMINAL1,INPUT);
   pinMode(PELTIER_TERMINAL2,INPUT);
   pinMode(PIN_LED_INDICATOR,OUTPUT);
@@ -93,7 +93,7 @@ void loop()
   }
   else
   {
-     analogWrite(0,output); 
+     analogWrite(PIN_PELTIER_CONTROL_OUTPUT,output); 
   }
   
   //send-receive with processing if it's time
