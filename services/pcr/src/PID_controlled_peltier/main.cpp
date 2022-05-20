@@ -6,8 +6,8 @@
 double Setpoint, Input, Output;
 
 //Define the aggressive and conservative Tuning Parameters
-double aggKp=0.1, aggKi=0.1, aggKd=0.3;
-double consKp=0.93, consKi=0.05, consKd=0;
+double aggKp=1, aggKi=0.5, aggKd=0.15;
+double consKp=2, consKi=0.05, consKd=0.5;
 
 //Specify the links and initial tuning parameters
 PID myPID(&Input, &Output, &Setpoint, consKp, consKi, consKd, DIRECT);
@@ -37,7 +37,7 @@ void loop()
   V0 = analogRead(PIN_THERMISTOR_INPUT);
   Input = (double)temp_reading(V0);
 
-  // double gap = abs(Setpoint-Input); //distance away from setpoint
+  double gap = abs(Setpoint-Input); //distance away from setpoint
   // if (gap < 30)
   // {  //we're close to setpoint, use conservative tuning parameters
   //   myPID.SetTunings(consKp, consKi, consKd);
@@ -51,10 +51,10 @@ void loop()
   myPID.Compute();
   analogWrite(PIN_PELTIER_CONTROL_OUTPUT, Output);
 
-  // if (gap <5 && gap ==Setpoint+5)
-  // digitalWrite(PIN_LED_INDICATOR, HIGH);
-  // else 
-  // digitalWrite(PIN_LED_INDICATOR,LOW);
+  if (gap <10)
+  digitalWrite(PIN_LED_INDICATOR, HIGH);
+  else 
+  digitalWrite(PIN_LED_INDICATOR,LOW);
 }
 
 // Temperature reading
