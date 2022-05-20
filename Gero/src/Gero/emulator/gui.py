@@ -17,25 +17,39 @@ log = logging.getLogger('Emulator')
 
 
 if __name__ == '__main__':
-    log.debug("hello")
-    log.info("hello")
 
     def save_callback():
-        print("Save Clicked")
+        log.info("Save Clicked")
 
     dpg.create_context()
     dpg.create_viewport()
     dpg.setup_dearpygui()
 
-    with dpg.window(label="Serial Device Emulator"):
+    with dpg.window(
+        label="Serial Device Emulator",
+        no_resize=True,
+        no_close=True,
+        no_move=True,
+        width=300,
+        pos=[dpg.get_viewport_width()-300, 0]
+    ):
         dpg.add_text(
-            "Emulate a serial device for integration testing purposes.")
+            "Emulate a serial device for integration testing purposes.", wrap=300)
         dpg.add_button(label="Save", callback=save_callback)
         dpg.add_input_text(default_value="/dev/ttyUSB0010",
                            label="device path")
         dpg.add_combo(["9600", "115200"],
                       default_value="9600", label="Baud Rate")
-        dpg.add_slider_int(label="parameter to transmit")
+
+        dpg.add_input_text(default_value="/dev/ttyUSB0010",
+                           label="device path")
+        dpg.add_combo(["9600", "115200"],
+                      default_value="9600", label="Baud Rate")
+
+        dpg.add_input_text(default_value="/dev/ttyUSB0010",
+                           label="device path")
+        dpg.add_combo(["9600", "115200"],
+                      default_value="9600", label="Baud Rate")
 
     dpg.show_viewport()
     dpg.start_dearpygui()

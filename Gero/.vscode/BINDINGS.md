@@ -9,6 +9,7 @@
 | `Cmd-e` | Focus to Explorer |
 | `Cmd-,` | Focus toggle between editor and terminal |
 | `Cmd-shift-t` | Run all unit tests |
+| `Cmd-option-up` | Add cursor above the line (in normaal mode only), down for down |
 
 # Vim Bindings
 - `tab` to move between tabs, `shift-tab` to move the other way
