@@ -6,8 +6,8 @@
 double Setpoint, Input, Output;
 
 //Define the aggressive and conservative Tuning Parameters
-double aggKp=1, aggKi=0.5, aggKd=0.15;
-double consKp=2, consKi=0.05, consKd=0.5;
+//double aggKp=1, aggKi=0.5, aggKd=0.15;
+double consKp=1.2893, consKi=0.22979, consKd=1.7556;
 
 //Specify the links and initial tuning parameters
 PID myPID(&Input, &Output, &Setpoint, consKp, consKi, consKd, DIRECT);

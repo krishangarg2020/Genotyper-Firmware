@@ -20,7 +20,6 @@
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/variants/arduino_due_x",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/libraries/HID/src",
                 "C:/Users/user/.platformio/packages/framework-arduino-sam/libraries/Wire/src",
-                "C:/Users/user/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
@@ -38,12 +37,11 @@
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/variants/arduino_due_x",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/libraries/HID/src",
                     "C:/Users/user/.platformio/packages/framework-arduino-sam/libraries/Wire/src",
-                    "C:/Users/user/.platformio/packages/tool-unity",
                     ""
                 ]
             },
             "defines": [
-                "PLATFORMIO=50205",
+                "PLATFORMIO=60001",
                 "__SAM3X8E__",
                 "ARDUINO_SAM_DUE",
                 "ARDUINO=10805",
