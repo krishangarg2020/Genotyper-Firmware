@@ -57,14 +57,21 @@ void loop()
  PeltierPID.Compute();
   analogWrite(PIN_PELTIER_CONTROL_OUTPUT, Output);
 
-  if (gap <10)
+  if (gap <5)
   digitalWrite(PIN_LED_INDICATOR, HIGH);
   else 
   digitalWrite(PIN_LED_INDICATOR,LOW);
-  if(Input > (Setpoint+5))
-    digitalWrite(FAN_PIN1, HIGH);
-  else 
-  digitalWrite(FAN_PIN2,LOW);
+
+  if(Input > (Setpoint))
+   {
+      digitalWrite(FAN_PIN1, HIGH);
+      digitalWrite(FAN_PIN2,LOW);
+   }
+  else
+  { 
+    digitalWrite(FAN_PIN1,LOW);
+    digitalWrite(FAN_PIN2,LOW);
+  }
 
 }
 
@@ -75,8 +82,9 @@ float temp_reading(int v)
   logR2 = log(R2);
   T = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2));
   TC = T - 273.15;
-  Serial.println("Temperature: "); 
+  Serial.print("Temp: "); 
   Serial.print(TC);
   Serial.print(" C  "); 
+  Serial.println("");
 return TC;
 }
