@@ -14,8 +14,11 @@
 
 #define PIN_LED_INDICATOR 2
 
-#define PELTIER_TERMINAL1 4
-#define PELTIER_TERMINAL2 5
+#define PELTIER_PIN1 4 // Pin for positive terminal
+#define PELTIER_PIN2 5 // Pin for negative terminal
+#define FAN_PIN1 6
+#define FAN_PIN2 7
+#define FAN_CONTROL_PIN 8
 int V0=0;
 const float R1 = 10000;
 float logR2, R2, T, TC, Tf;
