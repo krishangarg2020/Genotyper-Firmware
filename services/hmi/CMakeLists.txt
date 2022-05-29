@@ -1,61 +1,54 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.16)
 
 project(hmi LANGUAGES CXX)
-
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
-
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# QtCreator supports the following variables for Android, which are identical to qmake Android variables.
-# Check https://doc.qt.io/qt/deployment-android.html for more information.
-# They need to be set before the find_package(...) calls below.
-
-#if(ANDROID)
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-#    if (ANDROID_ABI STREQUAL "armeabi-v7a")
-#        set(ANDROID_EXTRA_LIBS
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libcrypto.so
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libssl.so)
-#    endif()
-#endif()
-
-find_package(QT NAMES Qt6 Qt5 COMPONENTS Core Quick LinguistTools REQUIRED)
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Quick LinguistTools REQUIRED)
-
-set(TS_FILES hmi_hi_IN.ts)
-
-set(PROJECT_SOURCES
-        main.cpp
-        qml.qrc
-        ${TS_FILES}
+find_package(Qt5 
+    REQUIRED COMPONENTS 
+    Core 
+    Gui
+    Qml
+    Quick 
+    SerialPort
 )
 
-if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(hmi
-        ${PROJECT_SOURCES}
-    )
+set(PROJECT_SOURCES
+    main.cpp
+    qml.qrc
+)
+add_executable(hmi ${PROJECT_SOURCES})
 
-    qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
-else()
-    if(ANDROID)
-        add_library(hmi SHARED
-            ${PROJECT_SOURCES}
-        )
-    else()
-        add_executable(hmi
-          ${PROJECT_SOURCES}
-        )
-    endif()
+# What does this even do?
+target_compile_definitions(hmi
+     PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>
+)
 
-    qt5_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
+target_link_libraries(hmi
+    PUBLIC
+    Qt5::Core 
+    Qt5::Gui
+    Qt5::Qml
+    Qt5::Quick
+    Qt5::SerialPort
+)
+
+# Compile Commands in Debug Builds
+if(CMAKE_BUILD_TYPE STREQUAL Debug)
+    message("Debug build: Generate compile commands database")
+    set(CMAKE_EXPORT_COMPILE_COMMANDS true)
 endif()
 
-target_compile_definitions(hmi
-  PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)
-target_link_libraries(hmi
-  PRIVATE Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Quick)
+# set_target_properties(hmi PROPERTIES OUTPUT_NAME hmi-Debug)
+
+# TODO: No idea what this does
+install(
+    TARGETS hmi
+    RUNTIME
+        DESTINATION bin
+        COMPONENT runtime
+)
