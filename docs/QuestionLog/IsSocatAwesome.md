@@ -6,6 +6,11 @@
 
 - **The big question**: Can socat save us?
 
+## TLDR
+> ✅
+> Just Use This: 
+> [Virtual serial line (RS232) on linux with socat and pyserial](https://gist.github.com/sutyum/03e78373dadbcbd0c961c43561606aab)
+
 ## These guys think Yay
 > Tiny Note: These are mostly tutorials on **How to** do this and don't really make for or against claims.
 
@@ -13,8 +18,11 @@
 - [TTY-Redirector/Pseudo-TTYs under Linux](https://www.wut.de/e-58www-29-apus-000.php)
 - [HowTo: Virtual Serial Ports on Linux using socat, and more](https://justcheckingonall.wordpress.com/2009/06/09/howto-vsp-socat/)
 - [create virtual serial port with socat in linux](https://www.youtube.com/watch?v=iFmD-CeB96A)
+- [Virtual Serial Port in C++/Linux](https://github.com/cymait/virtual-serial-port-example)
 
 ### Random aside: A socat snippet from ablog above
+> this bit is okay not super useful
+
 Here is the magic command you need:
 
 `socat -d -d -v pty,rawer,link=<PORT_NAME> EXEC:<COMMAND>,pty,rawer`
@@ -25,10 +33,12 @@ The first pty options creates the virtual serial port. It turns out terminal ech
 The `-d -d -v` options are used to print virtual port stream values to the console as well as the target.
 
 ## These guys have doubts
-- [](https://www.itdev.co.uk/blog/emulating-serial-port-unix)
+- [Emulating a serial port on UNIX: Didn't understand well the reason for not using socat](https://www.itdev.co.uk/blog/emulating-serial-port-unix)
 
 ### Socat is cool though
 - [Serialport-Server: Expose a local serial port on a network](https://hub.docker.com/r/akshmakov/serialport-server)
+
+---
 
 # Counter Voice: Forget About Socat - Go **Zmq**
 - [Serial2ZMQ](https://github.com/wookiesh/serial2zmq)
