@@ -6,6 +6,9 @@
 # I only have more questions
 - [Is Socat Awesome? (For Serial Port Emulation)](./QuestionLog/IsSocatAwesome.md)
 
+# Lost and Found: 
+- [(hopefully) useful tid-bits](./QuestionLog/README.md)
+
 ---
 
 # Projects that Inspired

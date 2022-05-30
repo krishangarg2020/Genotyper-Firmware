@@ -7,16 +7,30 @@
 - **The big question**: Can socat save us?
 
 ## These guys think Yay
+> Tiny Note: These are mostly tutorials on **How to** do this and don't really make for or against claims.
+
 - [Virtual Serial Ports Using Socat](https://jamesthom.as/2021/01/virtual-serial-ports-using-socat/)
 - [TTY-Redirector/Pseudo-TTYs under Linux](https://www.wut.de/e-58www-29-apus-000.php)
+- [HowTo: Virtual Serial Ports on Linux using socat, and more](https://justcheckingonall.wordpress.com/2009/06/09/howto-vsp-socat/)
+- [create virtual serial port with socat in linux](https://www.youtube.com/watch?v=iFmD-CeB96A)
+
+### Random aside: A socat snippet from ablog above
+Here is the magic command you need:
+
+`socat -d -d -v pty,rawer,link=<PORT_NAME> EXEC:<COMMAND>,pty,rawer`
+It took me a while to find the correct combination of options to make this work. Here’s what I’ve used…
+
+The first pty options creates the virtual serial port. It turns out terminal echo using rawer. The port is created using the file id given by the link option. The EXEC option will run the executable (given by the COMMAND value) and connect to the virtual serial port using stdin & stdout.
+
+The `-d -d -v` options are used to print virtual port stream values to the console as well as the target.
 
 ## These guys have doubts
-
+- [](https://www.itdev.co.uk/blog/emulating-serial-port-unix)
 
 ### Socat is cool though
 - [Serialport-Server: Expose a local serial port on a network](https://hub.docker.com/r/akshmakov/serialport-server)
 
-# Counter Voice: Forget About Socat - Go Zmq
+# Counter Voice: Forget About Socat - Go **Zmq**
 - [Serial2ZMQ](https://github.com/wookiesh/serial2zmq)
 - Exposing a serial port to a ZMQ bus would allow it to participate in more complex communication topologies beyond the one-to -one communication supported by Serial
     > 🤔 **Wonder**:
