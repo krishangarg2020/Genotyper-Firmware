@@ -1,4 +1,12 @@
-# References
+# Architectural Issues
+- [Project Values](./Architecture/Values)
+- [Architectural Goals](./Architecture/Goals)
+- [Distributed Connected Devices](./Architecture/DistributedDevices)
 
-- [Otto Liquid Handler: Firmware](https://openliquidhandler.com/Software)
+---
 
+# Projects that Inspired
+The approach to firmware is highly inspired by the Opentrons Repo.
+
+- [Otto Liquid Handler](https://openliquidhandler.com/Software) : This one is a hacky, scripting style python
+- [Opentrons](https://github.com/Opentrons/opentrons) : This is a well structured large project in python
