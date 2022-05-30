@@ -20,6 +20,9 @@
 - [create virtual serial port with socat in linux](https://www.youtube.com/watch?v=iFmD-CeB96A)
 - [Virtual Serial Port in C++/Linux](https://github.com/cymait/virtual-serial-port-example)
 
+### Demo Time!
+![Socat Demo Video](https://github.com/TechnocultureResearch/Genotyper-Firmware/raw/dev/docs/QuestionLog/socat_demo.mov)
+
 ### Random aside: A socat snippet from ablog above
 > this bit is okay not super useful
 
