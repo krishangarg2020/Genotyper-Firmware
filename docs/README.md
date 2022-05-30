@@ -3,6 +3,9 @@
 - [Architectural Goals](./Architecture/Goals)
 - [Distributed Connected Devices](./Architecture/DistributedDevices)
 
+# I only have more questions
+- [Is Socat Awesome? (For Serial Port Emulation)](./QuestionLog/IsSocatAwesome.md)
+
 ---
 
 # Projects that Inspired
