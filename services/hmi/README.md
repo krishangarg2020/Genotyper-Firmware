@@ -1,17 +1,9 @@
 # HMI
 
-## Key Options 
+Human Machine Interface(aka User Interface for the big touch screen) for Genotyper Kiosk system.
 
-| Technology    | Issue                                                         |
-|---------------|---------------------------------------------------------------|
-| Qt            | License issues, difficult to find and initiate new developers |
-| Flutter       | New approach, untested tech stack                             |
-| Chromium + Js |                                                               |
-
-## Technology considerations
-
-| Req                                         |
-|---------------------------------------------|
-| Support video streaming over `webRTC`       |
-| Fault tolerant architecture                 |
-| OS integration - IPC, daemons, CAN bus, etc |
+- TODO: UI design iterations
+- TODO: UI to `qml` views
+- TODO: Navigation `Scxml` Model
+- TODO: Add unit tests for the navigation model
+- TODO: Connect navigation model with States and transitions in `Qml`
