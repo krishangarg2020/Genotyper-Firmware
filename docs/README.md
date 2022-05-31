@@ -6,6 +6,7 @@
 # I only have more questions
 - [Is Socat Awesome? (For Serial Port Emulation)](./QuestionLog/IsSocatAwesome.md)
 - [Is ZMQ a better appraoch (For Hardware Software Seperation and Testability)](./QuestionLog/SerialOverSocatVsZMQ.md)
+- [AsyncIO and Threads](./Architecture/AsyncAndThreads.md)
 
 # Lost and Found: 
 - [(hopefully) useful tid-bits](./QuestionLog/README.md)
