@@ -9,3 +9,16 @@ Here's the barebones of the plan:
     > The idea is that a plugin emulator can produce data, receive data, acknowledge received commands etc.
 
 > **Note**: Does not aim to support Windows OS
+
+# Run GUI
+
+```sh
+# Install the virtual environment
+> pipenv install
+
+# Start the virtual environment shell
+> pipenv shell
+
+# Run GUI application
+> python ./gui.py
+```

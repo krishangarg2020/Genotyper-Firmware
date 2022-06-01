@@ -2,7 +2,7 @@
 
 # from gero.util import logging_config
 import logging
-import sys
+import sys, pty
 
 import dearpygui.dearpygui as dpg  # type: ignore
 

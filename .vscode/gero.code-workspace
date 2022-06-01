@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "editor.tokenColorCustomizations": {
+            "comments": "",
+            "textMateRules": []
+        },
+        "hide-files.files": [],
+    }
+}
