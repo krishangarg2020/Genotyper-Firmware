@@ -63,9 +63,9 @@
             "name": "chip_centrifuges",
             "serial_number": "",
             "offset": {
-                "x_mm": "10",
-                "y_mm": "100",
-                "z_mm": "120"
+                "x": "10",
+                "y": "100",
+                "z": "120"
             }
         },
         {
