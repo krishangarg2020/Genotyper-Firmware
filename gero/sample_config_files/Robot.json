@@ -7,8 +7,8 @@
         "orchestrator": {
             "identity": {
                 "model": "min",
-                "version": "1.0",
-                "firmware_version": "1.0",
+                "version": 1.0,
+                "firmware_version": 1.0,
                 "serial_number": ""
             }
         },
@@ -16,24 +16,24 @@
             "chip_manager": {
                 "identity": {
                     "model": "min",
-                    "version": "1.0",
-                    "firmware_version": "1.0",
+                    "version": 1.0,
+                    "firmware_version": 1.0,
                     "serial_number": ""
                 }
             },
             "swab_manager": {
                 "identity": {
                     "model": "small",
-                    "version": "1.0",
-                    "firmware_version": "1.0",
+                    "version": 1.0,
+                    "firmware_version": 1.0,
                     "serial_number": ""
                 }
             },
             "input_queue_manager": {
                 "identity": {
                     "model": "small",
-                    "version": "1.0",
-                    "firmware_version": "1.0",
+                    "version": 1.0,
+                    "firmware_version": 1.0,
                     "serial_number": ""
                 }
             },
@@ -41,8 +41,8 @@
                 {
                     "identity": {
                         "model": "peltier-cooled",
-                        "version": "1.0",
-                        "firmware_version": "1.0",
+                        "version": 1.0,
+                        "firmware_version": 1.0,
                         "serial_number": ""
                     },
                     "reagent_id": "hcl-0.1M"
@@ -54,16 +54,16 @@
                 {
                     "identity": {
                         "model": "low_speed",
-                        "version": "1.0",
-                        "firmware_version": "1.0",
+                        "version": 1.0,
+                        "firmware_version": 1.0,
                         "serial_number": ""
                     }
                 },
                 {
                     "identity": {
                         "model": "low_speed",
-                        "version": "1.0",
-                        "firmware_version": "1.0",
+                        "version": 1.0,
+                        "firmware_version": 1.0,
                         "serial_number": ""
                     }
                 }
@@ -76,9 +76,9 @@
             "name": "chip_centrifuges",
             "serial_number": "",
             "offset": {
-                "x": "10",
-                "y": "100",
-                "z": "120"
+                "x": 10,
+                "y": 100,
+                "z": 120
             }
         },
         {
@@ -87,7 +87,7 @@
         },
         {
             "name": "input_queue_manager",
-            "rotation": "90"
+            "rotation": 90
         }
     ]
 }
