@@ -1,41 +1,50 @@
 {
-    "identity": {
+    "whome": {
         "name": "Gero",
         "company": "Technoculture"
     },
     "modules": {
         "orchestrator": {
-            "model": "min",
-            "verison": "1.0",
-            "firmware_version": "1.0",
-            "serial_number": ""
-        },
-        "resource_managers": {
-            "chip_manager": {
+            "identity": {
                 "model": "min",
                 "version": "1.0",
                 "firmware_version": "1.0",
                 "serial_number": ""
+            }
+        },
+        "resource_managers": {
+            "chip_manager": {
+                "identity": {
+                    "model": "min",
+                    "version": "1.0",
+                    "firmware_version": "1.0",
+                    "serial_number": ""
+                }
             },
             "swab_manager": {
-                "model": "small",
-                "version": "1.0",
-                "firmware_version": "1.0",
-                "serial_number": ""
-            },
-            "input_queue_manager": {
-                "model": "small",
-                "version": "1.0",
-                "firmware_version": "1.0",
-                "serial_number": ""
-            },
-            "solution_managers": [
-                {
+                "identity": {
                     "model": "small",
                     "version": "1.0",
                     "firmware_version": "1.0",
-                    "serial_number": "",
-                    "type": "pletier-cooled",
+                    "serial_number": ""
+                }
+            },
+            "input_queue_manager": {
+                "identity": {
+                    "model": "small",
+                    "version": "1.0",
+                    "firmware_version": "1.0",
+                    "serial_number": ""
+                }
+            },
+            "solution_managers": [
+                {
+                    "identity": {
+                        "model": "peltier-cooled",
+                        "version": "1.0",
+                        "firmware_version": "1.0",
+                        "serial_number": ""
+                    },
                     "reagent_id": "hcl-0.1M"
                 }
             ]
@@ -43,16 +52,20 @@
         "instruments": {
             "chip_centrifuges": [
                 {
-                    "model": "low_speed",
-                    "version": "1.0",
-                    "firmware_version": "1.0",
-                    "serial_number": ""
+                    "identity": {
+                        "model": "low_speed",
+                        "version": "1.0",
+                        "firmware_version": "1.0",
+                        "serial_number": ""
+                    }
                 },
                 {
-                    "model": "low_speed",
-                    "version": "1.0",
-                    "firmware_version": "1.0",
-                    "serial_number": ""
+                    "identity": {
+                        "model": "low_speed",
+                        "version": "1.0",
+                        "firmware_version": "1.0",
+                        "serial_number": ""
+                    }
                 }
             ],
             "standalone_na_amplifiers": []
