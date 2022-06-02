@@ -24,7 +24,12 @@
                         "value": "40",
                         "unit": "sku"
                     }
-                ]
+                ],
+                "bounding_box": {
+                    "length_mm": "120",
+                    "width_mm": "300",
+                    "height_mm": "500"
+                }
             }
         ]
     },

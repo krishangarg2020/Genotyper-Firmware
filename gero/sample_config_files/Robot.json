@@ -7,27 +7,34 @@
         "orchestrator": {
             "model": "min",
             "verison": "1.0",
-            "firmware": {
-                "version": "1.0"
-            }
+            "firmware_version": "1.0",
+            "serial_number": ""
         },
         "resource_managers": {
             "chip_manager": {
-                "model": "small",
-                "version": "1.0"
+                "model": "min",
+                "version": "1.0",
+                "firmware_version": "1.0",
+                "serial_number": ""
             },
             "swab_manager": {
                 "model": "small",
-                "version": "1.0"
+                "version": "1.0",
+                "firmware_version": "1.0",
+                "serial_number": ""
             },
             "input_queue_manager": {
                 "model": "small",
-                "version": "1.0"
+                "version": "1.0",
+                "firmware_version": "1.0",
+                "serial_number": ""
             },
             "solution_managers": [
                 {
                     "model": "small",
                     "version": "1.0",
+                    "firmware_version": "1.0",
+                    "serial_number": "",
                     "type": "pletier-cooled",
                     "reagent_id": "hcl-0.1M"
                 }
@@ -37,10 +44,37 @@
             "chip_centrifuges": [
                 {
                     "model": "low_speed",
-                    "version": "1.0"
+                    "version": "1.0",
+                    "firmware_version": "1.0",
+                    "serial_number": ""
+                },
+                {
+                    "model": "low_speed",
+                    "version": "1.0",
+                    "firmware_version": "1.0",
+                    "serial_number": ""
                 }
             ],
             "standalone_na_amplifiers": []
         }
-    }
+    },
+    "layout": [
+        {
+            "name": "chip_centrifuges",
+            "serial_number": "",
+            "offset": {
+                "x_mm": "10",
+                "y_mm": "100",
+                "z_mm": "120"
+            }
+        },
+        {
+            "name": "chip_centrifuges",
+            "serial_number": ""
+        },
+        {
+            "name": "input_queue_manager",
+            "rotation": "90"
+        }
+    ]
 }
