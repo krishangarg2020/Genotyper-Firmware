@@ -1,117 +1,117 @@
 
 
-"""
-This module handles configuration management. It keeps track of where the
-configuration data is found in the robot, and is able to search for data to
-construct an index if an existing index is not found. All other modules that
-use persistent configuration data should use this module to read and write it.
+# """
+# This module handles configuration management. It keeps track of where the
+# configuration data is found in the robot, and is able to search for data to
+# construct an index if an existing index is not found. All other modules that
+# use persistent configuration data should use this module to read and write it.
 
-The settings file defined here is gero.json. This file should be located
+# The settings file defined here is gero.json. This file should be located
 
-- On the robot, in /data
-- Not on the robot, either in
-  - the directory from which the python importing this module was launched
-  - ~/.gero for the current user (where it will be written if nothing is
-    found)
+# - On the robot, in /data
+# - Not on the robot, either in
+#   - the directory from which the python importing this module was launched
+#   - ~/.gero for the current user (where it will be written if nothing is
+#     found)
 
-The keys in gero.json are defined by the CONFIG_ELEMENTS tuple below.
-The keys in the file are the name elements of the CONFIG_ELEMENTS. They can
-also be specified via environment variables, the names of which are
-GERO_API_${UPPERCASED_NAME_ELEMENT}. For instance, to override the
-robot_settings_file option from an environment variable, you would set the
-GERO_API_ROBOT_CONFIG_FILE variable.
+# The keys in gero.json are defined by the CONFIG_ELEMENTS tuple below.
+# The keys in the file are the name elements of the CONFIG_ELEMENTS. They can
+# also be specified via environment variables, the names of which are
+# GERO_API_${UPPERCASED_NAME_ELEMENT}. For instance, to override the
+# robot_settings_file option from an environment variable, you would set the
+# GERO_API_ROBOT_CONFIG_FILE variable.
 
-This module's interface to the rest of the system are the IS_* attributes and
-the CONFIG attribute.
-"""
+# This module's interface to the rest of the system are the IS_* attributes and
+# the CONFIG attribute.
+# """
 
-import json
-import logging
-import os
-import subprocess
-import sys
-from enum import Enum
-from pathlib import Path
-from typing import Optional
-
-
-_CONFIG_FILENAME = "config.json"
-
-log = logging.getLogger(__file__)
-
-IS_WIN = sys.platform.startswith("win")
-IS_OSX = sys.platform == "darwin"
-IS_LINUX = sys.platform.startswith("linux")
-
-# IS_ROBOT = IS_LINUX and has_env("RUNNING_ON_PI")
-# TODO: prefix with GERO?
-_ROBOT_TARGETS = ["RUNNING_ON_PI", "RUNNING_ON_VERDIN"]
-_IS_ON_ANY_ROBOT_TARGETS = any([os.environ.get(target)
-                               for target in _ROBOT_TARGETS])
-
-IS_ROBOT = bool(IS_LINUX and _IS_ON_ANY_ROBOT_TARGETS)
-
-#: This is the correct thing to check to see if we're running on a robot
-IS_VIRTUAL = bool(os.environ.get("ENABLE_VIRTUAL_SMOOTHIE")
-                  )  # TODO: prefix with GERO?
-log.debug(f"Smoothie is {'VIRTUAL' if IS_VIRTUAL else 'HARDWARE'}")
+# import json
+# import logging
+# import os
+# import subprocess
+# import sys
+# from enum import Enum
+# from pathlib import Path
+# from typing import Optional
 
 
-class SystemArchitecture(Enum):
-    HOST = "host"
-    BUILDROOT = "buildroot"
-    YOCTO = "yocto"
+# _CONFIG_FILENAME = "config.json"
+
+# log = logging.getLogger(__file__)
+
+# IS_WIN = sys.platform.startswith("win")
+# IS_OSX = sys.platform == "darwin"
+# IS_LINUX = sys.platform.startswith("linux")
+
+# # IS_ROBOT = IS_LINUX and has_env("RUNNING_ON_PI")
+# # TODO: prefix with GERO?
+# _ROBOT_TARGETS = ["RUNNING_ON_PI", "RUNNING_ON_VERDIN"]
+# _IS_ON_ANY_ROBOT_TARGETS = any([os.environ.get(target)
+#                                for target in _ROBOT_TARGETS])
+
+# IS_ROBOT = bool(IS_LINUX and _IS_ON_ANY_ROBOT_TARGETS)
+
+# #: This is the correct thing to check to see if we're running on a robot
+# IS_VIRTUAL = bool(os.environ.get("ENABLE_VIRTUAL_SMOOTHIE")
+#                   )  # TODO: prefix with GERO?
+# log.debug(f"Smoothie is {'VIRTUAL' if IS_VIRTUAL else 'HARDWARE'}")
 
 
-ROBOT_FIRMWARE_DIR: Optional[Path] = None
-#: The path to firmware files for modules
-
-ARCHITECTURE: SystemArchitecture = SystemArchitecture.HOST
-#: The system architecture running
-
-JUPYTER_NOTEBOOK_ROOT_DIR: Optional[Path] = None
-#: The path to the root dir for Jupyter
-
-JUPYTER_NOTEBOOK_LABWARE_DIR: Optional[Path] = None
-#: The path to labware installs for jupyter
-
-GERO_SYSTEM_VERSION = "0.0.0"
-#: The semver string of the system
-
-if IS_ROBOT:
-    if "GERO_SYSTEM_VERSION" in os.environ:
-        GERO_OT_SYSTEM_VERSION = os.environ["GERO_SYSTEM_VERSION"]
-        ARCHITECTURE = SystemArchitecture.YOCTO
-        ROBOT_FIRMWARE_DIR = Path("/lib/firmware/")
-    else:
-        try:
-            with open("/etc/VERSION.json") as vj:
-                contents = json.load(vj)
-            GERO_SYSTEM_VERSION = contents["buildroot_version"]
-            ARCHITECTURE = SystemArchitecture.BUILDROOT
-        except Exception:
-            log.exception("Could not find version file in /etc/VERSION.json")
-        ROBOT_FIRMWARE_DIR = Path("/usr/lib/firmware/")
-    JUPYTER_NOTEBOOK_ROOT_DIR = Path("/var/lib/jupyter/notebooks/")
-    JUPYTER_NOTEBOOK_LABWARE_DIR = JUPYTER_NOTEBOOK_ROOT_DIR / "labware"
+# class SystemArchitecture(Enum):
+#     HOST = "host"
+#     BUILDROOT = "buildroot"
+#     YOCTO = "yocto"
 
 
-def name() -> str:
-    if IS_ROBOT and ARCHITECTURE in (
-        SystemArchitecture.BUILDROOT,
-        SystemArchitecture.YOCTO,
-    ):
-        try:
-            return (
-                subprocess.check_output(["hostnamectl", "--pretty", "status"])
-                .strip()
-                .decode()
-            )
-        except Exception:
-            log.exception(
-                "Couldn't load name from /etc/machine-info, defaulting to dev"
-            )
-    return "gero-dev"
+# ROBOT_FIRMWARE_DIR: Optional[Path] = None
+# #: The path to firmware files for modules
+
+# ARCHITECTURE: SystemArchitecture = SystemArchitecture.HOST
+# #: The system architecture running
+
+# JUPYTER_NOTEBOOK_ROOT_DIR: Optional[Path] = None
+# #: The path to the root dir for Jupyter
+
+# JUPYTER_NOTEBOOK_LABWARE_DIR: Optional[Path] = None
+# #: The path to labware installs for jupyter
+
+# GERO_SYSTEM_VERSION = "0.0.0"
+# #: The semver string of the system
+
+# if IS_ROBOT:
+#     if "GERO_SYSTEM_VERSION" in os.environ:
+#         GERO_OT_SYSTEM_VERSION = os.environ["GERO_SYSTEM_VERSION"]
+#         ARCHITECTURE = SystemArchitecture.YOCTO
+#         ROBOT_FIRMWARE_DIR = Path("/lib/firmware/")
+#     else:
+#         try:
+#             with open("/etc/VERSION.json") as vj:
+#                 contents = json.load(vj)
+#             GERO_SYSTEM_VERSION = contents["buildroot_version"]
+#             ARCHITECTURE = SystemArchitecture.BUILDROOT
+#         except Exception:
+#             log.exception("Could not find version file in /etc/VERSION.json")
+#         ROBOT_FIRMWARE_DIR = Path("/usr/lib/firmware/")
+#     JUPYTER_NOTEBOOK_ROOT_DIR = Path("/var/lib/jupyter/notebooks/")
+#     JUPYTER_NOTEBOOK_LABWARE_DIR = JUPYTER_NOTEBOOK_ROOT_DIR / "labware"
+
+
+# def name() -> str:
+#     if IS_ROBOT and ARCHITECTURE in (
+#         SystemArchitecture.BUILDROOT,
+#         SystemArchitecture.YOCTO,
+#     ):
+#         try:
+#             return (
+#                 subprocess.check_output(["hostnamectl", "--pretty", "status"])
+#                 .strip()
+#                 .decode()
+#             )
+#         except Exception:
+#             log.exception(
+#                 "Couldn't load name from /etc/machine-info, defaulting to dev"
+#             )
+#     return "gero-dev"
 
 
 # class ConfigElementType(enum.Enum):

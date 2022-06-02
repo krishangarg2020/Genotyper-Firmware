@@ -1,0 +1,46 @@
+{
+    "identity": {
+        "name": "Gero",
+        "company": "Technoculture"
+    },
+    "modules": {
+        "orchestrator": {
+            "model": "small",
+            "verison": "1.0",
+            "firmware": {
+                "version": "1.0"
+            }
+        },
+        "resource_managers": {
+            "chip_manager": {
+                "model": "small",
+                "version": "1.0"
+            },
+            "swab_manager": {
+                "model": "small",
+                "version": "1.0"
+            },
+            "input_queue_manager": {
+                "model": "small",
+                "version": "1.0"
+            },
+            "solution_managers": [
+                {
+                    "type": "pletier-cooled",
+                    "model": "small",
+                    "reagent_id": "hcl-0.1M",
+                    "version": "1.0"
+                }
+            ]
+        },
+        "instruments": {
+            "centrifuges": [
+                {
+                    "model": "small",
+                    "version": "1.0"
+                }
+            ],
+            "standalone_na_amplifiers": []
+        }
+    }
+}
