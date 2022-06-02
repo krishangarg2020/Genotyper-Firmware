@@ -29,7 +29,25 @@
                     "length_mm": "120",
                     "width_mm": "300",
                     "height_mm": "500"
-                }
+                },
+                "locations": [
+                    {
+                        "name": "inlet-1",
+                        "position": {
+                            "x": 100.2,
+                            "y": 64.2,
+                            "z": 33.4
+                        }
+                    },
+                    {
+                        "name": "inlet-1",
+                        "position": {
+                            "x": 100.2,
+                            "y": 64.2,
+                            "z": 33.4
+                        }
+                    }
+                ]
             }
         ]
     },
