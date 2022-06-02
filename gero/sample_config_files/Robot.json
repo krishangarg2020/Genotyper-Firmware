@@ -5,7 +5,7 @@
     },
     "modules": {
         "orchestrator": {
-            "model": "small",
+            "model": "min",
             "verison": "1.0",
             "firmware": {
                 "version": "1.0"
@@ -26,17 +26,17 @@
             },
             "solution_managers": [
                 {
-                    "type": "pletier-cooled",
                     "model": "small",
-                    "reagent_id": "hcl-0.1M",
-                    "version": "1.0"
+                    "version": "1.0",
+                    "type": "pletier-cooled",
+                    "reagent_id": "hcl-0.1M"
                 }
             ]
         },
         "instruments": {
-            "centrifuges": [
+            "chip_centrifuges": [
                 {
-                    "model": "small",
+                    "model": "low_speed",
                     "version": "1.0"
                 }
             ],
