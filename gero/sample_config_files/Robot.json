@@ -1,7 +1,6 @@
 {
     "whome": {
-        "name": "Gero",
-        "company": "Technoculture"
+        "name": "gero"
     },
     "modules": {
         "orchestrator": {
