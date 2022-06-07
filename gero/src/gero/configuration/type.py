@@ -6,6 +6,11 @@ class ConfigFilenameError(Exception):
     def __str__(self):
         return "A path (or filename) with the name `config.txt` is expected"
 
+
+@dataclass
+class InvalidBaudRateError(Exception):
+    message: str
+
 # from enum import Enum
 # from dataclasses import dataclass, asdict, fields
 # from typing import Dict, Tuple, TypeVar, Generic, List, cast
