@@ -1,4 +1,11 @@
-#
+from dataclasses import dataclass
+
+
+@dataclass
+class ConfigFilenameError(Exception):
+    def __str__(self):
+        return "A path (or filename) with the name `config.txt` is expected"
+
 # from enum import Enum
 # from dataclasses import dataclass, asdict, fields
 # from typing import Dict, Tuple, TypeVar, Generic, List, cast
