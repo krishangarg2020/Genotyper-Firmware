@@ -83,7 +83,7 @@ E <-.-> | Communicate over Serial | P
 ```mermaid
 flowchart TD
 
-E[EmStat Pico tty Emulator] --> | Pseudoterminal | Fake[Fake Serial Device]
+E[/EmStat Pico tty Emulator/] --> | Pseudoterminal | Fake[Fake Serial Device]
 
 subgraph Firmware
 P[/Python UI/] --> | Execute: main.py | Linux
