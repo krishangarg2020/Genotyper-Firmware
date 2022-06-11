@@ -7,8 +7,6 @@
 import logging
 import sys
 from palmsens.instrument import Instrument
-from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QApplication, QLabel
 
 logging.basicConfig(
     stream=sys.stdout,
@@ -20,8 +18,3 @@ logging.getLogger('eSNP')
 
 if __name__ == "__main__":
     logging.debug("init")
-
-    app = QApplication(sys.argv)
-    label = QLabel("Hello World", alignment=Qt.AlignCenter)
-    label.show()
-    sys.exit(app.exec())
