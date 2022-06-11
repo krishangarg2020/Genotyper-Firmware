@@ -1,0 +1,73 @@
+# eSNP Detector
+
+We present an open source eSNP detection instrument. This instrument uses electrochemical sensing in order to detect conjugation of target ssDNA with predefined molecular probes.
+
+## Objective
+- Interface with an [EmStat Pico](https://www.palmsens.com/product/oem-emstat-pico-module/) to conduct predefined Electrochemical sensing protocols.
+- Provide a simple end-user facing UI for conducting SNP detection tests
+
+## Dependencies
+- python 3.8
+- pipenv
+- `pyqt5`
+- [`palmsens (internal)`](https://github.com/PalmSens/MethodSCRIPT_Examples/tree/master/MethodSCRIPTExample_Python/MethodSCRIPTExample_Python/palmsens)
+
+
+## System Components Diagram
+```mermaid
+flowchart TD
+
+subgraph platform
+Pl[Hardware + Firmware]
+end
+
+subgraph Hardware
+H[Hyperpixel 4.0 Display] --> | Header HAT | Pi
+Pi[Raspberry Pi Zero]
+E[EmStat Pico] --> | UART / USB | Pi
+p[5V, 1A] --> sw[Slider Switch]
+sw --> | resistor | l[Power LED]
+end
+
+Hardware --> platform
+Firmware --> platform
+E <-.-> | Communicate over Serial | P
+
+subgraph Firmware
+P[/Python UI/] --> | Setup.py | R
+M([Method Script]) --> P
+R[/Raspbian OS/]
+Conf([Config.txt]) --> | Set OS Params | R
+sw --> | power | Pi
+end
+```
+
+### Development Environment [Not Implemented]
+```mermaid
+flowchart TD
+
+E[EmStat Pico] --> | USB | Comp[Development Computer]
+
+subgraph Firmware
+P[/Python UI/] --> | Execute: main.py | Linux
+M([Method Script]) --> P
+Linux[Any General Purpose OS]
+end
+
+E <-.-> | Communicate over Serial | P
+```
+
+### Test Environment [Not Implemented]
+```mermaid
+flowchart TD
+
+E[EmStat Pico tty Emulator] --> | Pseudoterminal | Fake[Fake Serial Device]
+
+subgraph Firmware
+P[/Python UI/] --> | Execute: main.py | Linux
+M([Method Script]) --> P
+Linux[Linux OS]
+end
+
+Fake <-.-> | Communicate over Serial | P
+```
