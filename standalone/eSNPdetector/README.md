@@ -6,6 +6,12 @@ We present an open source eSNP detection instrument. This instrument uses electr
 - Interface with an [EmStat Pico](https://www.palmsens.com/product/oem-emstat-pico-module/) to conduct predefined Electrochemical sensing protocols.
 - Provide a simple end-user facing UI for conducting SNP detection tests
 
+# Working Principle
+<img width="830" alt="Electrochimicial DNA sensing" src="https://user-images.githubusercontent.com/33483920/173180289-01205983-66f9-4da9-8b32-e53d9eb5be9a.PNG">
+
+# Build Instrunctions
+TODO
+
 ## Dependencies
 - python 3.8
 - pipenv
@@ -13,7 +19,7 @@ We present an open source eSNP detection instrument. This instrument uses electr
 - [`palmsens (internal)`](https://github.com/PalmSens/MethodSCRIPT_Examples/tree/master/MethodSCRIPTExample_Python/MethodSCRIPTExample_Python/palmsens)
 
 
-## System Components Diagram
+# System Components Diagram
 ```mermaid
 flowchart TD
 
@@ -42,7 +48,7 @@ sw --> | power | Pi
 end
 ```
 
-### Development Environment [Not Implemented]
+## Development Environment [Not Implemented]
 ```mermaid
 flowchart TD
 
@@ -57,7 +63,7 @@ end
 E <-.-> | Communicate over Serial | P
 ```
 
-### Test Environment [Not Implemented]
+## Test Environment [Not Implemented]
 ```mermaid
 flowchart TD
 
@@ -71,3 +77,6 @@ end
 
 Fake <-.-> | Communicate over Serial | P
 ```
+
+## EmStat Communcation Diagram
+![MethodSCRIPT-Generic](https://user-images.githubusercontent.com/33483920/173180292-e87789e0-e0a4-407e-b505-6f4d2169696e.gif)
