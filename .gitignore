@@ -8,3 +8,5 @@ package-lock.json
 **/Dist/
 **/*.icloud
 **/*.log
+*.user
+**/build-hmi*
