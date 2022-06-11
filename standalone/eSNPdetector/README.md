@@ -13,6 +13,16 @@ We present an open source eSNP detection instrument. This instrument uses electr
 TODO
 
 ## Dependencies
+### Hardware 
+- Raspberry Pi Zero
+- Hyperpixel 4.0
+- EmStat Pico Module
+- 3 terminal Slider Switch (Optional)
+- Green LED (Optional)
+- A rate limiting resistor for LED (Optional)
+- A DC Power Jack (Optional)
+
+### Software
 - python 3.8
 - pipenv
 - `pyqt5`
