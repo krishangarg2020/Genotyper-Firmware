@@ -1,6 +1,6 @@
 # eSNP Detector v1
 
-We present an open source eSNP detection instrument. This instrument uses electrochemical sensing in order to detect conjugation of target ssDNA with predefined molecular probes.
+We present an eSNP detection instrument. This instrument uses electrochemical sensing in order to detect conjugation of target ssDNA with predefined molecular probes.
 
 ## Objective
 - Interface with an [EmStat Pico](https://www.palmsens.com/product/oem-emstat-pico-module/) to conduct predefined Electrochemical sensing protocols.
