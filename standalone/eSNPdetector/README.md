@@ -16,7 +16,17 @@ We present an eSNP detection instrument. This instrument uses electrochemical se
 <img width="830" alt="Electrochimicial DNA sensing" src="https://user-images.githubusercontent.com/33483920/173180289-01205983-66f9-4da9-8b32-e53d9eb5be9a.PNG">
 
 # Build Instrunctions
-TODO
+
+> It is recommended to `pipenv` to manage dependencies and creation of a virtual environment for the project. Useful for developemnt.
+
+```bash
+$ pipenv run python main.py
+
+Or,
+
+$ pipenv shell
+$ python main.py
+```
 
 ## Dependencies
 ### Hardware 
@@ -92,6 +102,47 @@ Linux[Linux OS]
 end
 
 Fake <-.-> | Communicate over Serial | P
+```
+
+## Production Environment [Not Implemented]
+```mermaid
+flowchart TD
+
+subgraph platform
+Pl[Hardware + Firmware]
+end
+
+subgraph Hardware
+H[Hyperpixel 4.0 Display] --> | Header HAT | Pi
+Pi[Raspberry Pi Zero]
+E[EmStat Pico] --> | UART / USB | Pi
+p[5V, 1A] --> sw[Slider Switch]
+sw --> | resistor | l[Power LED]
+end
+
+Hardware --> platform
+Firmware --> platform
+E <-.-> | Communicate over Serial | P
+
+subgraph Firmware
+
+subgraph meta-eSNP
+subgraph recipie-ui
+P[/Python UI/] --- | Setup.py | PR[recipie-ui]
+M([Method Script]) --- PR
+init[init file] --> PR
+end
+
+subgraph recipie-boot
+Conf([Config.txt]) --> | Set OS Params | Appe[Append File]
+end
+end
+
+meta-rpi --> Y
+meta-eSNP --> Y[Yocto Image]
+M --> P
+sw --> | power | Pi
+end
 ```
 
 ## EmStat Communcation Diagram
