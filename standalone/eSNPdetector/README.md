@@ -1,10 +1,16 @@
-# eSNP Detector
+# eSNP Detector v1
 
 We present an open source eSNP detection instrument. This instrument uses electrochemical sensing in order to detect conjugation of target ssDNA with predefined molecular probes.
 
 ## Objective
 - Interface with an [EmStat Pico](https://www.palmsens.com/product/oem-emstat-pico-module/) to conduct predefined Electrochemical sensing protocols.
 - Provide a simple end-user facing UI for conducting SNP detection tests
+
+## TODOs
+- [ ] v1: single SNP detection using electrochemical sensing
+- [ ] v2: Add **Melting Curve Analysis** (MCA) to the electrochemical sensing
+- [ ] v3: Add 16-way multiplexing
+- [ ] v4: Add 16-way multiplexing along with 16 MCA channels
 
 # Working Principle
 <img width="830" alt="Electrochimicial DNA sensing" src="https://user-images.githubusercontent.com/33483920/173180289-01205983-66f9-4da9-8b32-e53d9eb5be9a.PNG">
