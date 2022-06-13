@@ -6,6 +6,9 @@ We present an eSNP detection instrument. This instrument uses electrochemical se
 - Interface with an [EmStat Pico](https://www.palmsens.com/product/oem-emstat-pico-module/) to conduct predefined Electrochemical sensing protocols.
 - Provide a simple end-user facing UI for conducting SNP detection tests
 
+## UI for HMI
+<img width="400" alt="" src="https://user-images.githubusercontent.com/33483920/173340778-db660abc-fb1c-41d7-8d2a-7aeae5d5ab57.gif">
+
 ## TODOs
 - [ ] v1: single SNP detection using electrochemical sensing
 - [ ] v2: Add **Melting Curve Analysis** (MCA) to the electrochemical sensing
