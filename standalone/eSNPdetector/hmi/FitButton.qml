@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtQuick.Layouts 1.3
 
 Item {
     property string btn_text: "Button"
@@ -14,6 +15,7 @@ Item {
         id: rectangle
         anchors.fill: parent
         radius: 20
+        border.color: light_green_highlight
 
         gradient: Gradient {
             id: light_green_gradient
@@ -21,17 +23,28 @@ Item {
             GradientStop { position: 1.0; color: light_green_high }
         }
 
-        Text {
-            id: text_field
-            text: btn_text
+        RowLayout {
+            spacing: 40
             anchors.verticalCenter: parent.verticalCenter
-            font.pixelSize: 40
-            horizontalAlignment: Text.AlignLeft
-            verticalAlignment: Text.AlignTop
+
             anchors.horizontalCenter: parent.horizontalCenter
-            font.weight: Font.Light
-            font.family: "SF Pro"
-            color: dark_green_high
+
+            Text {
+                id: text_field
+                text: btn_text
+
+                font.pixelSize: 40
+                horizontalAlignment: Text.AlignLeft
+                verticalAlignment: Text.AlignTop
+
+                font.weight: Font.Light
+                font.family: "SF Pro"
+                color: dark_green_high
+            }
+
+            Image {
+                source: "/icons/ArrowCircleRight.png"
+            }
         }
     }
 }

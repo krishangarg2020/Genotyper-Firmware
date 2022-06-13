@@ -7,5 +7,6 @@
         <file>fonts/SF-Pro-Rounded-Ultralight.otf</file>
         <file>fonts/SF-Pro.ttf</file>
         <file>FitButton.qml</file>
+        <file>icons/ArrowCircleRight.png</file>
     </qresource>
 </RCC>
