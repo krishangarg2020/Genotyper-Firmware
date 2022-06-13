@@ -1,2 +1,4 @@
 *.png binary
 *.mov binary
+*.ttf binary
+*.otf binary
