@@ -6,5 +6,6 @@
         <file>fonts/SF-Pro-Rounded-Thin.otf</file>
         <file>fonts/SF-Pro-Rounded-Ultralight.otf</file>
         <file>fonts/SF-Pro.ttf</file>
+        <file>FitButton.qml</file>
     </qresource>
 </RCC>

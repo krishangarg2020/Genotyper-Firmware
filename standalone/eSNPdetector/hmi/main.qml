@@ -32,53 +32,93 @@ Window {
 
         clip: true
 
-        GridLayout {
-            anchors.left: parent.left
-            anchors.top: parent.top
+        ColumnLayout {
+            //            anchors.left: parent.left
+            //            anchors.top: parent.top
             clip: false
-
             anchors.fill: parent
+            spacing: 20
 
-            Text {
-                text: "ADCY8"
-                font.pixelSize: 100
-                Layout.fillWidth: true
-                Layout.rowSpan: 1
-                Layout.columnSpan: 2
-                font.styleName: "Ultralight"
-                font.weight: Font.ExtraLight
-                font.family: "SF Pro Rounded"
-                font.capitalization: Font.AllUppercase
+            ColumnLayout {
+
+                Text {
+                    text: "ADCY8"
+                    font.pixelSize: 100
+                    verticalAlignment: Text.AlignVCenter
+                    lineHeight: 90
+                    lineHeightMode: Text.FixedHeight
+                    Layout.fillWidth: true
+                    Layout.rowSpan: 1
+                    Layout.columnSpan: 2
+                    font.styleName: "Ultralight"
+                    font.weight: Font.ExtraLight
+                    font.family: "SF Pro Rounded"
+                    font.capitalization: Font.AllUppercase
+                }
+
+                Text {
+                    text: "Absolute\nPitch"
+                    elide: Text.ElideNone
+                    font.pixelSize: 100
+                    verticalAlignment: Text.AlignVCenter
+                    lineHeight: 90
+                    lineHeightMode: Text.FixedHeight
+                    clip: false
+                    Layout.fillWidth: true
+                    Layout.columnSpan: 2
+                    font.capitalization: Font.Capitalize
+                    font.styleName: "Regular"
+                    font.weight: Font.ExtraLight
+                }
             }
 
-            Text {
-                text: "Absolute\nPitch"
-                font.pixelSize: 100
-                verticalAlignment: Text.AlignBottom
-                lineHeight: 0.8
-                Layout.fillWidth: true
-                Layout.columnSpan: 2
-                font.capitalization: Font.Capitalize
-                font.styleName: "Regular"
-                font.weight: Font.ExtraLight
-            }
+            RowLayout {
+                spacing: 40
+                //anchors.fill: parent
+                Layout.minimumHeight: 240
+                Layout.minimumWidth: 560
 
-            Text {
-                text: "(noun)"
-                font.pixelSize: 24
-                font.family: "SF Pro Rounded"
-                font.weight: Font.ExtraLight
-                font.capitalization: Font.MixedCase
-            }
+                //                Layout.fillHeight: true
+                //                Layout.fillWidth: true
 
-            Text {
-                width: 100
-                height: 200
-                text: "It is the ability to instantaneously identify and label tones with their musical note names, without the aid of an external reference tone."
-                font.pixelSize: 24
-                font.family: "SF Pro Rounded"
-                font.weight: Font.Light
-                font.capitalization: Font.MixedCase
+                ColumnLayout {
+                    Layout.maximumWidth: 240
+
+                    Text {
+                        text: "(noun)"
+                        font.pixelSize: 24
+                        Layout.alignment: Qt.AlignLeft | Qt.AlignTop
+                        Layout.columnSpan: 1
+                        font.family: "SF Pro Rounded"
+                        font.weight: Font.ExtraLight
+                        font.capitalization: Font.MixedCase
+                    }
+
+                    Text {
+                        width: 240
+                        height: 240
+                        text: "It is the ability to instantaneously identify and label tones with their musical note names, without the aid of an external reference tone."
+                        elide: Text.ElideNone
+                        font.pixelSize: 24
+                        wrapMode: Text.Wrap
+                        textFormat: Text.AutoText
+                        Layout.fillHeight: false
+                        Layout.fillWidth: true
+                        font.family: "SF Pro Rounded"
+                        font.weight: Font.Light
+                        font.capitalization: Font.MixedCase
+                    }
+                }
+
+                ColumnLayout {
+                    Layout.alignment: Qt.AlignLeft | Qt.AlignBottom
+                    FitButton {
+                        Layout.rowSpan: 2
+                        Layout.fillWidth: true
+
+                        btn_text: "Start"
+                    }
+                }
             }
 
         }
