@@ -7,7 +7,7 @@ We present an eSNP detection instrument. This instrument uses electrochemical se
 - Provide a simple end-user facing UI for conducting SNP detection tests
 
 ## UI for HMI
-<img width="400" alt="" src="https://user-images.githubusercontent.com/33483920/173344715-a221caa3-5b77-4290-a24d-c341e6367d76.gif">
+<img width="400" alt="" src="https://user-images.githubusercontent.com/33483920/173353425-01667f5f-60c8-48a5-a5b9-8f860af272af.mov">
 
 ## TODOs
 - [ ] v1: single SNP detection using electrochemical sensing
@@ -17,6 +17,7 @@ We present an eSNP detection instrument. This instrument uses electrochemical se
 
 # Working Principle
 <img width="830" alt="Electrochimicial DNA sensing" src="https://user-images.githubusercontent.com/33483920/173180289-01205983-66f9-4da9-8b32-e53d9eb5be9a.PNG">
+
 
 # Build Instrunctions
 
