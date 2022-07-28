@@ -23,7 +23,8 @@ import palmsens.serial
 DEVICE_PORT = None
 
 # Location of MethodSCRIPT file to use.
-MSCRIPT_FILE_PATH = 'scripts/test_DPV1.mscr'
+MSCRIPT_FILE_PATH = 'scripts/DPV_es_pico.mscr'
+
 
 # Location of output files. Directory will be created if it does not exist.
 OUTPUT_PATH = 'output'

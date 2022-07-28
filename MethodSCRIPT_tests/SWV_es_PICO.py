@@ -77,7 +77,8 @@ DEVICE_PORT = None
 
 # Location of MethodSCRIPT file to use.
 #MSCRIPT_FILE_PATH_ES4 = 'scripts/SWV_methodscript.mscr'
-MSCRIPT_FILE_PATH_ESPICO = 'scripts/test_swv1.mscr'
+MSCRIPT_FILE_PATH_ESPICO = 'scripts/SWV_es_pico.mscr'
+
 
 # Location of output files. Directory will be created if it does not exist.
 OUTPUT_PATH = 'output'
