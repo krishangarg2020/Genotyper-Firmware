@@ -11,3 +11,13 @@ For execution of any electrochemical measurement techniques like CV,DPV,SWV,OCP 
 |[OCW_es_PICO.py](https://github.com/TechnocultureResearch/Genotyper-Firmware/blob/dev/MethodSCRIPT_tests/OCW_es_PICO.py)|This has python code for OCP measurement|
 |[SWV_es_PICO.py](https://github.com/TechnocultureResearch/Genotyper-Firmware/blob/dev/MethodSCRIPT_tests/SWV_es_PICO.py)|This has python code for OCP measurement|
 
+## Methodscript Data Files for different Techniques 
+|Files Name|Purpose|
+|---|---|
+|[CV_es_PICO.mscr](https://github.com/krishangarg2020/Genotyper-Firmware/blob/8a9b0c4c54d56bcc5914b50ccb97c339ccd8b35c/MethodSCRIPT_tests/scripts/CV_es_pico.mscr)|This has Methodcript for CV measurement|
+|[ChronoAmp_es_PICO.mscr]()|This has Methodcript for Chronoamperometry  measurement|
+|[DPV_es_PICO.mscr](https://github.com/krishangarg2020/Genotyper-Firmware/blob/8a9b0c4c54d56bcc5914b50ccb97c339ccd8b35c/MethodSCRIPT_tests/scripts/DPV_es_pico.mscr)|This has Methodcript for DPV measurement|
+|[EIS_es_PICO.mscr](https://github.com/krishangarg2020/Genotyper-Firmware/blob/8a9b0c4c54d56bcc5914b50ccb97c339ccd8b35c/MethodSCRIPT_tests/scripts/EIS_es_pico.mscr)|This has Methodcript for EIS  measurement|
+|[OCW_es_PICO.mscr]()|This has Methodcript for OCP measurement|
+|[SWV_es_PICO.mscr](https://github.com/krishangarg2020/Genotyper-Firmware/blob/8a9b0c4c54d56bcc5914b50ccb97c339ccd8b35c/MethodSCRIPT_tests/scripts/SWV_es_pico.mscr)|This has Methodcript for OCP measurement|
+
